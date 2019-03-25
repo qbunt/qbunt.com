@@ -30,7 +30,7 @@ url = "https://work.jeremybunting.com"
 logoHomeLink = "/"
 logoText = "Buntlog"
 [params]
-centerTheme = false
+centerTheme = true
 contentTypeName = "posts"
 fullWidthTheme = false
 showMenuItems = 4
