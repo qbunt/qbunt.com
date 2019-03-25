@@ -1,0 +1,50 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "red"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 4
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = false
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    title = "qbunt.com"
+    subtitle = "Thoughts and code from tech guy Jeremy Bunting"
+    keywords = ""
+    copyright = "©2019 Jeremy Bunting. Opinions are mine, not my employer's"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Buntlog"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/qbunt"
+      [[languages.en.menu.main]]
+	      identifier = "linkedin"
+	      name = "LinkedIn"
+	      url = "https://www.linkedin.com/in/jeremybunting/"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "work"
+        name = "Work"
+        url = "https://work.jeremybunting.com"
