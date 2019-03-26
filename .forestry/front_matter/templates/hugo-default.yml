@@ -1,0 +1,11 @@
+---
+label: Hugo Default
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
