@@ -8,6 +8,7 @@ title = "Nomos factory"
 
 +++
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/UwpP_s8LV_Y" frameborder="0" allowfullscreen></iframe>
+{{< youtube UwpP_s8LV_Y >}}
+
 I love a good 'how it's made' video, and I love watches too. Nice combination of high-tech and handcraft.
 

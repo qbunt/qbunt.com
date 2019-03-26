@@ -8,7 +8,7 @@ title = "15 Year old wows MIT Media Lab"
 
 +++
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/XOLOLrUBRBY" frameborder="0" allowfullscreen></iframe>
+{{< youtube XOLOLrUBRBY >}}
 ---
 Completely inspiring.
 

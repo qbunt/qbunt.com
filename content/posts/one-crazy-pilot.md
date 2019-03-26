@@ -8,6 +8,7 @@ title = "One crazy pilot"
 
 +++
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/08K_aEajzNA" frameborder="0" allowfullscreen></iframe>
+{{< youtube 08K_aEajzNA >}}
+
 Wow. 'Some talent' is an understatement.
 

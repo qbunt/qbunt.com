@@ -14,10 +14,8 @@ I hope the watch is more complete than this **half ass web design** when it come
 
 These are screenshots taken on an Android phone.
 
-![](/img/2014/Sep/Screenshot_2014-09-10-08-15-26-1.png)
+{{< image src="/img/2014/Sep/Screenshot_2014-09-10-08-15-26-1.png" position="center" style="border-radius: 8px;" >}}
 
+{{< image src="/img/2014/Sep/Screenshot_2014-09-09-21-29-54-1.png" position="center" style="border-radius: 8px;" >}}
 
-![](/img/2014/Sep/Screenshot_2014-09-09-21-29-54-1.png)
-
-![](/img/2014/Sep/Screenshot_2014-09-09-21-47-42-1.png)
-
+{{< image src="/img/2014/Sep/Screenshot_2014-09-09-21-47-42-1.png" position="center" style="border-radius: 8px;" >}}

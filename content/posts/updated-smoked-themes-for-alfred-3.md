@@ -17,5 +17,5 @@ I would love to [hear any feedback over on Github](https://github.com/qbunt/smok
 
 [Download the entire pack here](https://github.com/qbunt/smoked/archive/v2.0.zip)
 
-![](/img/2016/05/smoked.png)
+{{< image src="/img/2016/05/smoked.png" alt="Example of Smoked theme for Alfred" position="center" style="border-radius: 8px;" >}}
 

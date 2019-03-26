@@ -10,7 +10,7 @@ title = "Volkswagen Unleash Your Rrr tech stack"
 
 +++
 
-<iframe width="600" height="364" src="https://www.youtube.com/embed/hQGGq-i4u2w" frameborder="0" allowfullscreen></iframe>
+{{< youtube hQGGq-i4u2w >}}
 
 I'm really proud to show off something I worked on recently at Deutsch LA for Volkswagen for the Golf R launch campaign.
 

@@ -8,9 +8,7 @@ title = "70 Years of Chevy type design"
 
 +++
 
-![http://annyas.com/chevrolet-speedometer-design/](/img/2014/Aug/chevrolet-1970-chevy-nova-speedometer.jpg)
-
-
+{{< image src="/img/2014/Aug/chevrolet-1970-chevy-nova-speedometer.jpg" alt="Image of a vintage speedometer"  style="border-radius: 8px;" >}}
 
 Very easy to get lost in **[this totally amazing compilation of type](http://annyas.com/chevrolet-speedometer-design/)**
 

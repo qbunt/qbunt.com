@@ -31,7 +31,8 @@ The ideal for this magical solution would:
 These are some things I tried.
 
 ### Take 1 - The Macbook
-![](https://i.kinja-img.com/gawker-media/image/upload/18kzmia28t4asjpg.jpg)
+{{< image src="https://i.kinja-img.com/gawker-media/image/upload/18kzmia28t4asjpg.jpg" alt="Picture of macbooks" position="center" style="border-radius: 8px;" >}}
+
 I loved this thing, but eventually, I needed more juice than this little guy could deliver day-to-day. I quickly relegated this to media center duty using XBMC (now [Kodi](http://kodi.tv/)). Plex hadn't really matured at this point, but was showing some promise. XBMC/Kodi on the Macbook worked really well, while it worked. Even had an IR receiver in the front!
 
 After years of this labor, the fan in this hard-working machine died a horrible black death. Laptops are terrible for playing video like this. You have to have a mouse and monitor attached, there's little cooling, you'll kill the fan, and then you just have a fried laptop. I'm sure the [Intel GMA950](http://www.intel.com/content/www/us/en/chipsets/gma-950-graphics-sales-brief.html) integrated GPU didn't help. Welp, worked for a while.
@@ -40,7 +41,7 @@ Laptops should be laptops. This was a terrible idea.
 
 ### Take 2 - The AppleTV
 
-![](https://d3nevzfk7ii3be.cloudfront.net/igi/ge1LZXKrXOHCboiX.medium)
+{{< image src="https://d3nevzfk7ii3be.cloudfront.net/igi/ge1LZXKrXOHCboiX.medium" alt="Photo of an Apple TV" position="center" style="border-radius: 8px;" >}}
 
 I owned this AppleTV (2nd gen) for years. We used it for Netflix, Airplay and Pandora fairly frequently. It was okay for supported stuff but not great for playing my own video smoothly. That remote got lost _constantly_.
 
@@ -58,7 +59,8 @@ I considered and priced out a tiny [Intel NUC](http://www.intel.com/content/www/
 Onto the cheaper option...
 
 ### Take 3 - The Raspberry Pi
-![](http://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg)
+
+{{< image src="http://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg" alt="Photo of a Raspberry Pi single board computer" position="center" style="border-radius: 8px;" >}}
 
 After receiving a [Raspberry Pi](https://www.raspberrypi.org/) from my brother as a gift, it needed a full time gig. The Pi's SD card drive was well suited for messing around, and I had a couple of spare SD cards around as well, so I stretched it's legs. Kodi was pretty well supported on these things, it would cost nothing. Why not?
 

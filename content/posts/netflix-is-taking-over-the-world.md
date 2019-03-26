@@ -8,7 +8,7 @@ title = "Netflix is taking over the world."
 
 +++
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/P0ukYf_xvgc" frameborder="0" allowfullscreen></iframe>  
+{{< youtube P0ukYf_xvgc >}}  
 ---
 I'm glad Netflix is taking a stand against the old model of pilot seasons and old-school television executives. It's time they have some competition and models are challenged. Time to seize the moment.
 

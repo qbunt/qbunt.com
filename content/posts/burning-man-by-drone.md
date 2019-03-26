@@ -8,5 +8,5 @@ title = "Burning man by drone"
 
 +++
 
-<iframe width="1280" height="720" src="//www.youtube.com/embed/woOHbbaj6fM" frameborder="0" allowfullscreen></iframe>
+{{< youtube woOHbbaj6fM >}}
 

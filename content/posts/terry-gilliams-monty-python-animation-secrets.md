@@ -9,8 +9,7 @@ tags = ["creativity", "monty python"]
 title = "Terry Gilliam's Monty Python Animation Secrets"
 
 +++
-
-<iframe width="960" height="720" src="//www.youtube.com/embed/xs7WaL44_Iw" frameborder="0" allowfullscreen></iframe>
+{{< youtube xs7WaL44_Iw >}}
 
 Before computer animation and Pixar, there was this. Sheer creative genius.
 

@@ -9,5 +9,4 @@ title = "Nature got pixels right before we did."
 
 +++
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0wtLrlIKvJE" frameborder="0" allowfullscreen></iframe>
-
+{{< youtube 0wtLrlIKvJE >}}

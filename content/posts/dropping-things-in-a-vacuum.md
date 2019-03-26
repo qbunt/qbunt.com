@@ -8,5 +8,4 @@ title = "Dropping things in a vacuum"
 
 +++
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/E43-CfukEgs" frameborder="0" allowfullscreen></iframe>
-
+{{< youtube E43-CfukEgs >}}
