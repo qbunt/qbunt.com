@@ -25,7 +25,7 @@ One thing I wasn't aware of with NGinX virtual blocks is that the `root` should 
 Here's a consolidated example of how all the pieces go together.
 
 
-```
+```bash
 server {
      listen 80 default_server;
      listen [::]:80 default_server ipv6only=on;
