@@ -5,9 +5,9 @@ publish_mode: editorial_workflow
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog"
-    folder: "content/blog"
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
