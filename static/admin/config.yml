@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: qbunt/qbunt.com
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
