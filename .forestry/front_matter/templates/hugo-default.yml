@@ -9,3 +9,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component.md
