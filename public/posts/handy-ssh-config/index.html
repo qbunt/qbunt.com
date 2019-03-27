@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Handy SSH config :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&amp;rsquo;s say you&amp;rsquo;re SSHing into one box, then another, then back to the first box.
+It&amp;rsquo;d be really nice not to have to paste that first password in again, wouldn&amp;rsquo;t it?
+From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the first authenticated session when you try to connect again."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/handy-ssh-config/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/red.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Handy SSH config :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting" />
+<meta name="twitter:description" content="When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&amp;rsquo;s say you&amp;rsquo;re SSHing into one box, then another, then back to the first box.
+It&amp;rsquo;d be really nice not to have to paste that first password in again, wouldn&amp;rsquo;t it?
+From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the first authenticated session when you try to connect again." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Jeremy Bunting" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Handy SSH config :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting">
+<meta property="og:description" content="When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&amp;rsquo;s say you&amp;rsquo;re SSHing into one box, then another, then back to the first box.
+It&amp;rsquo;d be really nice not to have to paste that first password in again, wouldn&amp;rsquo;t it?
+From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the first authenticated session when you try to connect again." />
+<meta property="og:url" content="/posts/handy-ssh-config/" />
+<meta property="og:site_name" content="Handy SSH config" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2014-11-19 19:46:17 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Buntlog
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/qbunt">Github</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://work.jeremybunting.com">Work</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="https://github.com/qbunt">Github</a></li>
+      
+    
+      
+        <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
+      
+    
+      
+        <li><a href="https://work.jeremybunting.com">Work</a></li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h1 class="post-title"><a href="/posts/handy-ssh-config/">Handy SSH config</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2014-11-19
+      </span>
+      <span class="post-author">:: Jeremy Bunting</span>
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <p>When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&rsquo;s say you&rsquo;re SSHing into one box, then another, then back to the first box.</p>
+
+<p>It&rsquo;d be really nice not to have to paste that first password in again, wouldn&rsquo;t it?</p>
+
+<p>From my buddy <a href="http://fivesevenfive.org">Phil</a>, he&rsquo;s got a handy SSH config that will recycle the first authenticated session when you try to connect again.</p>
+
+<p>Add this to your ~/.ssh/config file</p>
+
+<pre><code>Host *
+ForwardAgent yes
+ControlMaster auto
+ControlPath /tmp/ssh-cm-socket-%r@%h:%p
+ControlPersist 86400
+</code></pre>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/simple-unix-permissions-explanation/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Simple Unix permissions explanation</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/posts/dropping-things-in-a-vacuum/">
+                <span class="button__text">Dropping things in a vacuum</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

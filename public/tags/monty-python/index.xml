@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monty Python on qbunt.com</title>
+    <link>/tags/monty-python/</link>
+    <description>Recent content in Monty Python on qbunt.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
+    <lastBuildDate>Sat, 09 Aug 2014 04:50:16 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/monty-python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terry Gilliam&#39;s Monty Python Animation Secrets</title>
+      <link>/posts/terry-gilliams-monty-python-animation-secrets/</link>
+      <pubDate>Sat, 09 Aug 2014 04:50:16 +0000</pubDate>
+      
+      <guid>/posts/terry-gilliams-monty-python-animation-secrets/</guid>
+      <description>Before computer animation and Pixar, there was this. Sheer creative genius.</description>
+    </item>
+    
+  </channel>
+</rss>

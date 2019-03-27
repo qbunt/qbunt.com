@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extensions on qbunt.com</title>
+    <link>/tags/extensions/</link>
+    <description>Recent content in Extensions on qbunt.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
+    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/extensions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome Extensions for winners</title>
+      <link>/posts/chrome-extensions-for-winners/</link>
+      <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
+      
+      <guid>/posts/chrome-extensions-for-winners/</guid>
+      <description>In the same vein as the toolbox post I put up in March, I wanted to post a list of my most-used Chrome extensions.
+I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.</description>
+    </item>
+    
+  </channel>
+</rss>

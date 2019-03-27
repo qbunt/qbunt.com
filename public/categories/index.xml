@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on qbunt.com</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on qbunt.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
+    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apps</title>
+      <link>/categories/apps/</link>
+      <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
+      
+      <guid>/categories/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creativity</title>
+      <link>/categories/creativity/</link>
+      <pubDate>Sat, 09 Aug 2014 04:50:16 +0000</pubDate>
+      
+      <guid>/categories/creativity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extensions</title>
+      <link>/categories/extensions/</link>
+      <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
+      
+      <guid>/categories/extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monty Python</title>
+      <link>/categories/monty-python/</link>
+      <pubDate>Sat, 09 Aug 2014 04:50:16 +0000</pubDate>
+      
+      <guid>/categories/monty-python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips Tricks</title>
+      <link>/categories/tips-tricks/</link>
+      <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
+      
+      <guid>/categories/tips-tricks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
