@@ -1,6 +1,5 @@
 +++
 date = "2019-04-17T00:00:00-07:00"
-draft = true
 title = "JetBrains editors popping `apropos` terminal when invoking actions"
 
 +++
