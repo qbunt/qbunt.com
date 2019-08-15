@@ -10,6 +10,7 @@ fields:
   name: date
   label: date
 pages:
+- content/posts/test.md
 - content/posts/metro-for-alfred-4.md
 - content/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions.md
 - content/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component.md
