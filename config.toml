@@ -32,6 +32,6 @@ logoText = "Buntlog"
 [params]
 centerTheme = true
 contentTypeName = "posts"
-fullWidthTheme = false
+fullWidthTheme = true
 showMenuItems = 4
 themeColor = "green"
