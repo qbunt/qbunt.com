@@ -1,5 +1,5 @@
 +++
-date = "2019-06-02T00:00:00-07:00"
+date = 2019-06-02T07:00:00Z
 title = "Metro for Alfred 4"
 
 +++
@@ -10,3 +10,5 @@ Every once in a while I build a new theme for [Alfred](https://www.alfredapp.com
 Anyway, I hope you use it and enjoy it, if you do, please do share it around.
 
 [Download it here](https://github.com/qbunt/alfredmetro)
+
+ 
