@@ -2,35 +2,33 @@
 author = "Jeremy Bunting"
 date = 2015-09-12T18:23:57Z
 description = "A review of the Raspberry Pi running OSMC"
-draft = false
 image = "/images/2015/09/Raspberry_Pi_boxed.jpg"
 slug = "osmc-pi-review"
 title = "Cheap media server that plays anything"
 
 +++
-
-*UPDATE 11/5/15*
+_UPDATE 11/5/15_
 
 > With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I'm changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
 
 > Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card.
 
-
 For years now I've been trying out different ways to play my digital video collection with something other than an AppleTV, Chromecast, Amazon Stick, Roku or anything else. I wanted to share my findings after relentlessly trying to find something that doesn't suck. I _finally_ found something.
 
 The ideal for this magical solution would:
- 
+
 * Play the entire collection (480P, 720P, MKV, AVI, MP4 etc)
 * Not cost a lot. You're watching TV after all.
 * Make little/no noise
 * Not take up a lot of space
-* Not be fiddly, ideally, this wouldn't require a server 
+* Not be fiddly, ideally, this wouldn't require a server
 * Not crash often
 * Be controllable with a phone (Android & iOS)
 
 These are some things I tried.
 
 ### Take 1 - The Macbook
+
 {{< image src="https://i.kinja-img.com/gawker-media/image/upload/18kzmia28t4asjpg.jpg" alt="Picture of macbooks" position="center" style="border-radius: 8px;" >}}
 
 I loved this thing, but eventually, I needed more juice than this little guy could deliver day-to-day. I quickly relegated this to media center duty using XBMC (now [Kodi](http://kodi.tv/)). Plex hadn't really matured at this point, but was showing some promise. XBMC/Kodi on the Macbook worked really well, while it worked. Even had an IR receiver in the front!
@@ -49,18 +47,19 @@ I played my own video on [Plex](https://plex.tv/) for a while with [PlexConnect]
 
 I'd heard about people [jailbreaking AppleTV with Seas0npass](http://seas0npass.org/) as well, so I gave that a go, again with [Kodi](http://kodi.tv/). This was the most crashy thing on the planet. Any remotely high-res files crashed the jailbreak immediately. After some logging, it was just completely out of RAM. That AppleTV had 256MB of RAM, so running a stripped down iOS + Kodi was just way too much.
 
-Eventually, we mostly stopped using the AppleTV and sold it, for [a crazy profit on eBay](http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR12.TRC2.A0.H0.Xapple+tv+2.TRS0&_nkw=apple+tv+2&_sacat=0), it was the last version you could jailbreak after all. With the reports people have of their experience, I don't miss it much. 
+Eventually, we mostly stopped using the AppleTV and sold it, for [a crazy profit on eBay](http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR12.TRC2.A0.H0.Xapple+tv+2.TRS0&_nkw=apple+tv+2&_sacat=0), it was the last version you could jailbreak after all. With the reports people have of their experience, I don't miss it much.
 
 Maybe I needed a purpose built machine?
 
 ### Take 2.2
-I considered and priced out a tiny [Intel NUC](http://www.intel.com/content/www/us/en/nuc/overview.html) box. I couldn't stomach the $500 to watch TV & movies. 
+
+I considered and priced out a tiny [Intel NUC](http://www.intel.com/content/www/us/en/nuc/overview.html) box. I couldn't stomach the $500 to watch TV & movies.
 
 Onto the cheaper option...
 
 ### Take 3 - The Raspberry Pi
 
-{{< image src="http://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg" alt="Photo of a Raspberry Pi single board computer" position="center" style="border-radius: 8px;" >}}
+{{< image src="https://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg" alt="Photo of a Raspberry Pi single board computer" position="center" style="border-radius: 8px;" >}}
 
 After receiving a [Raspberry Pi](https://www.raspberrypi.org/) from my brother as a gift, it needed a full time gig. The Pi's SD card drive was well suited for messing around, and I had a couple of spare SD cards around as well, so I stretched it's legs. Kodi was pretty well supported on these things, it would cost nothing. Why not?
 
@@ -72,29 +71,28 @@ Still, despite what it says on [their site](http://www.xbian.org/), I found Xbia
 
 Then, I tried [OSMC](https://osmc.tv/). This is still Kodi running on a stripped down version of Debian Jessie. They've done a custom skin specifically for the Raspberry Pi, and it's been tuned really well for the platform. Much lighter than the stock Kodi skin.
 
-![](http://www.minttech.io/wp-content/uploads/2015/07/int2.jpg)
-
 Install process is super easy, you download an app, stick in a card, wait a while, and it's ready to boot. This was a step above, I've got nothing but good things to say. It gets updated, it's fast, smooth, silent, and it doesn't require a transcoding server. Completely ideal. There's even a tiny app store.
 
 This was the holy grail. It does everything well.
 
 ##### How?
+
 How can you do this? You'll need a few things.
 
-Power Supplies [Pi 1 ~ $8](http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00GF9T3I0/ref=sr_1_2?ie=UTF8&qid=1446761332&sr=8-2&keywords=raspberry+pi+power+supply), [Pi 2 ~ $10](http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4/ref=sr_1_1?ie=UTF8&qid=1446761121&sr=8-1&keywords=raspberry+pi+2+power+supply) CanaKit makes  good ones. Definitely purchase a purpose built power supply, these things like clean power at the correct amperage.
+Power Supplies [Pi 1 \~ $8](http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00GF9T3I0/ref=sr_1_2?ie=UTF8&qid=1446761332&sr=8-2&keywords=raspberry+pi+power+supply), [Pi 2 \~ $10](http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4/ref=sr_1_1?ie=UTF8&qid=1446761121&sr=8-1&keywords=raspberry+pi+2+power+supply) CanaKit makes  good ones. Definitely purchase a purpose built power supply, these things like clean power at the correct amperage.
 
-(Non-Pi 2) [SD Card ~ $8](http://www.amazon.com/SanDisk-Memory-SDSDUN-032G-G46-Newest-Version/dp/B00M55BMBE/ref=sr_1_12?ie=UTF8&qid=1442042051&sr=8-12&keywords=SD+card) More than 4GB, and preferably class 10. Standard SD format for Pi Model A - B+, MicroSD for Pi 2.
+(Non-Pi 2) [SD Card \~ $8](http://www.amazon.com/SanDisk-Memory-SDSDUN-032G-G46-Newest-Version/dp/B00M55BMBE/ref=sr_1_12?ie=UTF8&qid=1442042051&sr=8-12&keywords=SD+card) More than 4GB, and preferably class 10. Standard SD format for Pi Model A - B+, MicroSD for Pi 2.
 (Pi 2) [microSD card recommended here.](http://www.amazon.com/dp/B00IVPU7KE/ref=twister_B00IYOCEG2?_encoding=UTF8&psc=1)
 
-[Optional USB WiFi adapter ~ $11](http://www.adafruit.com/products/814) Not needed if you just use ethernet (probably faster anyway).
+[Optional USB WiFi adapter \~ $11](http://www.adafruit.com/products/814) Not needed if you just use ethernet (probably faster anyway).
 
-[Raspberry Pi ~ $40](http://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I) Mine is older, this one is quad core!!
+[Raspberry Pi \~ $40](http://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I) Mine is older, this one is quad core!!
 
-[Codec Keys ~ $4](http://www.raspberrypi.com/mpeg-2-license-key/) This sounds really complicated, but it's just a short text string. You'll want this for hardware decoding.
+[Codec Keys \~ $4](http://www.raspberrypi.com/mpeg-2-license-key/) This sounds really complicated, but it's just a short text string. You'll want this for hardware decoding.
 
-[Case ~ $12](http://www.amazon.com/Official-Raspberry-Pi-Foundation-Model/dp/B00ZW4RKFM/ref=sr_1_3?s=pc&ie=UTF8&qid=1442042426&sr=1-3&keywords=raspberry+pi+case) This new one is from the Pi foundation, seems well done. Interesting reading on the design [here](https://www.raspberrypi.org/blog/raspberry-pi-official-case/).
+[Case \~ $12](http://www.amazon.com/Official-Raspberry-Pi-Foundation-Model/dp/B00ZW4RKFM/ref=sr_1_3?s=pc&ie=UTF8&qid=1442042426&sr=1-3&keywords=raspberry+pi+case) This new one is from the Pi foundation, seems well done. Interesting reading on the design [here](https://www.raspberrypi.org/blog/raspberry-pi-official-case/).
 
-[HDMI cable ~ $5](http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Supports/dp/B00870ZHCQ/ref=sr_1_2?ie=UTF8&qid=1442043195&sr=8-2&keywords=hdmi) - if you don't have one already.
+[HDMI cable \~ $5](http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Supports/dp/B00870ZHCQ/ref=sr_1_2?ie=UTF8&qid=1442043195&sr=8-2&keywords=hdmi) - if you don't have one already.
 
 Then a remote of some kind. I use my phone.
 **Android**: [Yatse](https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree&hl=en) is super solid, nice looking and reliable.
@@ -106,4 +104,3 @@ Then a remote of some kind. I use my phone.
 Total cost for everything above, $93, though not everything is required. You probably have some/all of this kicking around, if not, you'd be hard pressed to find a better and more flexible option. It will play any format you toss it's way, it's silent, easy to use and tiny.
 
 If you've got a large media library and keep coming up with crazy tech chains to play it all, this is a _fantastic_ way to reduce the computers involved.
-
