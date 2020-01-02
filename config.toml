@@ -3,7 +3,7 @@ languageCode = "en-us"
 paginate = 5
 theme = "terminal"
 [languages.en]
-copyright = "©2019 Jeremy Bunting. Opinions are my own."
+copyright = "©2020 Jeremy Bunting. Opinions are my own."
 keywords = ""
 menuMore = "Show more"
 readMore = "Read more"
