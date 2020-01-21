@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>qbunt.com</title>
@@ -6,11 +6,50 @@
     <description>Recent content on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 22:10:37 +0000</lastBuildDate>
+    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
+    <lastBuildDate>Sun, 19 Jan 2020 05:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uses</title>
+      <link>/uses/</link>
+      <pubDate>Sun, 19 Jan 2020 05:00:00 +0000</pubDate>
+      
+      <guid>/uses/</guid>
+      <description>In the style of many other developers out there, I thought it&#39;d be interesting to collect a list of things that I use throughout my day. Many of these are pretty common for a developer, but there are truly some gems in there (the command line tools especially). I spend most of my time on some kind of web development task, but that also changes to backend, administrating servers, writing Dockerfiles and interviews.</description>
+    </item>
+    
+    <item>
+      <title>Metro for Alfred 4</title>
+      <link>/posts/metro-for-alfred-4/</link>
+      <pubDate>Sun, 02 Jun 2019 07:00:00 +0000</pubDate>
+      
+      <guid>/posts/metro-for-alfred-4/</guid>
+      <description>Every once in a while I build a new theme for Alfred because I use it so much, and I do enjoy having nice looking UI around. This one is different than the last few I&#39;ve done, and this one I think will last a bit longer because it&#39;s using such simple typesetting, I think it&#39;s likely to age well.
+Anyway, I hope you use it and enjoy it, if you do, please do share it around.</description>
+    </item>
+    
+    <item>
+      <title>JetBrains editors popping `apropos` terminal when invoking actions</title>
+      <link>/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions/</guid>
+      <description>You may have noticed a new obnoxious behavior in the JetBrains/IntelliJ series of editors when invoking the actions menu ⌘+shift+A. Instead of the normal actions menu rendered by the editor, you get this menu explaining something unrelated.
+Being someone who hits this menu many times per day, this really jammed up my shit.
+To disable this, and save your sanity, go into System Preferences &amp;gt; Shortcuts &amp;gt; Services &amp;gt; Developer and uncheck the Search man Page index in Terminal shortcut.</description>
+    </item>
+    
+    <item>
+      <title>Sweet Vue one-liner for inline SVGs in a component</title>
+      <link>/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component/</guid>
+      <description>I came across this nice technique for keeping your markup in a Vue app nice and clean, but still inlining the SVGs at compile-time with webpack. Because SVGs are xml, you can treat them like any other piece of markup with html-loader and as a result, you get nicely integrated SVG content. &amp;lt;div :key=&amp;#34;type&amp;#34; v-html=&amp;#34;require(`!html-loader!@/assets/${type}-line.svg`)&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; Works super well and has the added benefit of side-stepping any preloading of SVGs you might need to do.</description>
+    </item>
     
     <item>
       <title>You should get a VPN (really)</title>
@@ -18,7 +57,7 @@
       <pubDate>Tue, 15 Jan 2019 22:10:37 +0000</pubDate>
       
       <guid>/posts/vpns/</guid>
-      <description>VPNs are super useful tools for keeping your information private for any reason. If you&amp;rsquo;re on coffee shop WiFi and need to do some banking (tho I&amp;rsquo;d advise strongly against doing this) you should do that on a VPN. A VPN is not a miracle solution for online security, and there are many security holes in even getting your data to the machine. If you have a virus or some other horrible thing on your machine, a VPN won&amp;rsquo;t help you.</description>
+      <description>VPNs are super useful tools for keeping your information private for any reason. If you&#39;re on coffee shop WiFi and need to do some banking (tho I&#39;d advise strongly against doing this) you should do that on a VPN. A VPN is not a miracle solution for online security, and there are many security holes in even getting your data to the machine. If you have a virus or some other horrible thing on your machine, a VPN won&#39;t help you.</description>
     </item>
     
     <item>
@@ -27,8 +66,8 @@
       <pubDate>Wed, 29 Nov 2017 01:20:19 +0000</pubDate>
       
       <guid>/posts/removing-smart-quotes/</guid>
-      <description>I just put this on Twitter, but I thought it could use a more permanent home. Eventually, I&amp;rsquo;ll just add it to Toothpick. For now though, I&amp;rsquo;m sure someone is struggling with it right now.
-const replaceSmartQuotes = str =&amp;gt; str.replace(/[\u2018\u2019]/g, &amp;quot;&#39;&amp;quot;).replace(/[\u201C\u201D]/g, ‘”’)`  </description>
+      <description>I just put this on Twitter, but I thought it could use a more permanent home. Eventually, I&#39;ll just add it to Toothpick. For now though, I&#39;m sure someone is struggling with it right now.
+const replaceSmartQuotes = str =&amp;gt; str.replace(/[\u2018\u2019]/g, &amp;#34;&amp;#39;&amp;#34;).replace(/[\u201C\u201D]/g, ‘”’)`</description>
     </item>
     
     <item>
@@ -38,9 +77,9 @@ const replaceSmartQuotes = str =&amp;gt; str.replace(/[\u2018\u2019]/g, &amp;quo
       
       <guid>/posts/how-to-freeze-your-credit-file/</guid>
       <description>Because of the Equifax information breach, many people are curious about how they can protect their identity.
-I think many people think well, the hackers have all my info, I can&amp;rsquo;t do anything, right?
+I think many people think well, the hackers have all my info, I can&#39;t do anything, right?
 You should assume your information has been compromised. What can you do about it? Literally the cheapest and easiest way to protect your identity is to freeze your credit file.
-Contrary to what others may say, there are are actually 4 (not 3) credit reporting bureaus, EquiFax, Experian, TransUnion and Innovis (that&amp;rsquo;s the weird one).</description>
+Contrary to what others may say, there are are actually 4 (not 3) credit reporting bureaus, EquiFax, Experian, TransUnion and Innovis (that&#39;s the weird one).</description>
     </item>
     
     <item>
@@ -49,7 +88,7 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
       <pubDate>Sun, 26 Feb 2017 19:59:34 +0000</pubDate>
       
       <guid>/posts/nature-got-pixels-right-before-we-did/</guid>
-      <description> </description>
+      <description>   </description>
     </item>
     
     <item>
@@ -58,7 +97,7 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
       <pubDate>Mon, 13 Feb 2017 21:01:48 +0000</pubDate>
       
       <guid>/posts/resin-wifi-env/</guid>
-      <description>We&amp;rsquo;ve been using the excellent Resin platform for deploying Raspberry Pi&amp;rsquo;s en masse at work. One of the issues we frequently have is the wifi we&amp;rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.</description>
+      <description>We&#39;ve been using the excellent Resin platform for deploying Raspberry Pi&#39;s en masse at work. One of the issues we frequently have is the wifi we&#39;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.</description>
     </item>
     
     <item>
@@ -67,7 +106,7 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
       <pubDate>Mon, 13 Feb 2017 20:54:22 +0000</pubDate>
       
       <guid>/posts/smoked-v2-for-alfred/</guid>
-      <description>Small update to the theme I released last year. This one is a variation on what I pushed out, but has a little bit of a typographic nod to the Palm Pre (yes, that Palm Pre). I&amp;rsquo;ve been using it for a while, and haven&amp;rsquo;t updated this repo in a bit. Download from GitHub and give it a whirl. I&amp;rsquo;ve deprecated the &amp;lsquo;Day&amp;rsquo; version because nobody was using it (including myself) and I didn&amp;rsquo;t really feel like maintaining it.</description>
+      <description>Small update to the theme I released last year. This one is a variation on what I pushed out, but has a little bit of a typographic nod to the Palm Pre (yes, that Palm Pre). I&#39;ve been using it for a while, and haven&#39;t updated this repo in a bit. Download from GitHub and give it a whirl. I&#39;ve deprecated the &amp;lsquo;Day&amp;rsquo; version because nobody was using it (including myself) and I didn&#39;t really feel like maintaining it.</description>
     </item>
     
     <item>
@@ -76,8 +115,8 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
       <pubDate>Mon, 02 Jan 2017 05:27:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>A tech nerd with the eye of a designer, Jeremy&amp;rsquo;s work has pushed clients to do the unexpected. His deep tech knowledge enables businesses to bridge physical into digital and back again. Guiding projects from Cisco, Target and an outrageous VR event for Elton John, his acumen in steering teams to get inventive is his greatest asset.
-A maker through and through, Jeremy&amp;rsquo;s goal is to make any digital project project feel tangible.</description>
+      <description>A maker through and through, Jeremy&#39;s goal is to make any digital project project feel tangible.
+A Connecticut transplant, he and his wife Jess live in Orange County with his two daughters Maisy and Margot and far too many Raspberry Pis. He enjoys spending time with his kids, cycling, model aircraft, open source software and coffee.</description>
     </item>
     
     <item>
@@ -86,8 +125,8 @@ A maker through and through, Jeremy&amp;rsquo;s goal is to make any digital proj
       <pubDate>Fri, 20 May 2016 21:01:19 +0000</pubDate>
       
       <guid>/posts/updated-smoked-themes-for-alfred-3/</guid>
-      <description>Updated my &amp;lsquo;Smoked&amp;rsquo; theme package for the excellent Alfred. I took a bit more time on these than I did on the first release. There&amp;rsquo;s a new halo around the entire window, something that wasn&amp;rsquo;t possible in the earlier versions of Alfred.
-The screenshots of these are kind of difficult because the OS X capture doesn&amp;rsquo;t render the blur filter correctly. The only real difference is that the sub-title on the non-selected items isn&amp;rsquo;t visible by default.</description>
+      <description>Updated my &amp;lsquo;Smoked&amp;rsquo; theme package for the excellent Alfred. I took a bit more time on these than I did on the first release. There&#39;s a new halo around the entire window, something that wasn&#39;t possible in the earlier versions of Alfred.
+The screenshots of these are kind of difficult because the OS X capture doesn&#39;t render the blur filter correctly. The only real difference is that the sub-title on the non-selected items isn&#39;t visible by default.</description>
     </item>
     
     <item>
@@ -97,7 +136,7 @@ The screenshots of these are kind of difficult because the OS X capture doesn&am
       
       <guid>/posts/short-cpu-freezes-on-os-x-el-cap/</guid>
       <description>Update 1/11/16: Current version of Chrome 47.0.2526.106 resolves this behavior.
-I&amp;rsquo;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
+I&#39;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
 These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.
 When Chrome runs a software update in the background, it throws the following message in the console &amp;quot;triggered DYLD shared region unnest for map&amp;quot;.</description>
     </item>
@@ -121,8 +160,8 @@ If you do, you need to ensure two things.</description>
       
       <guid>/posts/osmc-pi-review/</guid>
       <description>UPDATE 11/5/15
- With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&amp;rsquo;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
-Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card.</description>
+ With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&#39;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
+  Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card.</description>
     </item>
     
     <item>
@@ -131,8 +170,8 @@ Also, please note that the Pi 2 requires a microSD card instead of the standard 
       <pubDate>Thu, 30 Jul 2015 03:28:23 +0000</pubDate>
       
       <guid>/posts/the-vintage-parts-of-the-mta/</guid>
-      <description>There are some crazy things about this video and how the NYC subway system works. Huge swaths of infrastructure are over 80 years old. They use cloth-covered wire as the means of connection between critical pieces of switching equipment. Thankfully, they&amp;rsquo;re getting slowly upgraded, but it&amp;rsquo;s going to take many many years.
-I&amp;rsquo;m amazed it still works, but it&amp;rsquo;s been working 24&amp;frasl;7 for the last 80 years.</description>
+      <description>There are some crazy things about this video and how the NYC subway system works. Huge swaths of infrastructure are over 80 years old. They use cloth-covered wire as the means of connection between critical pieces of switching equipment. Thankfully, they&#39;re getting slowly upgraded, but it&#39;s going to take many many years.
+I&#39;m amazed it still works, but it&#39;s been working 24/7 for the last 80 years.</description>
     </item>
     
     <item>
@@ -141,7 +180,7 @@ I&amp;rsquo;m amazed it still works, but it&amp;rsquo;s been working 24&amp;fras
       <pubDate>Wed, 01 Apr 2015 03:56:37 +0000</pubDate>
       
       <guid>/posts/volvo-lifepaint/</guid>
-      <description> </description>
+      <description>   </description>
     </item>
     
     <item>
@@ -151,7 +190,7 @@ I&amp;rsquo;m amazed it still works, but it&amp;rsquo;s been working 24&amp;fras
       
       <guid>/posts/onshape-cad/</guid>
       <description>OnShape is a brand new creation from the original team that built out SolidWorks. This is sort of a combination of the concepts that makes Google Docs great mated with a world class solids modeling package. We can finally do all of these things in the browser and run it on something as low power as a cell phone.
-With a tool like this and the proliferation of inexpensive 3D printers, it&amp;rsquo;s hard to see this as anything except a major game changer.</description>
+With a tool like this and the proliferation of inexpensive 3D printers, it&#39;s hard to see this as anything except a major game changer.</description>
     </item>
     
     <item>
@@ -161,9 +200,9 @@ With a tool like this and the proliferation of inexpensive 3D printers, it&amp;r
       
       <guid>/posts/smoked-themes-for-alfred/</guid>
       <description>I have an infatuation with the Alfred app. It hits so many of the nerd things that I love, last year I put a theme together for Alfred to fit along with the way I have my machine set up.
-Today, I&amp;rsquo;m updating my theme significantly, and adding a brand new light theme to the mix.
-I&amp;rsquo;ve put it up on Github, feel free to change it up. Enjoy!
-Import light theme Import dark theme</description>
+Today, I&#39;m updating my theme significantly, and adding a brand new light theme to the mix.
+I&#39;ve put it up on Github, feel free to change it up. Enjoy!
+Import light themeImport dark themeDownload both</description>
     </item>
     
     <item>
@@ -172,8 +211,8 @@ Import light theme Import dark theme</description>
       <pubDate>Wed, 11 Feb 2015 17:40:32 +0000</pubDate>
       
       <guid>/posts/node-js-moves-out-of-joyents-control/</guid>
-      <description>Great news from Joyent about Node.js moving to break off into an open source foundation. Presumably this is a reaction to key players in the Node community breaking off to write io.js and the impact that will have on the platform&amp;rsquo;s growth. What I find interesting about this news is the stakeholders involved in the foundation, who are definitely not a small community (WalMart, PayPal, LinkedIn, Microsoft and others).
-My hope for this effort is that development continues to move into a stable direction, and Node moves far away from the unsupported, basically deprecated version of V8 it&amp;rsquo;s currently running on.</description>
+      <description>Great news from Joyent about Node.js moving to break off into an open source foundation. Presumably this is a reaction to key players in the Node community breaking off to write io.js and the impact that will have on the platform&#39;s growth. What I find interesting about this news is the stakeholders involved in the foundation, who are definitely not a small community (WalMart, PayPal, LinkedIn, Microsoft and others).
+My hope for this effort is that development continues to move into a stable direction, and Node moves far away from the unsupported, basically deprecated version of V8 it&#39;s currently running on.</description>
     </item>
     
     <item>
@@ -191,7 +230,7 @@ My hope for this effort is that development continues to move into a stable dire
       <pubDate>Thu, 11 Dec 2014 00:16:28 +0000</pubDate>
       
       <guid>/posts/simple-unix-permissions-explanation/</guid>
-      <description>From an excellent presentation on Bash, a clear explanation of a complex concept in Unix. Permissions don&amp;rsquo;t have to be complicated.</description>
+      <description>From an excellent presentation on Bash, a clear explanation of a complex concept in Unix. Permissions don&#39;t have to be complicated.</description>
     </item>
     
     <item>
@@ -200,9 +239,9 @@ My hope for this effort is that development continues to move into a stable dire
       <pubDate>Wed, 19 Nov 2014 19:46:17 +0000</pubDate>
       
       <guid>/posts/handy-ssh-config/</guid>
-      <description>When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&amp;rsquo;s say you&amp;rsquo;re SSHing into one box, then another, then back to the first box.
-It&amp;rsquo;d be really nice not to have to paste that first password in again, wouldn&amp;rsquo;t it?
-From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the first authenticated session when you try to connect again.</description>
+      <description>When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let&#39;s say you&#39;re SSHing into one box, then another, then back to the first box.
+It&#39;d be really nice not to have to paste that first password in again, wouldn&#39;t it?
+From my buddy Phil, he&#39;s got a handy SSH config that will recycle the first authenticated session when you try to connect again.</description>
     </item>
     
     <item>
@@ -211,7 +250,7 @@ From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the 
       <pubDate>Thu, 06 Nov 2014 18:41:21 +0000</pubDate>
       
       <guid>/posts/dropping-things-in-a-vacuum/</guid>
-      <description> </description>
+      <description>   </description>
     </item>
     
     <item>
@@ -220,7 +259,7 @@ From my buddy Phil, he&amp;rsquo;s got a handy SSH config that will recycle the 
       <pubDate>Mon, 03 Nov 2014 18:12:49 +0000</pubDate>
       
       <guid>/posts/smoked-alfred-theme/</guid>
-      <description>UPDATE: There&amp;rsquo;s a new version here
+      <description>UPDATE: There&#39;s a new version here
 Just going to leave this right here. Download</description>
     </item>
     
@@ -249,8 +288,8 @@ Just going to leave this right here. Download</description>
       
       <guid>/posts/apple-fitness-design-borrowed-from-old-flash-screensaver/</guid>
       <description>PolarClock circa 2008
-Built in Flash as a screensaver, an OS X Widget and apparently adapted to the iPhone. It was a free screensaver that I loved for many years. It&amp;rsquo;s a great design.
-Not that PolarClock owns this shape, but this Apple Fitness design feels like a ripoff. Even the colors are similar.</description>
+Built in Flash as a screensaver, an OS X Widget and apparently adapted to the iPhone. It was a free screensaver that I loved for many years. It&#39;s a great design.
+ Not that PolarClock owns this shape, but this Apple Fitness design feels like a ripoff. Even the colors are similar.</description>
     </item>
     
     <item>
@@ -259,7 +298,7 @@ Not that PolarClock owns this shape, but this Apple Fitness design feels like a 
       <pubDate>Wed, 10 Sep 2014 15:05:54 +0000</pubDate>
       
       <guid>/posts/apples-half-complete-responsive-design/</guid>
-      <description>Not that Apple hasn&amp;rsquo;t made enough news this week, but this is far too disappointing to let go. Yesterday, along with the watch and the iPhone 6 announcment, Apple has made their website responsive (part of it anyway). What appears now is a totally broken design for many of their pages. Not small pages either. Clearly they thought about the product pages for the iPhone and the watch and just said &amp;ldquo;eh, that seems good&amp;rdquo;.</description>
+      <description>Not that Apple hasn&#39;t made enough news this week, but this is far too disappointing to let go. Yesterday, along with the watch and the iPhone 6 announcment, Apple has made their website responsive (part of it anyway). What appears now is a totally broken design for many of their pages. Not small pages either. Clearly they thought about the product pages for the iPhone and the watch and just said &amp;ldquo;eh, that seems good&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -269,7 +308,8 @@ Not that PolarClock owns this shape, but this Apple Fitness design feels like a 
       
       <guid>/posts/chrome-extensions-for-winners/</guid>
       <description>In the same vein as the toolbox post I put up in March, I wanted to post a list of my most-used Chrome extensions.
-I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.</description>
+I don&#39;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&#39;s a list of the best ones.
+Pushbullet Allows for Android push notification mirroring on Chrome.</description>
     </item>
     
     <item>
@@ -296,8 +336,8 @@ I don&amp;rsquo;t use many Chrome extensions, but there are a few that I complet
       <pubDate>Sat, 09 Aug 2014 04:48:05 +0000</pubDate>
       
       <guid>/posts/egghead-io/</guid>
-      <description>If you&amp;rsquo;re checking out Google&amp;rsquo;s Angular, I highly recommend John Lindquist&amp;rsquo;s Egghead.io for learning the framework quickly and with lots of insight.
-Angular is a super powerful framework and seems to be the way things are heading for building scalable large JS apps. If you&amp;rsquo;re building out a larger client side app, it&amp;rsquo;s worth a look.</description>
+      <description>If you&#39;re checking out Google&#39;s Angular, I highly recommend John Lindquist&#39;s Egghead.io for learning the framework quickly and with lots of insight.
+Angular is a super powerful framework and seems to be the way things are heading for building scalable large JS apps. If you&#39;re building out a larger client side app, it&#39;s worth a look.</description>
     </item>
     
     <item>
@@ -307,8 +347,7 @@ Angular is a super powerful framework and seems to be the way things are heading
       
       <guid>/posts/john-cleese-on-creativity/</guid>
       <description>update 9/4/14
-This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown request. So much for inspiration.
- I posted this a while ago, but I can&amp;rsquo;t help but put it up again. Worth the long watch.</description>
+This fantastic video doesn&#39;t seem to play anymore due to a takedown request. So much for inspiration.   I posted this a while ago, but I can&#39;t help but put it up again. Worth the long watch.</description>
     </item>
     
     <item>
@@ -317,7 +356,7 @@ This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown re
       <pubDate>Mon, 28 Apr 2014 20:27:49 +0000</pubDate>
       
       <guid>/posts/nomos-factory/</guid>
-      <description>I love a good &amp;lsquo;how it&amp;rsquo;s made&amp;rsquo; video, and I love watches too. Nice combination of high-tech and handcraft.</description>
+      <description>I love a good &amp;lsquo;how it&#39;s made&amp;rsquo; video, and I love watches too. Nice combination of high-tech and handcraft.</description>
     </item>
     
     <item>
@@ -326,7 +365,7 @@ This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown re
       <pubDate>Thu, 03 Apr 2014 17:01:25 +0000</pubDate>
       
       <guid>/posts/skillz/</guid>
-      <description>Street typography from Tom Williams on Vimeo.</description>
+      <description>   </description>
     </item>
     
     <item>
@@ -335,7 +374,7 @@ This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown re
       <pubDate>Sun, 30 Mar 2014 05:46:36 +0000</pubDate>
       
       <guid>/posts/burning-man-by-drone/</guid>
-      <description> </description>
+      <description>   </description>
     </item>
     
     <item>
@@ -362,7 +401,7 @@ This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown re
       <pubDate>Thu, 06 Mar 2014 20:03:48 +0000</pubDate>
       
       <guid>/posts/netflix-is-taking-over-the-world/</guid>
-      <description>I&amp;rsquo;m glad Netflix is taking a stand against the old model of pilot seasons and old-school television executives. It&amp;rsquo;s time they have some competition and models are challenged. Time to seize the moment.</description>
+      <description>I&#39;m glad Netflix is taking a stand against the old model of pilot seasons and old-school television executives. It&#39;s time they have some competition and models are challenged. Time to seize the moment.</description>
     </item>
     
     <item>
@@ -371,8 +410,8 @@ This fantastic video doesn&amp;rsquo;t seem to play anymore due to a takedown re
       <pubDate>Thu, 06 Mar 2014 20:00:00 +0000</pubDate>
       
       <guid>/posts/the-toolbox/</guid>
-      <description>This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&amp;rsquo;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.
-For significantly improving your quality of life, that&amp;rsquo;s a completely acceptable cost to me, especially because I make my living with this stuff.</description>
+      <description>This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&#39;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.
+For significantly improving your quality of life, that&#39;s a completely acceptable cost to me, especially because I make my living with this stuff.</description>
     </item>
     
     <item>
@@ -399,8 +438,8 @@ For significantly improving your quality of life, that&amp;rsquo;s a completely 
       <pubDate>Sun, 22 Sep 2013 19:00:00 +0000</pubDate>
       
       <guid>/posts/shinola-watches/</guid>
-      <description>It&amp;rsquo;s not often you hear of a new startup that&amp;rsquo;s building something in America, especially watches&amp;hellip;in Detroit. Shinola is going for American watchmaking with their line of pretty handsome watches. As a fan of people going against the grain and trying something bat-shit crazy, they&amp;rsquo;re going for it in a pretty big way. They&amp;rsquo;re building their own movements with Swiss parts and really going for it.
-The Verge did a nice piece on Shinola&amp;rsquo;s Detroit factory, check it out.</description>
+      <description>It&#39;s not often you hear of a new startup that&#39;s building something in America, especially watches&amp;hellip;in Detroit. Shinola is going for American watchmaking with their line of pretty handsome watches. As a fan of people going against the grain and trying something bat-shit crazy, they&#39;re going for it in a pretty big way. They&#39;re building their own movements with Swiss parts and really going for it.
+The Verge did a nice piece on Shinola&#39;s Detroit factory, check it out.</description>
     </item>
     
   </channel>

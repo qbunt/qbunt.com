@@ -17,16 +17,16 @@ If you do, you need to ensure two things."/>
 
 <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/red.css">
+  <link rel="stylesheet" href="/assets/green.css">
 
 
 
-<link rel="stylesheet" href="/style.css">
+
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="/img/favicon/red.png">
+<link rel="shortcut icon" href="/img/favicon/green.png">
 
 
 
@@ -70,7 +70,7 @@ If you do, you need to ensure two things." />
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -107,6 +107,8 @@ If you do, you need to ensure two things." />
       
       
     
+
+    
   </ul>
 
   <ul class="menu__inner menu__inner--mobile">
@@ -127,6 +129,7 @@ If you do, you need to ensure two things." />
         <li><a href="https://work.jeremybunting.com">Work</a></li>
       
     
+    
   </ul>
 </nav>
 
@@ -136,122 +139,120 @@ If you do, you need to ensure two things." />
 
   <div class="content">
     
-  <div class="post">
-    <h1 class="post-title"><a href="/posts/nginx-configuration-with-basic-auth/">NGinX Configuration with basic auth &amp; custom error messages</a></h1>
-    <div class="post-meta">
-      <span class="post-date">
-        2015-09-25
-      </span>
-      <span class="post-author">:: Jeremy Bunting</span>
-    </div>
-
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/nginx-configuration-with-basic-auth/">NGinX Configuration with basic auth &amp; custom error messages</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2015-09-25
+    </span>
     
-
     
+    <span class="post-author">::
+      Jeremy Bunting
+    </span>
+    
+  </div>
 
-    <div class="post-content">
-      <p>If for some reason you need the following things out of an NGinX server:</p>
+  
 
+  
+
+  <div class="post-content">
+    <p>If for some reason you need the following things out of an NGinX server:</p>
 <ul>
 <li>Multiple virtual blocks</li>
 <li>Basic authentication (with IP whitelist of approved IPs</li>
 <li>Customized error messages</li>
 </ul>
-
 <p>there are some things you should probably be aware of, as the virtual block configuration is not obvious.</p>
-
 <p>First off, custom error messages are straightforward <em>if and only if</em> you do not have basic auth enabled.</p>
-
 <p>If you do, you need to ensure two things. Your <code>error_page</code> flag needs to reside <strong>above</strong> the location block of that specific virtual host.</p>
-
-<p>One thing I wasn&rsquo;t aware of with NGinX virtual blocks is that the <code>root</code> should be (at least in this configuration) inside the <code>location</code> block. If you put the basic authentication at the <code>server</code> level, it will apply to all locations inside that configuration.</p>
-
-<p>Here&rsquo;s a consolidated example of how all the pieces go together.</p>
-
-<pre><code>server {
-     listen 80 default_server;
-     listen [::]:80 default_server ipv6only=on;
+<p>One thing I wasn't aware of with NGinX virtual blocks is that the <code>root</code> should be (at least in this configuration) inside the <code>location</code> block. If you put the basic authentication at the <code>server</code> level, it will apply to all locations inside that configuration.</p>
+<p>Here's a consolidated example of how all the pieces go together.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
+     listen <span style="color:#ae81ff">80</span> default_server;
+     listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:80 default_server ipv6only<span style="color:#f92672">=</span>on;
 
      server_name yoursitenamehere.com www.yoursitenamehere.com;
      
      root /var/www/yoursitenamehere.com/html;
 
-     # path to your custom error page &amp; the error you're handling
-     error_page 401 =401 /401.html;
+     <span style="color:#75715e"># path to your custom error page &amp; the error you&#39;re handling</span>
+     error_page 401 <span style="color:#f92672">=</span><span style="color:#ae81ff">401</span> /401.html;
 
-     # turn off basic auth, allow from all IPs,
-     # disallow public access to that page
-     location = /401.html {
+     <span style="color:#75715e"># turn off basic auth, allow from all IPs,</span>
+     <span style="color:#75715e"># disallow public access to that page</span>
+     location <span style="color:#f92672">=</span> /401.html <span style="color:#f92672">{</span>
     	auth_basic off;
         allow all;
         internal;
-     }
+     <span style="color:#f92672">}</span>
 
-     location / {
+     location / <span style="color:#f92672">{</span>
        
 
-        # this is super important, unless you set this, 
-        # you'll get the default nginx error pages across the board
+        <span style="color:#75715e"># this is super important, unless you set this,</span> 
+        <span style="color:#75715e"># you&#39;ll get the default nginx error pages across the board</span>
         proxy_intercept_errors on;
         
-        try_files $uri $uri/ =404;
+        try_files $uri $uri/ <span style="color:#f92672">=</span>404;
 
         index   index.html;
 
-        # satisfy first the whitelisted IPs
-        # then fall back to basic, then fail everything else
+        <span style="color:#75715e"># satisfy first the whitelisted IPs</span>
+        <span style="color:#75715e"># then fall back to basic, then fail everything else</span>
         satisfy any;
 
-        # Your whitelist IPs
+        <span style="color:#75715e"># Your whitelist IPs</span>
         allow 111.222.333.444;
         allow 555.666.777.888;
 
-        # basic auth
-        auth_basic &quot;Forbidden&quot;;
+        <span style="color:#75715e"># basic auth</span>
+        auth_basic <span style="color:#e6db74">&#34;Forbidden&#34;</span>;
         auth_basic_user_file /etc/nginx/.htpasswd;
 
-        # tell everyone else to leave with your fancy error messages
+        <span style="color:#75715e"># tell everyone else to leave with your fancy error messages</span>
         deny all;
-	}
-}
+	<span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
 
-</code></pre>
-
-<p>The key in the above configuration is this one line <code>proxy_intercept_errors on</code>. This combined with containing the <code>root</code> inside the location block, will allow NGinX to return your custom error page.</p>
-
-<p>Anyway, I recently burned some time with this, thought I&rsquo;d share my findings, it was not easy to find a working combination of flags.</p>
-
-    </div>
-    
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
-        </div>
-        <div class="pagination__buttons">
-          
-            <span class="button previous">
-              <a href="/posts/short-cpu-freezes-on-os-x-el-cap/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Short CPU freezes on OS X El Capitan</span>
-              </a>
-            </span>
-          
-          
-            <span class="button next">
-              <a href="/posts/osmc-pi-review/">
-                <span class="button__text">Cheap media server that plays anything</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          
-        </div>
-      </div>
-    
-
-    
+</code></pre></div><p>The key in the above configuration is this one line <code>proxy_intercept_errors on</code>. This combined with containing the <code>root</code> inside the location block, will allow NGinX to return your custom error page.</p>
+<p>Anyway, I recently burned some time with this, thought I'd share my findings, it was not easy to find a working combination of flags.</p>
 
   </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      <span class="button previous">
+        <a href="/posts/short-cpu-freezes-on-os-x-el-cap/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Short CPU freezes on OS X El Capitan</span>
+        </a>
+      </span>
+      
+      
+      <span class="button next">
+        <a href="/posts/osmc-pi-review/">
+          <span class="button__text">Cheap media server that plays anything</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
 
   </div>
 
@@ -259,8 +260,11 @@ If you do, you need to ensure two things." />
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+      <div class="copyright copyright--user">
+        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
     
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
   </div>
 </footer>
 

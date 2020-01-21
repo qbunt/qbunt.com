@@ -14,16 +14,16 @@
 
 <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/red.css">
+  <link rel="stylesheet" href="/assets/green.css">
 
 
 
-<link rel="stylesheet" href="/style.css">
+
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="/img/favicon/red.png">
+<link rel="shortcut icon" href="/img/favicon/green.png">
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="qbunt.com" />
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="qbunt.com" />
 
 
 
@@ -63,7 +63,7 @@
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -100,6 +100,8 @@
       
       
     
+
+    
   </ul>
 
   <ul class="menu__inner menu__inner--mobile">
@@ -120,6 +122,7 @@
         <li><a href="https://work.jeremybunting.com">Work</a></li>
       
     
+    
   </ul>
 </nav>
 
@@ -129,127 +132,169 @@
 
   <div class="content">
     
-  <div class="posts">
-    
-    
-    
+<div class="posts">
+  
+  
 
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/vpns/">You should get a VPN (really)</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2019-01-15
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  
+  
+  
 
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/metro-for-alfred-4/">Metro for Alfred 4</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-06-02
+      </span>
       
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
+      
+      Every once in a while I build a new theme for Alfred because I use it so much, and I do enjoy having nice looking UI around. This one is different than the last few I've done, and this one I think will last a bit longer because it's using such simple typesetting, I think it's likely to age well.
+Anyway, I hope you use it and enjoy it, if you do, please do share it around.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-            VPNs are super useful tools for keeping your information private for any reason. If you&rsquo;re on coffee shop WiFi and need to do some banking (tho I&rsquo;d advise strongly against doing this) you should do that on a VPN. A VPN is not a miracle solution for online security, and there are many security holes in even getting your data to the machine. If you have a virus or some other horrible thing on your machine, a VPN won&rsquo;t help you.
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/vpns/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/metro-for-alfred-4/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/removing-smart-quotes/">Removing terrible MS Word &lsquo;smart quotes&rsquo; in JS</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-11-29
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
-
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions/">JetBrains editors popping <code>apropos</code> terminal when invoking actions</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-04-17
+      </span>
       
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
+      
+      You may have noticed a new obnoxious behavior in the JetBrains/IntelliJ series of editors when invoking the actions menu ⌘+shift+A. Instead of the normal actions menu rendered by the editor, you get this menu explaining something unrelated.
+Being someone who hits this menu many times per day, this really jammed up my shit.
+To disable this, and save your sanity, go into System Preferences &gt; Shortcuts &gt; Services &gt; Developer and uncheck the Search man Page index in Terminal shortcut.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/removing-smart-quotes/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/how-to-freeze-your-credit-file/">How to freeze your credit file</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-09-14
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
-
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component/">Sweet Vue one-liner for inline SVGs in a component</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-03-26
+      </span>
       
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
+      
+      I came across this nice technique for keeping your markup in a Vue app nice and clean, but still inlining the SVGs at compile-time with webpack. Because SVGs are xml, you can treat them like any other piece of markup with html-loader and as a result, you get nicely integrated SVG content. &lt;div :key=&quot;type&quot; v-html=&quot;require(<code>!html-loader!@/assets/${type}-line.svg</code>)&quot;&gt;&lt;/div&gt; Works super well and has the added benefit of side-stepping any preloading of SVGs you might need to do.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-            Because of the Equifax information breach, many people are curious about how they can protect their identity.
-I think many people think well, the hackers have all my info, I can&rsquo;t do anything, right?
-You should assume your information has been compromised. What can you do about it? Literally the cheapest and easiest way to protect your identity is to freeze your credit file.
-Contrary to what others may say, there are are actually 4 (not 3) credit reporting bureaus, EquiFax, Experian, TransUnion and Innovis (that&rsquo;s the weird one).
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/how-to-freeze-your-credit-file/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/nature-got-pixels-right-before-we-did/">Nature got pixels right before we did.</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-02-26
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/vpns/">You should get a VPN (really)</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-01-15
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
       
+      VPNs are super useful tools for keeping your information private for any reason. If you're on coffee shop WiFi and need to do some banking (tho I'd advise strongly against doing this) you should do that on a VPN. A VPN is not a miracle solution for online security, and there are many security holes in even getting your data to the machine. If you have a virus or some other horrible thing on your machine, a VPN won't help you.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/nature-got-pixels-right-before-we-did/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/vpns/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/resin-wifi-env/">resin-wifi-env</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-02-13
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/removing-smart-quotes/">Removing terrible MS Word &lsquo;smart quotes&rsquo; in JS</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2017-11-29
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
       
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-            We&rsquo;ve been using the excellent Resin platform for deploying Raspberry Pi&rsquo;s en masse at work. One of the issues we frequently have is the wifi we&rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/resin-wifi-env/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/removing-smart-quotes/">Read more →</a>
     </div>
     
-    <div class="pagination">
+  </div>
+  
+  <div class="pagination">
   <div class="pagination__buttons">
     
     
@@ -263,7 +308,7 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
   </div>
 </div>
 
-  </div>
+</div>
 
   </div>
 
@@ -271,8 +316,11 @@ Contrary to what others may say, there are are actually 4 (not 3) credit reporti
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+      <div class="copyright copyright--user">
+        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
     
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
   </div>
 </footer>
 

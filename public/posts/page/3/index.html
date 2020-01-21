@@ -14,16 +14,16 @@
 
 <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/red.css">
+  <link rel="stylesheet" href="/assets/green.css">
 
 
 
-<link rel="stylesheet" href="/style.css">
+
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="/img/favicon/red.png">
+<link rel="shortcut icon" href="/img/favicon/green.png">
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="qbunt.com" />
+  <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="qbunt.com" />
 
 
 
@@ -63,7 +63,7 @@
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -100,6 +100,8 @@
       
       
     
+
+    
   </ul>
 
   <ul class="menu__inner menu__inner--mobile">
@@ -120,6 +122,7 @@
         <li><a href="https://work.jeremybunting.com">Work</a></li>
       
     
+    
   </ul>
 </nav>
 
@@ -129,129 +132,171 @@
 
   <div class="content">
     
-  <div class="posts">
-    
-    
+<div class="posts">
+  
+  
+
+  
+  
+  
+
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/short-cpu-freezes-on-os-x-el-cap/">Short CPU freezes on OS X El Capitan</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2015-10-11
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
+
     
 
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/the-vintage-parts-of-the-mta/">The Vintage parts of the MTA</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2015-07-30
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
 
+    <div class="post-content">
       
-
       
+      Update 1/11/16: Current version of Chrome 47.0.2526.106 resolves this behavior.
+I've been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
+These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.
+When Chrome runs a software update in the background, it throws the following message in the console &quot;triggered DYLD shared region unnest for map&quot;.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/the-vintage-parts-of-the-mta/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/short-cpu-freezes-on-os-x-el-cap/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/volvo-lifepaint/">Volvo LifePaint</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2015-04-01
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/nginx-configuration-with-basic-auth/">NGinX Configuration with basic auth &amp; custom error messages</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2015-09-25
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
       
+      If for some reason you need the following things out of an NGinX server:
+Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages  there are some things you should probably be aware of, as the virtual block configuration is not obvious.
+First off, custom error messages are straightforward if and only if you do not have basic auth enabled.
+If you do, you need to ensure two things.
+      
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/volvo-lifepaint/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/nginx-configuration-with-basic-auth/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/onshape-cad/">OnShape CAD</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2015-03-22
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/osmc-pi-review/">Cheap media server that plays anything</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2015-09-12
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
+      A review of the Raspberry Pi running OSMC
       
+    </div>
 
-      <div class="post-content">
-        
-          
-            OnShape is a brand new creation from the original team that built out SolidWorks. This is sort of a combination of the concepts that makes Google Docs great mated with a world class solids modeling package. We can finally do all of these things in the browser and run it on something as low power as a cell phone.
-With a tool like this and the proliferation of inexpensive 3D printers, it&rsquo;s hard to see this as anything except a major game changer.
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/onshape-cad/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/osmc-pi-review/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/smoked-themes-for-alfred/">Smoked Themes for Alfred</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2015-03-02
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/the-vintage-parts-of-the-mta/">The Vintage parts of the MTA</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2015-07-30
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
       
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-            I have an infatuation with the Alfred app. It hits so many of the nerd things that I love, last year I put a theme together for Alfred to fit along with the way I have my machine set up.
-Today, I&rsquo;m updating my theme significantly, and adding a brand new light theme to the mix.
-I&rsquo;ve put it up on Github, feel free to change it up. Enjoy!
-Import light theme Import dark theme
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/smoked-themes-for-alfred/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/the-vintage-parts-of-the-mta/">Read more →</a>
     </div>
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/posts/node-js-moves-out-of-joyents-control/">Node.js moves out of Joyent&rsquo;s Control</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2015-02-11
-        </span>
-        <span class="post-author">:: Jeremy Bunting</span>
-      </div>
+  </div>
+  
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="/posts/volvo-lifepaint/">Volvo LifePaint</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        2015-04-01
+      </span>
+      <span class="post-author">::
+        Jeremy Bunting</span>
+    </div>
 
+    
+
+    
+
+    <div class="post-content">
       
-
       
+      
+    </div>
 
-      <div class="post-content">
-        
-          
-            Great news from Joyent about Node.js moving to break off into an open source foundation. Presumably this is a reaction to key players in the Node community breaking off to write io.js and the impact that will have on the platform&rsquo;s growth. What I find interesting about this news is the stakeholders involved in the foundation, who are definitely not a small community (WalMart, PayPal, LinkedIn, Microsoft and others).
-My hope for this effort is that development continues to move into a stable direction, and Node moves far away from the unsupported, basically deprecated version of V8 it&rsquo;s currently running on.
-          
-        
-      </div>
-      <div><a class="read-more button" href="/posts/node-js-moves-out-of-joyents-control/">Read more →</a></div>
+    
+    <div>
+      <a class="read-more button"
+        href="/posts/volvo-lifepaint/">Read more →</a>
     </div>
     
-    <div class="pagination">
+  </div>
+  
+  <div class="pagination">
   <div class="pagination__buttons">
     
       <span class="button previous">
@@ -272,7 +317,7 @@ My hope for this effort is that development continues to move into a stable dire
   </div>
 </div>
 
-  </div>
+</div>
 
   </div>
 
@@ -280,8 +325,11 @@ My hope for this effort is that development continues to move into a stable dire
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+      <div class="copyright copyright--user">
+        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
     
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
   </div>
 </footer>
 

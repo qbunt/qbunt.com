@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="We&amp;rsquo;ve been using the excellent Resin platform for deploying Raspberry Pi&amp;rsquo;s en masse at work. One of the issues we frequently have is the wifi we&amp;rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables."/>
+<meta name="description" content="We&#39;ve been using the excellent Resin platform for deploying Raspberry Pi&#39;s en masse at work. One of the issues we frequently have is the wifi we&#39;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/posts/resin-wifi-env/" />
@@ -14,22 +14,22 @@
 
 <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/red.css">
+  <link rel="stylesheet" href="/assets/green.css">
 
 
 
-<link rel="stylesheet" href="/style.css">
+
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="/img/favicon/red.png">
+<link rel="shortcut icon" href="/img/favicon/green.png">
 
 
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="resin-wifi-env :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting" />
-<meta name="twitter:description" content="We&amp;rsquo;ve been using the excellent Resin platform for deploying Raspberry Pi&amp;rsquo;s en masse at work. One of the issues we frequently have is the wifi we&amp;rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables." />
+<meta name="twitter:description" content="We&#39;ve been using the excellent Resin platform for deploying Raspberry Pi&#39;s en masse at work. One of the issues we frequently have is the wifi we&#39;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables." />
 <meta name="twitter:site" content="/" />
 <meta name="twitter:creator" content="Jeremy Bunting" />
 <meta name="twitter:image" content="">
@@ -38,7 +38,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="resin-wifi-env :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting">
-<meta property="og:description" content="We&amp;rsquo;ve been using the excellent Resin platform for deploying Raspberry Pi&amp;rsquo;s en masse at work. One of the issues we frequently have is the wifi we&amp;rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables." />
+<meta property="og:description" content="We&#39;ve been using the excellent Resin platform for deploying Raspberry Pi&#39;s en masse at work. One of the issues we frequently have is the wifi we&#39;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either Resin-wifi-connect or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables." />
 <meta property="og:url" content="/posts/resin-wifi-env/" />
 <meta property="og:site_name" content="resin-wifi-env" />
 <meta property="og:image" content="">
@@ -61,7 +61,7 @@
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -98,6 +98,8 @@
       
       
     
+
+    
   </ul>
 
   <ul class="menu__inner menu__inner--mobile">
@@ -118,6 +120,7 @@
         <li><a href="https://work.jeremybunting.com">Work</a></li>
       
     
+    
   </ul>
 </nav>
 
@@ -127,64 +130,67 @@
 
   <div class="content">
     
-  <div class="post">
-    <h1 class="post-title"><a href="/posts/resin-wifi-env/">resin-wifi-env</a></h1>
-    <div class="post-meta">
-      <span class="post-date">
-        2017-02-13
-      </span>
-      <span class="post-author">:: Jeremy Bunting</span>
-    </div>
-
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/resin-wifi-env/">resin-wifi-env</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2017-02-13
+    </span>
     
-
     
+    <span class="post-author">::
+      Jeremy Bunting
+    </span>
+    
+  </div>
 
-    <div class="post-content">
-      <p>We&rsquo;ve been using the excellent <a href="https://resin.io/">Resin</a> platform for deploying Raspberry Pi&rsquo;s en masse at work. One of the issues we frequently have is the wifi we&rsquo;re connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either <a href="https://github.com/resin-io/resin-wifi-connect">Resin-wifi-connect</a> or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.</p>
+  
 
-<p>That solution is called <a href="https://github.com/SpinifexGroup/resin-wifi-env">resin-wifi-env, available at Github here</a>. This script is far from finished, but it&rsquo;s provided a simple way for us to switch out wifi config on 80+ devices at a clip.</p>
+  
 
-<p>I realize this won&rsquo;t work for everyone, but the script uses a single environment variable like so:</p>
-
+  <div class="post-content">
+    <p>We've been using the excellent <a href="https://resin.io/">Resin</a> platform for deploying Raspberry Pi's en masse at work. One of the issues we frequently have is the wifi we're connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either <a href="https://github.com/resin-io/resin-wifi-connect">Resin-wifi-connect</a> or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.</p>
+<p>That solution is called <a href="https://github.com/SpinifexGroup/resin-wifi-env">resin-wifi-env, available at Github here</a>. This script is far from finished, but it's provided a simple way for us to switch out wifi config on 80+ devices at a clip.</p>
+<p>I realize this won't work for everyone, but the script uses a single environment variable like so:</p>
 <pre><code>WIFI : [SSID]|[PSK]
 </code></pre>
-
-<p>This this sort of has to be a single variable because Resin will request a reboot of the device <strong>right</strong> after you edit the first variable, and then you&rsquo;re stuck with a broken wifi configuration and you&rsquo;ve got very few ways to recover.</p>
-
-<p>Hope you like it if you&rsquo;re using the Resin platform!</p>
-
-    </div>
-    
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
-        </div>
-        <div class="pagination__buttons">
-          
-            <span class="button previous">
-              <a href="/posts/nature-got-pixels-right-before-we-did/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Nature got pixels right before we did.</span>
-              </a>
-            </span>
-          
-          
-            <span class="button next">
-              <a href="/posts/smoked-v2-for-alfred/">
-                <span class="button__text">Smoked v2 for Alfred</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          
-        </div>
-      </div>
-    
-
-    
+<p>This this sort of has to be a single variable because Resin will request a reboot of the device <strong>right</strong> after you edit the first variable, and then you're stuck with a broken wifi configuration and you've got very few ways to recover.</p>
+<p>Hope you like it if you're using the Resin platform!</p>
 
   </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      <span class="button previous">
+        <a href="/posts/nature-got-pixels-right-before-we-did/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Nature got pixels right before we did.</span>
+        </a>
+      </span>
+      
+      
+      <span class="button next">
+        <a href="/posts/smoked-v2-for-alfred/">
+          <span class="button__text">Smoked v2 for Alfred</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
 
   </div>
 
@@ -192,8 +198,11 @@
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+      <div class="copyright copyright--user">
+        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
     
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
   </div>
 </footer>
 

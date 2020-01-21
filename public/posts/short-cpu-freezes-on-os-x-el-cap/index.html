@@ -7,7 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Update 1/11/16: Current version of Chrome 47.0.2526.106 resolves this behavior.
-I&amp;rsquo;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
+I&#39;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
 These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.
 When Chrome runs a software update in the background, it throws the following message in the console &amp;quot;triggered DYLD shared region unnest for map&amp;quot;."/>
 <meta name="keywords" content=""/>
@@ -17,23 +17,23 @@ When Chrome runs a software update in the background, it throws the following me
 
 <link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/red.css">
+  <link rel="stylesheet" href="/assets/green.css">
 
 
 
-<link rel="stylesheet" href="/style.css">
+
 
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 
-<link rel="shortcut icon" href="/img/favicon/red.png">
+<link rel="shortcut icon" href="/img/favicon/green.png">
 
 
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Short CPU freezes on OS X El Capitan :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting" />
 <meta name="twitter:description" content="Update 1/11/16: Current version of Chrome 47.0.2526.106 resolves this behavior.
-I&amp;rsquo;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
+I&#39;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
 These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.
 When Chrome runs a software update in the background, it throws the following message in the console &amp;quot;triggered DYLD shared region unnest for map&amp;quot;." />
 <meta name="twitter:site" content="/" />
@@ -45,7 +45,7 @@ When Chrome runs a software update in the background, it throws the following me
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Short CPU freezes on OS X El Capitan :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting">
 <meta property="og:description" content="Update 1/11/16: Current version of Chrome 47.0.2526.106 resolves this behavior.
-I&amp;rsquo;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
+I&#39;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.
 These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.
 When Chrome runs a software update in the background, it throws the following message in the console &amp;quot;triggered DYLD shared region unnest for map&amp;quot;." />
 <meta property="og:url" content="/posts/short-cpu-freezes-on-os-x-el-cap/" />
@@ -70,7 +70,7 @@ When Chrome runs a software update in the background, it throws the following me
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -107,6 +107,8 @@ When Chrome runs a software update in the background, it throws the following me
       
       
     
+
+    
   </ul>
 
   <ul class="menu__inner menu__inner--mobile">
@@ -127,6 +129,7 @@ When Chrome runs a software update in the background, it throws the following me
         <li><a href="https://work.jeremybunting.com">Work</a></li>
       
     
+    
   </ul>
 </nav>
 
@@ -136,64 +139,67 @@ When Chrome runs a software update in the background, it throws the following me
 
   <div class="content">
     
-  <div class="post">
-    <h1 class="post-title"><a href="/posts/short-cpu-freezes-on-os-x-el-cap/">Short CPU freezes on OS X El Capitan</a></h1>
-    <div class="post-meta">
-      <span class="post-date">
-        2015-10-11
-      </span>
-      <span class="post-author">:: Jeremy Bunting</span>
-    </div>
-
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/short-cpu-freezes-on-os-x-el-cap/">Short CPU freezes on OS X El Capitan</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2015-10-11
+    </span>
     
-
     
+    <span class="post-author">::
+      Jeremy Bunting
+    </span>
+    
+  </div>
 
-    <div class="post-content">
-      <p><strong>Update 1/11/16:</strong>
+  
+
+  
+
+  <div class="post-content">
+    <p><strong>Update 1/11/16:</strong>
 Current version of Chrome 47.0.2526.106 resolves this behavior.</p>
-
-<p>I&rsquo;ve been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.</p>
-
+<p>I've been experiencing some short machine freezes while using both OS X Yosemite and El Capitan. Could not figure this out for a while and I think I found the culprit.</p>
 <p>These short freezes last about 2-4 seconds, only appear while Chrome (production) is running, and appear to freeze not just Chrome but the entire machine.</p>
-
 <p>When Chrome runs a software update in the background, it throws the following message in the console <code>&quot;triggered DYLD shared region unnest for map&quot;</code>.</p>
-
 <p>The Chromium <a href="https://code.google.com/p/chromium/issues/detail?id=428858">team knows about this issue</a>. As mentioned in the issue thread, it appears that a bunch of messages get jammed into the system log, but it may not actually be the messages that are the issue.</p>
-
-<p>Hopefully a proper fix is released for this soon, I&rsquo;ve been struggling to find this issue for a while.</p>
-
-    </div>
-    
-      <div class="pagination">
-        <div class="pagination__title">
-          <span class="pagination__title-h">Read other posts</span>
-          <hr />
-        </div>
-        <div class="pagination__buttons">
-          
-            <span class="button previous">
-              <a href="/posts/updated-smoked-themes-for-alfred-3/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Updated Smoked themes for Alfred</span>
-              </a>
-            </span>
-          
-          
-            <span class="button next">
-              <a href="/posts/nginx-configuration-with-basic-auth/">
-                <span class="button__text">NGinX Configuration with basic auth &amp; custom error messages</span>
-                <span class="button__icon">→</span>
-              </a>
-            </span>
-          
-        </div>
-      </div>
-    
-
-    
+<p>Hopefully a proper fix is released for this soon, I've been struggling to find this issue for a while.</p>
 
   </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      <span class="button previous">
+        <a href="/posts/updated-smoked-themes-for-alfred-3/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Updated Smoked themes for Alfred</span>
+        </a>
+      </span>
+      
+      
+      <span class="button next">
+        <a href="/posts/nginx-configuration-with-basic-auth/">
+          <span class="button__text">NGinX Configuration with basic auth &amp; custom error messages</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
 
   </div>
 
@@ -201,8 +207,11 @@ Current version of Chrome 47.0.2526.106 resolves this behavior.</p>
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">©2019 Jeremy Bunting. Opinions are mine, not my employer's</div>
+      <div class="copyright copyright--user">
+        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
     
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
   </div>
 </footer>
 

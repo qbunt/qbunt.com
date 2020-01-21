@@ -1,6 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-19T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/uses/</loc>
+    <lastmod>2020-01-19T05:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/metro-for-alfred-4/</loc>
+    <lastmod>2019-06-02T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-06-02T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions/</loc>
+    <lastmod>2019-04-17T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component/</loc>
+    <lastmod>2019-03-26T00:00:00-07:00</lastmod>
+  </url>
   
   <url>
     <loc>/posts/vpns/</loc>
@@ -128,13 +158,73 @@
   </url>
   
   <url>
+    <loc>/categories/apps/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/apps/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/chrome-extensions-for-winners/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/extensions/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/extensions/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tips-tricks/</loc>
+    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tips-tricks/</loc>
     <lastmod>2014-08-09T16:28:12+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/70-years-of-chevy-dashboard-design/</loc>
     <lastmod>2014-08-09T04:56:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/creativity/</loc>
+    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/creativity/</loc>
+    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/monty-python/</loc>
+    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/monty-python/</loc>
+    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
   </url>
   
   <url>
@@ -200,90 +290,6 @@
   <url>
     <loc>/posts/shinola-watches/</loc>
     <lastmod>2013-09-22T19:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/apps/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/apps/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/creativity/</loc>
-    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/creativity/</loc>
-    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/extensions/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/extensions/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/monty-python/</loc>
-    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/monty-python/</loc>
-    <lastmod>2014-08-09T04:50:16+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-01-15T22:10:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tips-tricks/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/tips-tricks/</loc>
-    <lastmod>2014-08-09T16:28:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-01-15T22:10:37+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

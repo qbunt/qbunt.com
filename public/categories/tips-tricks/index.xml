@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tips Tricks on qbunt.com</title>
+    <title>tips &amp; tricks on qbunt.com</title>
     <link>/categories/tips-tricks/</link>
-    <description>Recent content in Tips Tricks on qbunt.com</description>
+    <description>Recent content in tips &amp; tricks on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
+    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
     <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tips-tricks/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,8 @@
       
       <guid>/posts/chrome-extensions-for-winners/</guid>
       <description>In the same vein as the toolbox post I put up in March, I wanted to post a list of my most-used Chrome extensions.
-I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.</description>
+I don&#39;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&#39;s a list of the best ones.
+Pushbullet Allows for Android push notification mirroring on Chrome.</description>
     </item>
     
     <item>
@@ -28,8 +29,8 @@ I don&amp;rsquo;t use many Chrome extensions, but there are a few that I complet
       <pubDate>Thu, 06 Mar 2014 20:00:00 +0000</pubDate>
       
       <guid>/posts/the-toolbox/</guid>
-      <description>This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&amp;rsquo;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.
-For significantly improving your quality of life, that&amp;rsquo;s a completely acceptable cost to me, especially because I make my living with this stuff.</description>
+      <description>This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&#39;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.
+For significantly improving your quality of life, that&#39;s a completely acceptable cost to me, especially because I make my living with this stuff.</description>
     </item>
     
   </channel>

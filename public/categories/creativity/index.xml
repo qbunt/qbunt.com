@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Creativity on qbunt.com</title>
+    <title>creativity on qbunt.com</title>
     <link>/categories/creativity/</link>
-    <description>Recent content in Creativity on qbunt.com</description>
+    <description>Recent content in creativity on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©2019 Jeremy Bunting. Opinions are mine, not my employer&#39;s</copyright>
+    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
     <lastBuildDate>Sat, 09 Aug 2014 04:50:16 +0000</lastBuildDate>
     
 	<atom:link href="/categories/creativity/index.xml" rel="self" type="application/rss+xml" />
