@@ -6,7 +6,13 @@ slug = "about"
 title = "About Jeremy Bunting"
 
 +++
+<div style="border-radius: 8px;"> {{
+
 ![](/img/2020-01-21-Bunting_Jeremy_v4.jpg)
+
+}}</div>  
+<br/><br/>
+
 A tech nerd with the eye of a designer, Jeremy's work has pushed clients to do the unexpected. His deep tech knowledge enables businesses to bridge physical into digital and back again. Guiding projects from Cisco, Target and an outrageous VR event for Elton John, his acumen in steering teams to get inventive is his greatest asset.
 
 A maker through and through, Jeremy's goal is to make any digital project project feel tangible.
