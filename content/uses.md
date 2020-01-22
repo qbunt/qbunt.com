@@ -64,12 +64,10 @@ Not all of this I use directly every day, but most of it gets used in some form 
 
 * [Synology DS216j](https://www.amazon.com/gp/product/B01BNPT1EG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [HP Z27 4K Monitor](https://www.amazon.com/HP-Business-Z27-LED-Monitor/dp/B07CKXCBWB/ref=sr_1_1?keywords=hp+z27+monitor&qid=1579484086&sr=8-1)
-* [Lenovo ThinkCentre M93p Tiny ](https://www.lenovo.com/us/en/desktops/thinkcentre/m-series-tiny/m93-m93p/)w/ [Debian Buster](https://wiki.debian.org/DebianBuster)
-
+* [Lenovo ThinkCentre M93p Tiny](https://www.lenovo.com/us/en/desktops/thinkcentre/m-series-tiny/m93-m93p/)w/ [Debian Buster](https://wiki.debian.org/DebianBuster)
 * Apple Macbook Pro 13" 2014
 * Apple iPad Pro 11" 2018 w/ Pencil
 * Apple iPad Mini Gen 1
-
 * Testing devices
 
 
