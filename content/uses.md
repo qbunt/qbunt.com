@@ -60,7 +60,7 @@ A very abridged list, but the important things I start in the morning;
 
 ## Hardware
 
-Not all of this I use directly every day, but most of it gets used in some form or another. The Lenovo box is what I run my home automation server on, and things like the Synology are used but in the background or by automation exclusively. 
+Not all of this I use directly every day, but most of it gets used in some form or another. The Lenovo box is what I run my home automation server on, and things like the Synology are used but in the background or by automation exclusively.
 
 * [Synology DS216j](https://www.amazon.com/gp/product/B01BNPT1EG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [HP Z27 4K Monitor](https://www.amazon.com/HP-Business-Z27-LED-Monitor/dp/B07CKXCBWB/ref=sr_1_1?keywords=hp+z27+monitor&qid=1579484086&sr=8-1)
@@ -69,7 +69,3 @@ Not all of this I use directly every day, but most of it gets used in some form 
 * Apple iPad Pro 11" 2018 w/ Pencil
 * Apple iPad Mini Gen 1
 * Testing devices
-
-
-
-Hope you find this interesting!
