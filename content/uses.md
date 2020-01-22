@@ -10,13 +10,11 @@ Much of this gear is what I find myself using daily for development or for stayi
 
 ## Dev Tools
 
-* [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/), [DataGrip](https://www.jetbrains.com/datagrip/), [GoLand](https://www.jetbrains.com/go/) & [PHPStorm](https://www.jetbrains.com/phpstorm/)
-* [Vuesion theme for Jetbrains](https://plugins.jetbrains.com/plugin/12226-vuesion-theme)
-* [VSCode](https://code.visualstudio.com/)
-* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (I'd been using Chrome for a super long time, and decided to give this a shot for a while and I haven't looked back yet)
+* [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/), [DataGrip](https://www.jetbrains.com/datagrip/), [GoLand](https://www.jetbrains.com/go/) & [PHPStorm](https://www.jetbrains.com/phpstorm/) with [Vuesion theme](https://plugins.jetbrains.com/plugin/12226-vuesion-theme)
+* [VSCode](https://code.visualstudio.com/) with [Nightowl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+* [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) (I'd been using Chrome for a super long time, and decided to give this a shot for a while and I haven't looked back yet)
 * [Tower](https://www.git-tower.com/mac) for git
-* [Jira](https://www.atlassian.com/software/jira)
-* [iTerm2](https://iterm2.com/)
+* [iTerm2](https://iterm2.com/)…version 3?
 * [Homebrew](https://brew.sh/) and Cask
 * [Algo VPN](https://github.com/trailofbits/algo)
 * [Oh my Zsh](https://ohmyz.sh/) with [Pure prompt](https://github.com/sindresorhus/pure)
@@ -38,14 +36,14 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
 * [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * Google Pixel 3 XL
-* Ubiquiti Amplifi HD & MeshPoint HD
+* [Ubiquiti Amplifi HD & MeshPoint HD](https://amplifi.com/amplifi-hd)
 * Apple MacBook Pro 15" 2018
 * [Happy Mug Coffee](https://happymugcoffee.com/)
 * [Scargo Hill Pottery mug](https://scargopottery.com/)
 
 ## Mac Apps
 
-A very abridged list, but the important things I start in the morning;
+A very abridged list, but some of the important things I start in the morning:
 
 * [1Password](https://1password.com/)
 * [Alfred](https://www.alfredapp.com/)
