@@ -12,6 +12,7 @@ Much of this gear is what I find myself using daily for development or for stayi
 
 * [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/), [DataGrip](https://www.jetbrains.com/datagrip/), [GoLand](https://www.jetbrains.com/go/) & [PHPStorm](https://www.jetbrains.com/phpstorm/) with [Vuesion theme](https://plugins.jetbrains.com/plugin/12226-vuesion-theme)
 * [VSCode](https://code.visualstudio.com/) with [Nightowl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+* [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) everywhere (so nice)
 * [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) (I'd been using Chrome for a super long time, and decided to give this a shot for a while and I haven't looked back yet)
 * [Tower](https://www.git-tower.com/mac) for git
 * [iTerm2](https://iterm2.com/)…version 3?
