@@ -1,6 +1,5 @@
 +++
 date = 2020-01-19T05:00:00Z
-draft = false
 title = "Uses"
 
 +++
@@ -18,7 +17,7 @@ Much of this gear is what I find myself using daily for development or for stayi
 * [iTerm2](https://iterm2.com/)…version 3?
 * [Homebrew](https://brew.sh/) and Cask
 * [Algo VPN](https://github.com/trailofbits/algo)
-* [Oh my Zsh](https://ohmyz.sh/) with [Pure prompt](https://github.com/sindresorhus/pure)
+* [Oh my Zsh](https://ohmyz.sh/) with [Starship prompt](https://starship.rs/)
 * [MarkText](https://marktext.app/) - a great place to write markdown quickly
 * Various command line toys for getting things done quickly, [fzf](https://github.com/junegunn/fzf), [tig](https://jonas.github.io/tig/), [bat](https://github.com/sharkdp/bat), [prettyping](http://denilson.sa.nom.br/prettyping/), [htop](http://hisham.hm/htop/), [broot](https://github.com/Canop/broot), [fd](https://github.com/sharkdp/fd/), [ncdu](https://dev.yorhel.nl/ncdu), [ack](https://beyondgrep.com/)
 
