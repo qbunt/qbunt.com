@@ -26,10 +26,6 @@ url = "/about"
 identifier = "work"
 name = "Work"
 url = "https://work.jeremybunting.com"
-[[languages.en.menu.main]]
-identifier = "uses"
-name = "Uses"
-url = "/uses"
 [languages.en.params.logo]
 logoHomeLink = "/"
 logoText = "Buntlog"
