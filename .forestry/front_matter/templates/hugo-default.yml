@@ -11,6 +11,7 @@ fields:
   label: date
 pages:
 - content/my-home-automation-setup.md
+- content/posts/added-a-uses-post-for-submission-on-uses-tech-https-uses-tech.md
 - content/posts/jetbrains-editors-popping-apropos-terminal-when-invoking-actions.md
 - content/posts/metro-for-alfred-4.md
 - content/posts/sweet-vue-one-liner-for-inline-svgs-in-a-component.md
