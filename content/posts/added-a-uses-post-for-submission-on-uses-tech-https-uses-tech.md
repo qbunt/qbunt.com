@@ -1,5 +1,5 @@
 +++
-date = 2020-01-01T17:30:00Z
+date = 2020-01-24T17:30:00Z
 title = "Added a `uses` post for submission on [uses.tech](https://uses.tech)"
 
 +++
