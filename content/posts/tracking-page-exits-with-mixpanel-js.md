@@ -1,6 +1,5 @@
 +++
 date = 2020-02-05T05:00:00Z
-draft = true
 title = "Tracking page exits with Mixpanel-js"
 
 +++
