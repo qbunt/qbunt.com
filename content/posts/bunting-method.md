@@ -19,6 +19,13 @@ It boils down to:
 * Make sure that's actually what you want
 * Push to remote
 
+So for instance:
+
+    git checkout new-thing-legacy
+    git merge --squash master
+    git commit -m "fast-forwarding master changes to revert them"
+    git revert HEAD
+
 This carries some advantages:
 
 * You still have the condensed version of the changes that have happened since
