@@ -36,5 +36,5 @@ A coworker of mine is calling this 'The Bunting Method', which is hilarious and 
 
 Hope this helps!
 
-Update:  
+**_Update:_**  
 Rebase instead of merge may work for this, but I probably won’t recommend using this going forward. Works on the branch just fine (maybe I’ll mess with some of this with a cherry-pick) but ymmv.
