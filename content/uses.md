@@ -1,5 +1,5 @@
 +++
-date = 2020-01-19T05:00:00Z
+date = 2020-10-30T15:43:00Z
 title = "Uses"
 
 +++
@@ -12,7 +12,7 @@ Much of this gear is what I find myself using daily for development or for stayi
 * [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/), [DataGrip](https://www.jetbrains.com/datagrip/), [GoLand](https://www.jetbrains.com/go/) & [PHPStorm](https://www.jetbrains.com/phpstorm/) with [Vuesion theme](https://plugins.jetbrains.com/plugin/12226-vuesion-theme)
 * [VSCode](https://code.visualstudio.com/) with [Nightowl theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 * [Jetbrains Mono](https://www.jetbrains.com/lp/mono/) everywhere (so nice)
-* [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) (I'd been using Chrome for a super long time, and decided to give this a shot for a while and I haven't looked back yet)
+* [Firefox](https://www.mozilla.org/en-US/firefox/developer/) (I'd been using Chrome for a super long time, and decided to give this a shot for a while and I haven't looked back yet)
 * [Tower](https://www.git-tower.com/mac) for git
 * [iTerm2](https://iterm2.com/)…version 3?
 * [Homebrew](https://brew.sh/) and Cask
@@ -27,8 +27,8 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 
 * [AmazonBasics Monitor Arm](https://www.amazon.com/AmazonBasics-Premium-Single-Monitor-Stand/dp/B00MIBN16O)
 * [Ikea Berton Desktop](https://www.ikea.com/us/en/p/gerton-tabletop-beech-50106773/)
-* [Logitech K811 Keyboard](https://www.amazon.com/Logitech-Easy%E2%80%91Switch-Wireless-Bluetooth-Keyboard/dp/B0099SMFP2)
-* [Logitech MX Master 2S](https://www.logitech.com/en-roeu/product/mx-master-2s-flow)
+* [Logitech MX Keys Keyboard](https://www.amazon.com/Logitech-Advanced-Wireless-Illuminated-Keyboard/dp/B07S92QBCJ)
+* [Logitech MX Master 3](https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07S395RWD)
 * [Steelseries QCK Mouse Pad](https://steelseries.com/gaming-mousepads/qck-series#qck-medium)
 * [Taotronics LED Desk Lamp](https://www.amazon.com/TaoTronics-Charging-Temperatures-Brightness-Licensing/dp/B07QPS3JHK?ref_=TopRatedC&pf_rd_p=bdb73aea-8477-5114-ae23-0a06b01f5467&pf_rd_s=merchandised-search-6&pf_rd_t=101&pf_rd_i=1063292&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=5FQXXPG0XGCAGVEYP13R&pf_rd_r=5FQXXPG0XGCAGVEYP13R&pf_rd_p=bdb73aea-8477-5114-ae23-0a06b01f5467)
 * [Roost Stand](https://www.therooststand.com/)
@@ -36,9 +36,9 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
 * [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * Google Pixel 3 XL
-* [Ubiquiti Amplifi HD & MeshPoint HD](https://amplifi.com/amplifi-hd)
+* [Ubiquiti Unifi UAP-AC-Pro Wifi Access Point](https://www.amazon.com/Ubiquiti-Networks-802-11ac-Dual-Radio-UAP-AC-PRO-US/dp/B015PRO512)
 * Apple MacBook Pro 15" 2018
-* [Happy Mug Coffee](https://happymugcoffee.com/)
+* [Happy Mug Coffee](https://happymugcoffee.com/)/[Harney & Sons Tea](https://www.harney.com/)
 * [Scargo Hill Pottery mug](https://scargopottery.com/)
 
 ## Mac Apps
@@ -65,5 +65,5 @@ Not all of this I use directly every day, but most of it gets used in some form 
 * [Lenovo ThinkCentre M93p Tiny](https://www.lenovo.com/us/en/desktops/thinkcentre/m-series-tiny/m93-m93p/) w/ [Debian Buster](https://wiki.debian.org/DebianBuster)
 * Apple Macbook Pro 13" 2014
 * Apple iPad Pro 11" 2018 w/ Pencil
-* Apple iPad Mini Gen 1
+* 2x Apple iPad Air 2
 * Testing devices
