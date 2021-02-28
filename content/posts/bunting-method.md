@@ -1,5 +1,6 @@
 +++
 date = 2020-09-03T04:00:00Z
+draft = true
 title = "Reverting a range of git commits safely (without losing your mind)"
 
 +++
