@@ -1,5 +1,5 @@
 +++
-date = "2019-04-17T00:00:00-07:00"
+date = 2019-04-17T07:00:00Z
 title = "JetBrains editors popping `apropos` terminal when invoking actions"
 
 +++
@@ -9,7 +9,7 @@ You may have noticed a new obnoxious behavior in the JetBrains/IntelliJ series o
 
 Being someone who hits this menu many times per day, this really jammed up my shit.
 
-To disable this, and save your sanity, go into System Preferences > Shortcuts > Services > Developer and uncheck the `Search man Page index in Terminal` shortcut.
+To disable this, and save your sanity, go into System Preferences > Shortcuts > Services > Developer and uncheck the `Search man Page index in Terminal` shortcut. 
 
 ![](/img/2019-04-17-Screenshot 2019-04-17 09.57.16.png)
 
