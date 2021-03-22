@@ -12,4 +12,4 @@ A tech nerd with the eye of a designer, Jeremy's work has pushed clients to do t
 
 A maker through and through, Jeremy's goal is to make any digital project project feel tangible.
 
-A Connecticut transplant, he and his wife Jess live in Orange County with his two daughters Maisy and Margot and far too many Raspberry Pis. He enjoys spending time with his kids, cycling, model aircraft, open source software and coffee.
+A Connecticut transplant, he and his wife Jess live in Connecticut with his two daughters Maisy and Margot and far too many Raspberry Pis. He enjoys spending time with his kids, cycling, model aircraft, open source software and coffee.
