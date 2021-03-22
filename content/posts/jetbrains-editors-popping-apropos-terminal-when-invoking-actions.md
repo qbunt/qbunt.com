@@ -9,9 +9,9 @@ You may have noticed a new obnoxious behavior in the JetBrains/IntelliJ series o
 
 Being someone who hits this menu many times per day, this really jammed up my shit.
 
-To disable this, and save your sanity, go into System Preferences > Shortcuts > Services > Developer and uncheck the `Search man Page index in Terminal` shortcut.
+To disable this, and save your sanity, go into System Preferences > Shortcuts > Services > Developer and uncheck the `Search man Page index in Terminal` shortcut. 
 
-![](https://qbunt.com/img/2019-04-17-Screenshot 2019-04-17 09.57.16.png)
+![](https://qbunt.com/img/2021-03-22-macos_keyboard_terribleness.png)
 
 This wasn't a problem until recently when Apple decided this shortcut was theirs. More information on the workaround is [here](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003430700--Apropos-terminal-pops-up-when-typing-cmd-shift-A-to-get-actions-bar).
 
