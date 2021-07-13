@@ -28,14 +28,16 @@ Credit freeze access is the law in 49 states (sorry Michigan), and is easy, inex
 **Sounds kind of expensive, what does it cost?**
 In California, the only agency that charged me was TransUnion and it was $10. Worth every penny.
 
-**Well I'm impervious because I have a credit monitoring service...right?**
+> **Well I'm impervious because I have a credit monitoring service...right?**
+
 The advice from [Brian Krebs](https://krebsonsecurity.com/2014/03/are-credit-monitoring-services-worth-it/) is pretty detailed. While one agency might provide a service, there are very few that cover all four agencies. Coverage and what these services _actually do_ is kind of all over the map.
 
 Giving _someone else_ the responsibility to watch over my credit seems like a flawed concept. These 'plans' are a great way to sell a service to make people feel like they're doing something.
 
 A credit report freeze is very, cheaper, and actually does something.
 
-**Alright, how do I freeze my credit file?**
+> **Alright, how do I freeze my credit file?**
+
 Visit each one of these and register a freeze on your file. Be **sure** to save the PIN they give you in a safe place. If you need to thaw your file for some reason, this PIN number is what you'll need.
 
 * [Transunion](https://freeze.transunion.com/sf/securityFreeze/landingPage.jsp)
@@ -46,7 +48,8 @@ Visit each one of these and register a freeze on your file. Be **sure** to save 
 Once you've done this, be sure to visit this link to opt-out of the pre-screened credit card offers via email and snailmail.
 [https://www.optoutprescreen.com/?rf=t](https://www.optoutprescreen.com/?rf=t)
 
-**Where do I find out more?**
-Again, [Brian Krebs](https://krebsonsecurity.com/2017/09/the-equifax-breach-what-you-should-know/) is the authority here. He was the guy to break the story on the Target breach and many, many more. Credit freezes are pretty simple and can _help_ protect your credit.
+> **Where do I find out more?** 
+
+[Brian Krebs](https://krebsonsecurity.com/2017/09/the-equifax-breach-what-you-should-know/) is the authority here. He was the guy to break the story on the Target breach and many, many more. Credit freezes are pretty simple and can _help_ protect your credit.
 
 Freezing your credit file is not a magic bullet, the Equifax breach is bad news. This is one measure you can put in place to help preserve your financial well-being.
