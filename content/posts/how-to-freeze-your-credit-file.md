@@ -2,7 +2,6 @@
 author = "Jeremy Bunting"
 date = 2017-09-14T05:08:56Z
 description = ""
-draft = true
 image = "/images/2017/09/Credit-Card-Fraud.jpg"
 slug = "how-to-freeze-your-credit-file"
 title = "How to freeze your credit file"
