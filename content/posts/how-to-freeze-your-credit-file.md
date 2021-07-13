@@ -25,10 +25,11 @@ This will also prevent you from taking out new credit cards, buying cars, openin
 
 Credit freeze access is the law in 49 states (sorry Michigan), and is easy, inexpensive, and easy to lift if you need to (it may take 24 hours).
 
-**Sounds kind of expensive, what does it cost?**
+> Sounds kind of expensive, what does it cost?
+
 In California, the only agency that charged me was TransUnion and it was $10. Worth every penny.
 
-> **Well I'm impervious because I have a credit monitoring service...right?**
+> Well I'm impervious because I have a credit monitoring service...right?
 
 The advice from [Brian Krebs](https://krebsonsecurity.com/2014/03/are-credit-monitoring-services-worth-it/) is pretty detailed. While one agency might provide a service, there are very few that cover all four agencies. Coverage and what these services _actually do_ is kind of all over the map.
 
@@ -36,7 +37,7 @@ Giving _someone else_ the responsibility to watch over my credit seems like a fl
 
 A credit report freeze is very, cheaper, and actually does something.
 
-> **Alright, how do I freeze my credit file?**
+> Alright, how do I freeze my credit file?
 
 Visit each one of these and register a freeze on your file. Be **sure** to save the PIN they give you in a safe place. If you need to thaw your file for some reason, this PIN number is what you'll need.
 
