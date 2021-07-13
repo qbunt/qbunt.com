@@ -2,11 +2,14 @@
 author = "Jeremy Bunting"
 date = 2017-09-14T05:08:56Z
 description = ""
+draft = true
 image = "/images/2017/09/Credit-Card-Fraud.jpg"
 slug = "how-to-freeze-your-credit-file"
 title = "How to freeze your credit file"
 
 +++
+**Update:** Keeping the freeze links up to date on this post, I had to use it again recently and a couple were dead
+
 Because of the Equifax information breach, many people are curious about how they can protect their identity.
 
 I think many people think _well, the hackers have all my info, I can't do anything, right?_
@@ -34,10 +37,11 @@ A credit report freeze is very, cheaper, and actually does something.
 
 **Alright, how do I freeze my credit file?**
 Visit each one of these and register a freeze on your file. Be **sure** to save the PIN they give you in a safe place. If you need to thaw your file for some reason, this PIN number is what you'll need.
-[Transunion](https://freeze.transunion.com/sf/securityFreeze/landingPage.jsp)
-[Equifax](https://www.equifax.com/personal/credit-report-services/credit-freeze/)
-[Innovis](https://www.innovis.com/securityFreeze/index)
-[Experian](https://www.experian.com/ncaconline/freeze#registration)
+
+* [Transunion](https://freeze.transunion.com/sf/securityFreeze/landingPage.jsp)
+* [Equifax](https://www.equifax.com/personal/credit-report-services/credit-freeze/)
+* [Innovis](https://www.innovis.com/securityFreeze/index)
+* [Experian](https://www.experian.com/ncaconline/freeze#registration)
 
 Once you've done this, be sure to visit this link to opt-out of the pre-screened credit card offers via email and snailmail.
 [https://www.optoutprescreen.com/?rf=t](https://www.optoutprescreen.com/?rf=t)
