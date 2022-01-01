@@ -35,7 +35,7 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 * [Bose QC 35 II](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black)
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
 * [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
-* Google Pixel 3 XL
+* iPhone 13 Pro
 * [Ubiquiti Unifi UAP-AC-Pro Wifi Access Point](https://www.amazon.com/Ubiquiti-Networks-802-11ac-Dual-Radio-UAP-AC-PRO-US/dp/B015PRO512)
 * Apple MacBook Pro 15" 2018
 * [Happy Mug Coffee](https://happymugcoffee.com/)/[Harney & Sons Tea](https://www.harney.com/)
