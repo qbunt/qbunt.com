@@ -6,7 +6,7 @@ slug = "about"
 title = "About Jeremy Bunting"
 
 +++
-{{< image src="https://qbunt.com/img/[2022-02-14-906fa012-a890-4f81-98dd-dd6737ae0037.jpeg](https://qbunt.com/img/2022-02-14-906fa012-a890-4f81-98dd-dd6737ae0037.jpeg)" style="border-radius: 2px;" title="Photo of Jeremy Bunting" >}}
+{{< image src="https://qbunt.com/img/2022-02-14-906fa012-a890-4f81-98dd-dd6737ae0037.jpeg](https://qbunt.com/img/2022-02-14-906fa012-a890-4f81-98dd-dd6737ae0037.jpeg)" style="border-radius: 2px;" title="Photo of Jeremy Bunting" >}}
 
 Hey there, I’m Jeremy Bunting, some people call me JB. I’ve been making browsers do stupid tricks for about 15 years. I really enjoy making tools and toys for the internet.
 
