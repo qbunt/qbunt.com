@@ -1,6 +1,6 @@
 +++
 author = "Jeremy Bunting"
-date = 2017-01-02T05:27:00Z
+date = 2022-02-14T01:38:00Z
 description = ""
 slug = "about"
 title = "About Jeremy Bunting"
