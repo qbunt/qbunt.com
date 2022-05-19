@@ -20,6 +20,8 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
+node_modules
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop

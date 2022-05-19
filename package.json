@@ -1,0 +1,22 @@
+{
+  "name": "qbunt.com",
+  "version": "1.0.0",
+  "description": "Port of my old Ghost based site off to Hugo & hosted on [Cloudflare pages](https://pages.cloudflare.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qbunt/qbunt.com.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qbunt/qbunt.com/issues"
+  },
+  "homepage": "https://github.com/qbunt/qbunt.com#readme",
+  "dependencies": {
+    "@cloudflare/pages-plugin-sentry": "^1.0.0"
+  }
+}
