@@ -54,8 +54,8 @@ A very abridged list, but some of the important things I start in the morning:
 * [Figma](https://www.figma.com/)
 * [Backblaze](https://www.backblaze.com/)
 * [~~Spectacle~~](https://www.spectacleapp.com/) [Rectangle](https://rectangleapp.com/)
-* [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/) & Spotify
-* [Pocketcasts for Mac](https://www.pocketcasts.com/)
+* [~~Google Play Music Desktop Player~~](https://www.googleplaymusicdesktopplayer.com/) & Spotify
+* Overcast
 * Slack, Signal, Hangouts & GSuite
 
 ## Hardware
