@@ -26,18 +26,20 @@ Much of this gear is what I find myself using daily for development or for stayi
 All the meatspace stuff that is on, close to, or makes up my desk:
 
 * [AmazonBasics Monitor Arm](https://www.amazon.com/AmazonBasics-Premium-Single-Monitor-Stand/dp/B00MIBN16O)
+* [HP Z27 Business monitor](https://support.hp.com/us-en/document/c05962242)
 * [Ikea Berton Desktop](https://www.ikea.com/us/en/p/gerton-tabletop-beech-50106773/)
+* [Fully Jarvis desk frame](https://www.fully.com/standing-desks/jarvis/jarvis-frame-only.html)
 * [Logitech MX Keys Keyboard](https://www.amazon.com/Logitech-Advanced-Wireless-Illuminated-Keyboard/dp/B07S92QBCJ)
 * [Logitech MX Master 3](https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07S395RWD)
 * [Steelseries QCK Mouse Pad](https://steelseries.com/gaming-mousepads/qck-series#qck-medium)
 * [Taotronics LED Desk Lamp](https://www.amazon.com/TaoTronics-Charging-Temperatures-Brightness-Licensing/dp/B07QPS3JHK?ref_=TopRatedC&pf_rd_p=bdb73aea-8477-5114-ae23-0a06b01f5467&pf_rd_s=merchandised-search-6&pf_rd_t=101&pf_rd_i=1063292&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=5FQXXPG0XGCAGVEYP13R&pf_rd_r=5FQXXPG0XGCAGVEYP13R&pf_rd_p=bdb73aea-8477-5114-ae23-0a06b01f5467)
 * [Roost Stand](https://www.therooststand.com/)
-* [Bose QC 35 II](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black)
+* [Bose QC 35 II](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black) (I would never buy these again)
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
 * [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * iPhone 13 Pro
 * [Ubiquiti Unifi UAP-AC-Pro Wifi Access Point](https://www.amazon.com/Ubiquiti-Networks-802-11ac-Dual-Radio-UAP-AC-PRO-US/dp/B015PRO512)
-* Apple MacBook Pro 15" 2018
+* Apple Macbook Pro 16" M1 Max
 * [Happy Mug Coffee](https://happymugcoffee.com/)/[Harney & Sons Tea](https://www.harney.com/)
 * [Scargo Hill Pottery mug](https://scargopottery.com/)
 
@@ -50,10 +52,9 @@ A very abridged list, but some of the important things I start in the morning:
 * [Todoist](https://todoist.com/) - My outboard brain
 * [Figma](https://www.figma.com/)
 * [Backblaze](https://www.backblaze.com/)
-* [Spectacle](https://www.spectacleapp.com/)
+* [~~Spectacle~~](https://www.spectacleapp.com/) [Rectangle](https://rectangleapp.com/)
 * [Google Play Music Desktop Player](https://www.googleplaymusicdesktopplayer.com/) & Spotify
 * [Pocketcasts for Mac](https://www.pocketcasts.com/)
-* [YakYak](https://github.com/yakyak/yakyak)
 * Slack, Signal, Hangouts & GSuite
 
 ## Hardware
@@ -61,9 +62,8 @@ A very abridged list, but some of the important things I start in the morning:
 Not all of this I use directly every day, but most of it gets used in some form or another. The Lenovo box is what I run my home automation server on, and things like the Synology are used but in the background or by automation exclusively.
 
 * [Synology DS216j](https://www.amazon.com/gp/product/B01BNPT1EG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-* [HP Z27 4K Monitor](https://www.amazon.com/HP-Business-Z27-LED-Monitor/dp/B07CKXCBWB/ref=sr_1_1?keywords=hp+z27+monitor&qid=1579484086&sr=8-1)
 * [Lenovo ThinkCentre M93p Tiny](https://www.lenovo.com/us/en/desktops/thinkcentre/m-series-tiny/m93-m93p/) w/ [Debian Buster](https://wiki.debian.org/DebianBuster)
 * Apple Macbook Pro 13" 2014
-* Apple iPad Pro 11" 2018 w/ Pencil
+* Apple iPad Pro 11" M1 w/ Pencil
 * 2x Apple iPad Air 2
 * Testing devices
