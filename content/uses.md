@@ -49,7 +49,8 @@ A very abridged list, but some of the important things I start in the morning:
 
 * [1Password](https://1password.com/)
 * [Alfred](https://www.alfredapp.com/)
-* [Todoist](https://todoist.com/) - My outboard brain
+* [Todoist](https://todoist.com/)
+* [Obsidian]()
 * [Figma](https://www.figma.com/)
 * [Backblaze](https://www.backblaze.com/)
 * [~~Spectacle~~](https://www.spectacleapp.com/) [Rectangle](https://rectangleapp.com/)
