@@ -53,7 +53,7 @@ A very abridged list, but some of the important things I start in the morning:
 * [Obsidian]()
 * [Figma](https://www.figma.com/)
 * [Backblaze](https://www.backblaze.com/)
-* [~~Spectacle~~](https://www.spectacleapp.com/) [Rectangle](https://rectangleapp.com/)
+* [Rectangle](https://rectangleapp.com/)
 * [~~Google Play Music Desktop Player~~](https://www.googleplaymusicdesktopplayer.com/) & Spotify
 * Overcast
 * Slack, Signal, Hangouts & GSuite
@@ -62,9 +62,9 @@ A very abridged list, but some of the important things I start in the morning:
 
 Not all of this I use directly every day, but most of it gets used in some form or another. The Lenovo box is what I run my home automation server on, and things like the Synology are used but in the background or by automation exclusively.
 
-* [Synology DS216j](https://www.amazon.com/gp/product/B01BNPT1EG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Synology DS920+](https://www.synology.com/en-us/products/DS920+)
 * [Lenovo ThinkCentre M93p Tiny](https://www.lenovo.com/us/en/desktops/thinkcentre/m-series-tiny/m93-m93p/) w/ [Debian Buster](https://wiki.debian.org/DebianBuster)
-* Apple Macbook Pro 13" 2014
+* Apple Macbook Pro 14" M1 Pro
 * Apple iPad Pro 11" M1 w/ Pencil
 * 2x Apple iPad Air 2
 * Testing devices
