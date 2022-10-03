@@ -44,7 +44,8 @@ Instead of connecting Github via their OAuth integration and potentially exposin
 4. Avoid any Heroku-specific deployment setups AND avoid the git-related headaches related to subtreeing
 
 The setup is really pretty straightforward if you're familiar with Github Actions:
-
+            
+```yaml
           - uses: akhileshns/heroku-deploy@v3.12.12
             with:
               heroku_api_key: ${{secrets.API_HEROKU_API_KEY}}
@@ -52,13 +53,13 @@ The setup is really pretty straightforward if you're familiar with Github Action
               heroku_email: ${{secrets.API_HEROKU_EMAIL}}
               buildpack: https://github.com/heroku/heroku-buildpack-nginx.git
               justlogin: true
-    
+
           - name: install build plugin
             run: heroku plugins:install heroku-builds
-    
+
           - name: deploy tarball
             run: cd client/build && heroku builds:create -a name-of-your-app
-            
+```
 
 You can repeat that last `deploy tarball` step as many times as would be required, but what's **fantastic** about this, is that all you need is to be inside the folder, and you can tarball & deploy in a single step.
 
