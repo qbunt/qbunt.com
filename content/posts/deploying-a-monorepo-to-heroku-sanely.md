@@ -1,14 +1,15 @@
 +++
 date = 2022-10-02T20:00:00Z
-draft = true
-title = "Deploying a monorepo to Heroku sanely with Github Actions"
+title = "Deploying to Heroku in a monorepo with Github Actions"
 
 +++
-Heroku has made some [questionable business choices](https://blog.heroku.com/next-chapter) recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and `git push` your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early.
+Man I really need to write on this blog more, it's been far too long.  
+  
+Heroku has made some [questionable business choices](https://blog.heroku.com/next-chapter) recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and `git push` your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early. A bunch have even gotten there, and acknowledge that it's no longer 2010.
 
 In that time, things have gotten a lot more complex.
 
-Github Actions has become ubiquitous, static hosting has gotten very simple, and web tooling has evolved very, **very** quickly. One of the largest changes I've seen in this space is moving from single-project repos, to monorepos. Monorepos can make a ton of sense, especially when you have several services all interconnected into the same project. When it comes to deploying to our old friend Heroku though, a monorepo adds a new layer that Heroku has **certainly** not kept up with.
+Github Actions has become ubiquitous for CI/CD, static hosting has gotten very simple, and web tooling has evolved very, **very** quickly. One of the largest changes I've seen in this space is moving from single-project repos, to monorepos. Monorepos can make a ton of sense, especially when you have several services all interconnected into the same project. When it comes to deploying to our old friend Heroku though, a monorepo adds a new layer that Heroku has **certainly** not kept up with.
 
 Deploying to Heroku with a single-project repo:  
 `git push heroku main`
@@ -44,7 +45,7 @@ Instead of connecting Github via their OAuth integration and potentially exposin
 4. Avoid any Heroku-specific deployment setups AND avoid the git-related headaches related to subtreeing
 
 The setup is really pretty straightforward if you're familiar with Github Actions:
-            
+
 ```yaml
           - uses: akhileshns/heroku-deploy@v3.12.12
             with:
@@ -61,7 +62,7 @@ The setup is really pretty straightforward if you're familiar with Github Action
             run: cd client/build && heroku builds:create -a name-of-your-app
 ```
 
-You can repeat that last `deploy tarball` step as many times as would be required, but what's **fantastic** about this, is that all you need is to be inside the folder, and you can tarball & deploy in a single step.
+You can repeat that last `deploy tarball` step as many times as you need, but what's **fantastic** about this, is that all you need is to be inside the folder, and you can tarball & deploy in a single step.
 
 ## What are the downsides?
 
