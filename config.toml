@@ -34,4 +34,5 @@ centerTheme = true
 contentTypeName = "posts"
 fullWidthTheme = false
 showMenuItems = 4
-themeColor = "orange"
+themeColor = "green"
+readingTime = true
