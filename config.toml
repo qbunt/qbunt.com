@@ -15,9 +15,9 @@ identifier = "github"
 name = "Github"
 url = "https://github.com/qbunt"
 [[languages.en.menu.main]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/jeremybunting/"
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://mastodon.social/@qbunt"
 [[languages.en.menu.main]]
 identifier = "about"
 name = "About"
