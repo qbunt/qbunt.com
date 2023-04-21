@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-02-11T17:40:32Z
-description = ""
-draft = false
-slug = "node-js-moves-out-of-joyents-control"
-title = "Node.js moves out of Joyent's Control"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-02-11T17:40:32Z"
+description: ""
+draft: false
+slug: node-js-moves-out-of-joyents-control
+title: Node.js moves out of Joyent's Control
+---
 
 [Great news from Joyent](http://www.joyent.com/about/press/joyent-moves-to-establish-nodejs-foundation) about Node.js moving to break off into an open source foundation. Presumably this is a reaction to key players in the Node community breaking off to write [io.js](https://iojs.org/en/index.html) and the impact that will have on the platform's growth. What I find interesting about this news is the stakeholders involved in the foundation, who are definitely not a small community (WalMart, PayPal, LinkedIn, Microsoft and others).
 

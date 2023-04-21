@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2017-02-13T21:01:48Z
-description = ""
-draft = false
-slug = "resin-wifi-env"
-title = "resin-wifi-env"
-
-+++
+---
+author: Jeremy Bunting
+date: "2017-02-13T21:01:48Z"
+description: ""
+draft: false
+slug: resin-wifi-env
+title: resin-wifi-env
+---
 
 We've been using the excellent [Resin](https://resin.io/) platform for deploying Raspberry Pi's en masse at work. One of the issues we frequently have is the wifi we're connecting to is either unknown, or incorrect, so we have to update the wifi configuration on a group of devices. Because this need was not met by either [Resin-wifi-connect](https://github.com/resin-io/resin-wifi-connect) or anything else, we wrote a tiny app to pick configuration value out of the Resin environment variables.
 

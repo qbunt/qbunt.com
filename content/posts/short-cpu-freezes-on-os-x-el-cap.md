@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-10-11T17:51:36Z
-description = ""
-draft = false
-slug = "short-cpu-freezes-on-os-x-el-cap"
-title = "Short CPU freezes on OS X El Capitan"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-10-11T17:51:36Z"
+description: ""
+draft: false
+slug: short-cpu-freezes-on-os-x-el-cap
+title: Short CPU freezes on OS X El Capitan
+---
 
 **Update 1/11/16:**
 Current version of Chrome 47.0.2526.106 resolves this behavior.

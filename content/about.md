@@ -1,11 +1,10 @@
-+++
-author = "Jeremy Bunting"
-date = 2022-02-14T01:38:00Z
-description = ""
-slug = "about"
-title = "About Jeremy Bunting"
-
-+++
+---
+author: Jeremy Bunting
+date: "2022-02-14T01:38:00Z"
+description: ""
+slug: about
+title: About Jeremy Bunting
+---
 Hey there, I’m Jeremy Bunting, some people call me JB. I’ve been making browsers do stupid tricks for about 15 years. I really enjoy making tools and toys for the internet.
 
 On the work side, I’ve written software for the entire stack, but mainly on the front-end. I’ve written things from GCode to Go for embedded systems, and the most gratifying thing I get out of work is solving all the tiny problems to make a project happen. I’ve worked with some great people all over the world to build some incredible things.

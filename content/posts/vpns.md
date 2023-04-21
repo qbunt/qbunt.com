@@ -1,11 +1,10 @@
-+++
-author = "Jeremy Bunting"
-date = 2019-01-15T22:10:37Z
-description = ""
-slug = "vpns"
-title = "You should get a VPN (really)"
-
-+++
+---
+author: Jeremy Bunting
+date: "2019-01-15T22:10:37Z"
+description: ""
+slug: vpns
+title: You should get a VPN (really)
+---
 VPNs are super useful tools for keeping your information private for any reason. If you're on coffee shop WiFi and need to do some banking (tho I'd advise strongly against doing this) you should do that on a VPN. A VPN is not a miracle solution for online security, and there are many security holes in even getting your data to the machine. If you have a virus or some other horrible thing on your machine, a VPN won't help you. If you're doing superduper sketchy stuff, you should probably just stop doing that stuff instead of thinking you're crafty with a VPN.
 
 That said, there are a couple of recommendations I have for VPNs, one easy and commercial, one slightly less easy and DIY.

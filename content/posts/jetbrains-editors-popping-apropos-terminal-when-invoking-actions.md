@@ -1,8 +1,7 @@
-+++
-date = 2019-04-17T07:00:00Z
-title = "JetBrains editors popping `apropos` terminal when invoking actions"
-
-+++
+---
+date: "2019-04-17T07:00:00Z"
+title: JetBrains editors popping `apropos` terminal when invoking actions
+---
 ![](/img/2019-04-17-KaRoFfHrDbDUw3rzL4_k9A.png)
 
 You may have noticed a new obnoxious behavior in the JetBrains/IntelliJ series of editors when invoking the actions menu `⌘+shift+A`. Instead of the normal actions menu rendered by the editor, you get this menu explaining something unrelated.

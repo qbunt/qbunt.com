@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-09-25T23:39:30Z
-description = ""
-draft = false
-slug = "nginx-configuration-with-basic-auth"
-title = "NGinX Configuration with basic auth & custom error messages"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-09-25T23:39:30Z"
+description: ""
+draft: false
+slug: nginx-configuration-with-basic-auth
+title: NGinX Configuration with basic auth & custom error messages
+---
 
 If for some reason you need the following things out of an NGinX server:
 

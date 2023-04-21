@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-09-12T18:23:57Z
-description = "A review of the Raspberry Pi running OSMC"
-image = "/images/2015/09/Raspberry_Pi_boxed.jpg"
-slug = "osmc-pi-review"
-title = "Cheap media server that plays anything"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-09-12T18:23:57Z"
+description: A review of the Raspberry Pi running OSMC
+image: /images/2015/09/Raspberry_Pi_boxed.jpg
+slug: osmc-pi-review
+title: Cheap media server that plays anything
+---
 _UPDATE 11/5/15_
 
 > With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I'm changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.

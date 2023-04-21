@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2014-09-10T15:05:54Z
-description = ""
-draft = false
-slug = "apples-half-complete-responsive-design"
-title = "Apple's half complete responsive design"
-
-+++
+---
+author: Jeremy Bunting
+date: "2014-09-10T15:05:54Z"
+description: ""
+draft: false
+slug: apples-half-complete-responsive-design
+title: Apple's half complete responsive design
+---
 
 Not that Apple hasn't made enough news this week, but this is far too disappointing to let go. Yesterday, along with the watch and the iPhone 6 announcment, Apple has made their website responsive (part of it anyway). What appears now is a totally broken design for many of their pages. Not small pages either. Clearly they thought about the product pages for the iPhone and the watch and just said "eh, that seems good".
 

@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2014-09-12T06:02:09Z
-description = ""
-draft = false
-slug = "apple-fitness-design-borrowed-from-old-flash-screensaver"
-title = "Apple Fitness design 'borrowed' from old Flash screensaver"
-
-+++
+---
+author: Jeremy Bunting
+date: "2014-09-12T06:02:09Z"
+description: ""
+draft: false
+slug: apple-fitness-design-borrowed-from-old-flash-screensaver
+title: Apple Fitness design 'borrowed' from old Flash screensaver
+---
 
 ![](/img/2014/Sep/widget.jpg)
 [PolarClock](http://blog.pixelbreaker.com/polarclock) *circa 2008* 

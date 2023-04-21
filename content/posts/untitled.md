@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2018-09-09T02:27:43Z
-description = ""
-draft = true
-slug = "untitled"
-title = "Shit for new dads"
-
-+++
+---
+author: Jeremy Bunting
+date: "2018-09-09T02:27:43Z"
+description: ""
+draft: true
+slug: untitled
+title: Shit for new dads
+---
 
 Diaper wipe dispenser
 Diaper changing roll

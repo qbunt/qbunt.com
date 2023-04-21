@@ -1,8 +1,7 @@
-+++
-date = 2022-10-02T20:00:00Z
-title = "Deploying to Heroku in a monorepo with Github Actions"
-
-+++
+---
+date: "2022-10-02T20:00:00Z"
+title: Deploying to Heroku in a monorepo with Github Actions
+---
 Man I really need to write on this blog more, it's been far too long.  
   
 Heroku has made some [questionable business choices](https://blog.heroku.com/next-chapter) recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and `git push` your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early. A bunch have even gotten there, and acknowledge that it's no longer 2010.

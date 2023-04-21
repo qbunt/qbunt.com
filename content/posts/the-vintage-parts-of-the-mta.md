@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-07-30T03:28:23Z
-description = ""
-draft = false
-slug = "the-vintage-parts-of-the-mta"
-title = "The Vintage parts of the MTA"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-07-30T03:28:23Z"
+description: ""
+draft: false
+slug: the-vintage-parts-of-the-mta
+title: The Vintage parts of the MTA
+---
 
 
 {{< youtube Mjx3S3UjmnA >}}

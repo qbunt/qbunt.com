@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2014-04-28T20:27:49Z
-description = ""
-draft = false
-slug = "nomos-factory"
-title = "Nomos factory"
-
-+++
+---
+author: Jeremy Bunting
+date: "2014-04-28T20:27:49Z"
+description: ""
+draft: false
+slug: nomos-factory
+title: Nomos factory
+---
 
 {{< youtube UwpP_s8LV_Y >}}
 

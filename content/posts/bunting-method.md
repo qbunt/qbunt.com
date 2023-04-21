@@ -1,9 +1,8 @@
-+++
-date = 2020-09-03T04:00:00Z
-draft = true
-title = "Reverting a range of git commits safely (without losing your mind)"
-
-+++
+---
+date: "2020-09-03T04:00:00Z"
+draft: true
+title: Reverting a range of git commits safely (without losing your mind)
+---
 There are a number of documented ways to roll back a long range of commits with varying levels of effort, those include:
 
 * Reverting a range via the command line (if the range has no merge commits)

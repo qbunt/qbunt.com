@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-03-02T03:47:12Z
-description = ""
-draft = false
-slug = "smoked-themes-for-alfred"
-title = "Smoked Themes for Alfred"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-03-02T03:47:12Z"
+description: ""
+draft: false
+slug: smoked-themes-for-alfred
+title: Smoked Themes for Alfred
+---
 
 ![Smoked Day](https://github.com/qbunt/smoked/raw/master/smoked_day.png)
 

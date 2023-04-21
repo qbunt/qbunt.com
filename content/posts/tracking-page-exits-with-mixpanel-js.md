@@ -1,8 +1,7 @@
-+++
-date = 2020-02-05T05:00:00Z
-title = "Tracking page exits with Mixpanel-js"
-
-+++
+---
+date: "2020-02-05T05:00:00Z"
+title: Tracking page exits with Mixpanel-js
+---
 Oh mixpanel.
 
 After looking for far too long for a way in the [Mixpanel docs](https://developer.mixpanel.com/docs/javascript-full-api-reference#section-mixpanel-track) to find a way to track `session-end` events with the [Mixpanel JS library](https://github.com/mixpanel/mixpanel-js), I tried all the usual tricks to get the tracking event to fire correctly, `beforeunload`, `unload` and similar. Nothing was firing correctly. Having heard fairly recently about [the beacon API](https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API), I thought "Yeah, there's no way there's support for that in recent stuff yet".

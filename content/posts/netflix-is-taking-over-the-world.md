@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2014-03-06T20:03:48Z
-description = ""
-draft = false
-slug = "netflix-is-taking-over-the-world"
-title = "Netflix is taking over the world."
-
-+++
+---
+author: Jeremy Bunting
+date: "2014-03-06T20:03:48Z"
+description: ""
+draft: false
+slug: netflix-is-taking-over-the-world
+title: Netflix is taking over the world.
+---
 
 {{< youtube P0ukYf_xvgc >}}  
 ---

@@ -1,8 +1,7 @@
-+++
-date = 2022-08-31T21:34:00Z
-title = "Uses"
-
-+++
+---
+date: "2022-08-31T21:34:00Z"
+title: Uses
+---
 In the style of [many other developers](https://uses.tech/) out there, I thought it'd be interesting to collect a list of things that I use throughout my day. Many of these are pretty common for a developer, but there are truly some gems in there (the command line tools especially). I spend most of my time on some kind of web development task, but that also changes to backend, administrating servers, writing Dockerfiles and interviews.
 
 Much of this gear is what I find myself using daily for development or for staying caffeinated and sane :D. Many of these things evolve throughout what I'm doing or the task at hand. For example, I typically use VSCode for config files or for projects in a language that I don't write a lot of, but I use Webstorm for everything else.

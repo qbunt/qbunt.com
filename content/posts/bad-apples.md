@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-01-12T21:24:58Z
-description = ""
-draft = true
-slug = "bad-apples"
-title = "The Crown"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-01-12T21:24:58Z"
+description: ""
+draft: true
+slug: bad-apples
+title: The Crown
+---
 
 I love Apple computers, I always have, but I no longer have an iPhone, an iPad or any other iOS device. I've been an Apple fan for years, and I can't put my finger on what's going on. It's not the [increasing angst](http://www.marco.org/2015/01/04/apple-lost-functional-high-ground), it's more nuanced than that.
 

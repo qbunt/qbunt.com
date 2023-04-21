@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2014-11-19T19:46:17Z
-description = ""
-draft = false
-slug = "handy-ssh-config"
-title = "Handy SSH config"
-
-+++
+---
+author: Jeremy Bunting
+date: "2014-11-19T19:46:17Z"
+description: ""
+draft: false
+slug: handy-ssh-config
+title: Handy SSH config
+---
 
 When you going into multiple servers at once, it can be handy to have a little leeway when you use password authentication. Let's say you're SSHing into one box, then another, then back to the first box.
 

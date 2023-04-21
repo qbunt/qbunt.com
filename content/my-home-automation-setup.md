@@ -1,9 +1,8 @@
-+++
-date = ""
-draft = true
-title = "My home automation setup"
-
-+++
+---
+date: ""
+draft: true
+title: My home automation setup
+---
 
 ## Home Automation Hardware
 

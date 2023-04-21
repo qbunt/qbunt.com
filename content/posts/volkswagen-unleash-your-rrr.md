@@ -1,14 +1,17 @@
-+++
-author = "Jeremy Bunting"
-categories = ["technology", "advertising"]
-date = 2015-07-16T03:14:20Z
-description = ""
-draft = true
-slug = "volkswagen-unleash-your-rrr"
-tags = ["technology", "advertising"]
-title = "Volkswagen Unleash Your Rrr tech stack"
-
-+++
+---
+author: Jeremy Bunting
+categories:
+- technology
+- advertising
+date: "2015-07-16T03:14:20Z"
+description: ""
+draft: true
+slug: volkswagen-unleash-your-rrr
+tags:
+- technology
+- advertising
+title: Volkswagen Unleash Your Rrr tech stack
+---
 
 {{< youtube hQGGq-i4u2w >}}
 

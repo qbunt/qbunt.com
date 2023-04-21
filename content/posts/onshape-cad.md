@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2015-03-22T15:18:38Z
-description = ""
-draft = false
-slug = "onshape-cad"
-title = "OnShape CAD"
-
-+++
+---
+author: Jeremy Bunting
+date: "2015-03-22T15:18:38Z"
+description: ""
+draft: false
+slug: onshape-cad
+title: OnShape CAD
+---
 
 [OnShape](http://www.onshape.com/) is a brand new creation from the original team that built out SolidWorks. This is sort of a combination of the concepts that makes Google Docs great mated with a world class solids modeling package. We can finally do all of these things in the browser and run it on something as low power as a cell phone.
 

@@ -1,14 +1,17 @@
-+++
-author = "Jeremy Bunting"
-categories = ["tips & tricks", "apps"]
-date = 2014-03-06T20:00:00Z
-description = ""
-draft = false
-slug = "the-toolbox"
-tags = ["tips & tricks", "apps"]
-title = "The Toolbox"
-
-+++
+---
+author: Jeremy Bunting
+categories:
+- tips & tricks
+- apps
+date: "2014-03-06T20:00:00Z"
+description: ""
+draft: false
+slug: the-toolbox
+tags:
+- tips & tricks
+- apps
+title: The Toolbox
+---
 
 This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I've got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software. 
 

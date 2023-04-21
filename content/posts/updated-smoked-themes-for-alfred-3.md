@@ -1,13 +1,12 @@
-+++
-author = "Jeremy Bunting"
-date = 2016-05-20T21:01:19Z
-description = ""
-draft = false
-image = "/images/2016/05/smoked_day-1.png"
-slug = "updated-smoked-themes-for-alfred-3"
-title = "Updated Smoked themes for Alfred"
-
-+++
+---
+author: Jeremy Bunting
+date: "2016-05-20T21:01:19Z"
+description: ""
+draft: false
+image: /images/2016/05/smoked_day-1.png
+slug: updated-smoked-themes-for-alfred-3
+title: Updated Smoked themes for Alfred
+---
 
 Updated my 'Smoked' theme package for the excellent [Alfred](https://www.alfredapp.com/). I took a bit more time on these than I did on the first release. There's a new halo around the entire window, something that wasn't possible in the earlier versions of Alfred.
 

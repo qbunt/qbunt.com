@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2017-09-14T05:08:56Z
-description = ""
-image = "/images/2017/09/Credit-Card-Fraud.jpg"
-slug = "how-to-freeze-your-credit-file"
-title = "How to freeze your credit file"
-
-+++
+---
+author: Jeremy Bunting
+date: "2017-09-14T05:08:56Z"
+description: ""
+image: /images/2017/09/Credit-Card-Fraud.jpg
+slug: how-to-freeze-your-credit-file
+title: How to freeze your credit file
+---
 **Update:** Keeping the freeze links up to date on this post, I had to use it again recently and a couple were dead
 
 Because of the Equifax information breach, many people are curious about how they can protect their identity.

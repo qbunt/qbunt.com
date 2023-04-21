@@ -1,14 +1,19 @@
-+++
-author = "Jeremy Bunting"
-categories = ["tips & tricks", "apps", "extensions"]
-date = 2014-08-09T16:28:12Z
-description = ""
-draft = false
-slug = "chrome-extensions-for-winners"
-tags = ["tips & tricks", "apps", "extensions"]
-title = "Chrome Extensions for winners"
-
-+++
+---
+author: Jeremy Bunting
+categories:
+- tips & tricks
+- apps
+- extensions
+date: "2014-08-09T16:28:12Z"
+description: ""
+draft: false
+slug: chrome-extensions-for-winners
+tags:
+- tips & tricks
+- apps
+- extensions
+title: Chrome Extensions for winners
+---
 
 In the same vein as [the toolbox post](http://qbunt.com/the-toolbox/) I put up in March, I wanted to post a list of my most-used Chrome extensions.
 

@@ -1,12 +1,11 @@
-+++
-author = "Jeremy Bunting"
-date = 2013-09-22T19:00:00Z
-description = ""
-draft = false
-slug = "shinola-watches"
-title = "Shinola Watches"
-
-+++
+---
+author: Jeremy Bunting
+date: "2013-09-22T19:00:00Z"
+description: ""
+draft: false
+slug: shinola-watches
+title: Shinola Watches
+---
 
 {{< youtube OMj7QZGk9io >}}
 ---
