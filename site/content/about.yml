@@ -1,0 +1,9 @@
+title: test page
+intro: page
+team:
+  - name: test
+    position: test
+    photo: /img/2019-08-15-gravatar3.jpg
+  - name: test2
+    position: test
+    photo: /img/2020-01-21-Bunting_Jeremy_v4.jpg
