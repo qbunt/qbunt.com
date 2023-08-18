@@ -54,7 +54,7 @@ Easiest thing to start with is *just* an RSS reader app and *maybe* attach some 
 
 > Got an app, what's next?
 
-Once you're set up with an app, it's blank, you have to [start](https://ooh.directory/) [somewhere](https://blogroll.org/). Once you found some wicked killer feeds, add those suckers to that app you found and let the web be weird. Visit, read, enjoy, that's it. Sites will update, your reader will scrape those feeds, add it to your own, customized, personal news feed.
+Once you're set up with an app, it's blank. You're here, [so let's start there](/index.xml). Subscribe to some killer [feeds](https://ooh.directory/) [somewhere](https://blogroll.org/). Once you found some wicked killer feeds, add those links to that app you found and let the web be weird. Visit a site, add it to the reader, read, enjoy, that's it. Sites will update, your reader will scrape those feeds, and you now have a customized, personal news feed. Always.
 
 If you're satisfied, stop here
 
