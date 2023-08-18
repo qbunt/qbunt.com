@@ -51,6 +51,7 @@ Easiest thing to start with is *just* an RSS reader app and *maybe* attach some 
 - [Feedbin](https://feedbin.com/) - $5/mo, solid support for many apps (some of the above)
 - [Inoreader](https://www.inoreader.com/) - Free to start, $5/mo to get fancy ✨
 - [Feedly](https://feedly.com/i/welcome) - $8/mo, but all the 👔 you could ever want
+- [Readwise Reader](https://readwise.io/read) - $8/mo and very well done. Replaces several other things well
 
 > Got an app, what's next?
 
