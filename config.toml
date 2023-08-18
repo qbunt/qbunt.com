@@ -11,6 +11,10 @@ readOtherPosts = "Read other posts"
 subtitle = "Thoughts and code from tech guy Jeremy Bunting"
 title = "qbunt.com"
 [[languages.en.menu.main]]
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
+[[languages.en.menu.main]]
 identifier = "github"
 name = "Github"
 url = "https://github.com/qbunt"
