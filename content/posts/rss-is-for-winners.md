@@ -6,8 +6,8 @@ authorTwitter: "" #do not include @
 cover: ""
 # tags: ["", ""]
 # keywords: ["", ""]
-description: "A sane way to read RSS in 2023"
-showFullContent: true
+description: "A sane way to read RSS in 2023 🏴‍☠️"
+showFullContent: false
 readingTime: true
 hideComments: false
 color: "" #color from the theme settings
@@ -22,9 +22,9 @@ After a really 💀 year of [Twitter](https://www.theverge.com/2023/7/23/2380462
 
 > dude, RSS for real?! It's 2023, I get all my news from Reddit/Threads/Mastodon/Bluesky, why?
 
-Hear me out. In the age of every social network pivoting, folding, renaming to [a unicode letter](https://www.popularmechanics.com/technology/apps/a44641211/twitter-x-unicode-symbol/), and losing their mind because of AI, RSS makes *so* much sense *especially* now. Blogs, turns out, are _*great*_. RSS feeds, are still, freaking everywhere. 
+Hear me out. In the age of every social network pivoting, folding, renaming to [a unicode letter](https://www.popularmechanics.com/technology/apps/a44641211/twitter-x-unicode-symbol/), and losing their mind because of AI, RSS makes *so* much sense *especially* now. Blogs, turns out, are **great**. RSS feeds, are still, freaking everywhere.
 
-Why? 
+Why?
 
 Independence. Anyone can publish an RSS feed, which means that *anyone* can consume that feed. Because the tech's been around for years, it works, it's stable (enough) and there's no VC opinions in the way.
 
