@@ -17,7 +17,7 @@ After a really 💀 year of [Twitter](https://www.theverge.com/2023/7/23/2380462
 
 - [Google Reader](https://www.wired.com/2013/06/why-google-reader-got-the-ax/) 🏆 (pour one out for the 🐐)
 - [Feedly](https://feedly.com/) (somehow has gone super 👔, I don't need that)
-- loooong gap (Reddit/Twitter/other network addiction)
+- loooong gap (Reddit/Twitter/Instagram/other social network addiction)
 - [Miniflux](https://miniflux.app/) 🏴‍☠️
 
 > dude, RSS for real?! It's 2023, I get all my news from Reddit/Threads/Mastodon/Bluesky, why?
