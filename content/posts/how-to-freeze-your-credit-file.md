@@ -28,7 +28,9 @@ Credit freeze access is the law in 49 states (sorry Michigan), and is easy, inex
 
 > Sounds kind of expensive, what does it cost?
 
-In California, the only agency that charged me was TransUnion and it was $10. Worth every penny.
+In California, the only agency that charged me was TransUnion ~~and it was $10. Worth every penny~~.
+
+_*Update*_: As of 1/17/24, Transunion no longer charges for freezing your file
 
 > Well I'm impervious because I have a credit monitoring service...right?
 
