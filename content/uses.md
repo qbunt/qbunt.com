@@ -2,6 +2,7 @@
 date: "2022-08-31T21:34:00Z"
 title: Uses
 ---
+_Updated 3/2024 ~ updated with current software_
 In the style of [many other developers](https://uses.tech/) out there, I thought it'd be interesting to collect a list of things that I use throughout my day. Many of these are pretty common for a developer, but there are truly some gems in there (the command line tools especially). I spend most of my time on some kind of web development task, but that also changes to backend, administrating servers, writing Dockerfiles and interviews.
 
 Much of this gear is what I find myself using daily for development or for staying caffeinated and sane :D. Many of these things evolve throughout what I'm doing or the task at hand. For example, I typically use VSCode for config files or for projects in a language that I don't write a lot of, but I use Webstorm for everything else.
@@ -15,7 +16,7 @@ Much of this gear is what I find myself using daily for development or for stayi
 * [Tower](https://www.git-tower.com/mac) for git
 * [iTerm2](https://iterm2.com/)…version 3?
 * [Homebrew](https://brew.sh/) and Cask
-* [Algo VPN](https://github.com/trailofbits/algo)
+* ~~[Algo VPN](https://github.com/trailofbits/algo)~~[Mullvad VPN](https://mullvad.net/en)
 * [Oh my Zsh](https://ohmyz.sh/) with [Starship prompt](https://starship.rs/)
 * [MarkText](https://marktext.app/) - a great place to write markdown quickly
 * Various command line toys for getting things done quickly, [fzf](https://github.com/junegunn/fzf), [tig](https://jonas.github.io/tig/), [bat](https://github.com/sharkdp/bat), [prettyping](http://denilson.sa.nom.br/prettyping/), [htop](http://hisham.hm/htop/), [broot](https://github.com/Canop/broot), [fd](https://github.com/sharkdp/fd/), [ncdu](https://dev.yorhel.nl/ncdu), [ack](https://beyondgrep.com/)
@@ -35,8 +36,8 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 * [Roost Stand](https://www.therooststand.com/)
 * [Bose QC 35 II](https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless-ii.html#v=qc35_ii_black) (I would never buy these again)
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
-* Refurb'd [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
-* iPhone 13 Pro
+* Refurbed [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
+* iPhone 15 Pro
 * [Ubiquiti Unifi UAP-AC-Pro Wifi Access Point](https://www.amazon.com/Ubiquiti-Networks-802-11ac-Dual-Radio-UAP-AC-PRO-US/dp/B015PRO512)
 * Apple Macbook Pro 16" M1 Max
 * [Happy Mug Coffee](https://happymugcoffee.com/)/[Harney & Sons Tea](https://www.harney.com/)
@@ -47,14 +48,14 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 A very abridged list, but some of the important things I start in the morning:
 
 * [1Password](https://1password.com/)
-* [Alfred](https://www.alfredapp.com/)
+* ~~[Alfred](https://www.alfredapp.com/)~~[Raycast](https://www.raycast.com/)
 * [Todoist](https://todoist.com/)
 * [Obsidian]()
 * [Figma](https://www.figma.com/)
 * [Backblaze](https://www.backblaze.com/)
 * [Rectangle](https://rectangleapp.com/)
 * [~~Google Play Music Desktop Player~~](https://www.googleplaymusicdesktopplayer.com/) & Spotify
-* Overcast
+* [Overcast](https://overcast.fm/)
 * Slack, Signal, Hangouts & GSuite
 
 ## Hardware
