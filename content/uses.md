@@ -16,7 +16,7 @@ Much of this gear is what I find myself using daily for development or for stayi
 * [Tower](https://www.git-tower.com/mac) for git
 * [iTerm2](https://iterm2.com/)…version 3?
 * [Homebrew](https://brew.sh/) and Cask
-* ~~[Algo VPN](https://github.com/trailofbits/algo)~~[Mullvad VPN](https://mullvad.net/en)
+* ~~[Algo VPN](https://github.com/trailofbits/algo)~~ [Mullvad VPN](https://mullvad.net/en)
 * [Oh my Zsh](https://ohmyz.sh/) with [Starship prompt](https://starship.rs/)
 * [MarkText](https://marktext.app/) - a great place to write markdown quickly
 * Various command line toys for getting things done quickly, [fzf](https://github.com/junegunn/fzf), [tig](https://jonas.github.io/tig/), [bat](https://github.com/sharkdp/bat), [prettyping](http://denilson.sa.nom.br/prettyping/), [htop](http://hisham.hm/htop/), [broot](https://github.com/Canop/broot), [fd](https://github.com/sharkdp/fd/), [ncdu](https://dev.yorhel.nl/ncdu), [ack](https://beyondgrep.com/)
@@ -38,6 +38,7 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 * [Anker PowerPort 5](https://www.anker.com/products/variant/powerport-5/A2124112)
 * Refurbed [Herman Miller Aeron](https://store.hermanmiller.com/office/office-chairs/aeron-chair/2195348.html?lang=en_US)
 * iPhone 15 Pro
+* Airpods Pro 2
 * [Ubiquiti Unifi UAP-AC-Pro Wifi Access Point](https://www.amazon.com/Ubiquiti-Networks-802-11ac-Dual-Radio-UAP-AC-PRO-US/dp/B015PRO512)
 * Apple Macbook Pro 16" M1 Max
 * [Happy Mug Coffee](https://happymugcoffee.com/)/[Harney & Sons Tea](https://www.harney.com/)
@@ -48,7 +49,7 @@ All the meatspace stuff that is on, close to, or makes up my desk:
 A very abridged list, but some of the important things I start in the morning:
 
 * [1Password](https://1password.com/)
-* ~~[Alfred](https://www.alfredapp.com/)~~[Raycast](https://www.raycast.com/)
+* ~~[Alfred](https://www.alfredapp.com/)~~ [Raycast](https://www.raycast.com/)
 * [Todoist](https://todoist.com/)
 * [Obsidian]()
 * [Figma](https://www.figma.com/)
