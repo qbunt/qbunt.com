@@ -19,11 +19,11 @@ Great idea, didn't turn out that way and it's fine, but have to share how.
 
 Work unexpectedly put me on a self-guided sabbatical. I was skeptical, worried that it was punitive and concerned for what would come afterwards. My boss reassured me, and put my mind at ease, and I eventually agreed that yeah, I needed a break. I haven’t written enough here, but I don’t take the breaks I need to for my own wellbeing, it was needed.
 
-![](../../img/2025/respirator.jpg)
+![](../../img/2025/disaster.jpg)
 
 The work break gave me the chance to ~~take a break~~ rebuild our basement after an undiscovered leak rotted through much of our finished basement last year. This was extremely hard work, and in taking much of it on myself, I discovered new damage, forcing new repairs, expense and challenges. Far too many parallels to the project I was trying to recover from. What it taught me is that while I can rely on myself for a lot, I need help sometimes, and it's OK to ask for it, especially when I'm cosplaying as a rookie contractor. I did rediscover some of the tangible satisfaction to completing something so physical in contrast with my very digital workplace.
 
-![](../../img/2025/disaster.jpg)
+![](../../img/2025/respirator.jpg)
 
 I was *so* ready to return to work and feel like I knew what I was doing again. I started with a project that I was ready to be solo developer on. Again, satisfying, a welcome challenge to get back to what I knew, but the lack of staffing beyond myself on that project was so frustrating, and I had zero idea what was headed my way next. I refocused on fundamentals, refreshing my knowledge, diving into little weird challenges and dusting the mental burden of the burnout project off me. I rediscovered that relationships I cultivated in the previous 2 years would help push me along. In that time, I was satisfied in work again, and the daily dread finally washed away. Well on the road to recovery, I restocked with new knowledge of where the boundaries in my professional life should be.
 
