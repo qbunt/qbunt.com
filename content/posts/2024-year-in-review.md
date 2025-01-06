@@ -1,6 +1,6 @@
 ---
 date: 2025-01-06
-title: 2024 - A year in review
+title: 2024 - A year in review 😵‍💫
 ---
 
 As I pull the glossy gift wrap off an ~~untarnished~~ somewhat undamaged new year, I'm taking the opportunity to take a last look at the past year. This is an unusual reflection for me on successes and opportunities in my personal and professional life. I’ve never done this, but this year left a mark on me, and it needs sharing.
