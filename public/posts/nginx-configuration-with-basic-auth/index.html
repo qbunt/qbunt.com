@@ -1,76 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>NGinX Configuration with basic auth &amp; custom error messages :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting</title>
+    <title>NGinX Configuration with basic auth &amp; custom error messages :: qbunt.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="If for some reason you need the following things out of an NGinX server:
- Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages  there are some things you should probably be aware of, as the virtual block configuration is not obvious.
+Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages there are some things you should probably be aware of, as the virtual block configuration is not obvious.
 First off, custom error messages are straightforward if and only if you do not have basic auth enabled.
-If you do, you need to ensure two things."/>
-<meta name="keywords" content=""/>
-<meta name="robots" content="noodp"/>
-<link rel="canonical" href="/posts/nginx-configuration-with-basic-auth/" />
+If you do, you need to ensure two things. Your error_page flag needs to reside above the location block of that specific virtual host.
+" />
+<meta name="keywords" content="" />
 
+  <meta name="robots" content="noodp" />
 
-<link rel="stylesheet" href="/assets/style.css">
-
-  <link rel="stylesheet" href="/assets/green.css">
-
+<link rel="canonical" href="http://localhost:1313/posts/nginx-configuration-with-basic-auth/" />
 
 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
 
-<link rel="shortcut icon" href="/img/favicon/green.png">
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
 
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="NGinX Configuration with basic auth &amp; custom error messages :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting" />
-<meta name="twitter:description" content="If for some reason you need the following things out of an NGinX server:
- Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages  there are some things you should probably be aware of, as the virtual block configuration is not obvious.
-First off, custom error messages are straightforward if and only if you do not have basic auth enabled.
-If you do, you need to ensure two things." />
-<meta name="twitter:site" content="/" />
-<meta name="twitter:creator" content="Jeremy Bunting" />
-<meta name="twitter:image" content="">
+
 
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="NGinX Configuration with basic auth &amp; custom error messages :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting">
+<meta property="og:title" content="NGinX Configuration with basic auth &amp; custom error messages">
 <meta property="og:description" content="If for some reason you need the following things out of an NGinX server:
- Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages  there are some things you should probably be aware of, as the virtual block configuration is not obvious.
+Multiple virtual blocks Basic authentication (with IP whitelist of approved IPs Customized error messages there are some things you should probably be aware of, as the virtual block configuration is not obvious.
 First off, custom error messages are straightforward if and only if you do not have basic auth enabled.
-If you do, you need to ensure two things." />
-<meta property="og:url" content="/posts/nginx-configuration-with-basic-auth/" />
-<meta property="og:site_name" content="NGinX Configuration with basic auth &amp; custom error messages" />
-<meta property="og:image" content="">
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
+If you do, you need to ensure two things. Your error_page flag needs to reside above the location block of that specific virtual host.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/nginx-configuration-with-basic-auth/" />
+<meta property="og:site_name" content="qbunt.com" />
 
-<meta property="article:published_time" content="2015-09-25 23:39:30 &#43;0000 UTC" />
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
 
-
-
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
 
 
-
+  <meta property="article:published_time" content="2015-09-25 23:39:30 &#43;0000 UTC" />
 
 
 
+
+
+
+
+
+
+<a rel="me" href="https://mastodon.social/@qbunt"></a>
+<script defer data-domain="qbunt.com" src="https://d.qbunt.com/js/script.js"></script>
 
 
 </head>
-<body class="">
+<body>
 
 
-<div class="container center headings--one-size">
+<div class="container center">
 
   <header class="header">
   <div class="header__inner">
@@ -82,12 +124,11 @@ If you do, you need to ensure two things." />
 </a>
 
     </div>
-    <div class="menu-trigger">menu</div>
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
     
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
       
         
           <li><a href="/about">About</a></li>
@@ -98,37 +139,43 @@ If you do, you need to ensure two things." />
         
       
         
-          <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
+          <li><a href="https://mastodon.social/@qbunt">Mastodon</a></li>
         
       
         
-          <li><a href="https://work.jeremybunting.com">Work</a></li>
+          <li><a href="/index.xml">RSS</a></li>
         
       
       
-    
+    </ul>
+  </li>
+</ul>
 
     
-  </ul>
-
-  <ul class="menu__inner menu__inner--mobile">
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
     
       
-        <li><a href="/about">About</a></li>
+        
+          <li><a href="/about" >About</a></li>
+        
       
-    
+        
+          <li><a href="https://github.com/qbunt" >Github</a></li>
+        
       
-        <li><a href="https://github.com/qbunt">Github</a></li>
+        
+          <li><a href="https://mastodon.social/@qbunt" >Mastodon</a></li>
+        
       
-    
+        
+          <li><a href="/index.xml" >RSS</a></li>
+        
       
-        <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
       
-    
-      
-        <li><a href="https://work.jeremybunting.com">Work</a></li>
-      
-    
     
   </ul>
 </nav>
@@ -139,28 +186,20 @@ If you do, you need to ensure two things." />
 
   <div class="content">
     
-<div class="post">
+<article class="post">
   <h1 class="post-title">
-    <a href="/posts/nginx-configuration-with-basic-auth/">NGinX Configuration with basic auth &amp; custom error messages</a></h1>
-  <div class="post-meta">
-      
-    <span class="post-date">
-      2015-09-25
-    </span>
-    
-    
-    <span class="post-author">::
-      Jeremy Bunting
-    </span>
-    
-  </div>
+    <a href="http://localhost:1313/posts/nginx-configuration-with-basic-auth/">NGinX Configuration with basic auth &amp; custom error messages</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2015-09-25</time><span class="post-author">Jeremy Bunting</span><span class="post-reading-time">2 min read (333 words)</span></div>
+
+  
+  
+
 
   
 
-  
-
-  <div class="post-content">
-    <p>If for some reason you need the following things out of an NGinX server:</p>
+  <div class="post-content"><div>
+        <p>If for some reason you need the following things out of an NGinX server:</p>
 <ul>
 <li>Multiple virtual blocks</li>
 <li>Basic authentication (with IP whitelist of approved IPs</li>
@@ -169,90 +208,91 @@ If you do, you need to ensure two things." />
 <p>there are some things you should probably be aware of, as the virtual block configuration is not obvious.</p>
 <p>First off, custom error messages are straightforward <em>if and only if</em> you do not have basic auth enabled.</p>
 <p>If you do, you need to ensure two things. Your <code>error_page</code> flag needs to reside <strong>above</strong> the location block of that specific virtual host.</p>
-<p>One thing I wasn't aware of with NGinX virtual blocks is that the <code>root</code> should be (at least in this configuration) inside the <code>location</code> block. If you put the basic authentication at the <code>server</code> level, it will apply to all locations inside that configuration.</p>
-<p>Here's a consolidated example of how all the pieces go together.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server <span style="color:#f92672">{</span>
-     listen <span style="color:#ae81ff">80</span> default_server;
-     listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:80 default_server ipv6only<span style="color:#f92672">=</span>on;
+<p>One thing I wasn&rsquo;t aware of with NGinX virtual blocks is that the <code>root</code> should be (at least in this configuration) inside the <code>location</code> block. If you put the basic authentication at the <code>server</code> level, it will apply to all locations inside that configuration.</p>
+<p>Here&rsquo;s a consolidated example of how all the pieces go together.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>server <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>     listen <span style="color:#ae81ff">80</span> default_server;
+</span></span><span style="display:flex;"><span>     listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:80 default_server ipv6only<span style="color:#f92672">=</span>on;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     server_name yoursitenamehere.com www.yoursitenamehere.com;
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>     root /var/www/yoursitenamehere.com/html;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e"># path to your custom error page &amp; the error you&#39;re handling</span>
+</span></span><span style="display:flex;"><span>     error_page 401 <span style="color:#f92672">=</span><span style="color:#ae81ff">401</span> /401.html;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e"># turn off basic auth, allow from all IPs,</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e"># disallow public access to that page</span>
+</span></span><span style="display:flex;"><span>     location <span style="color:#f92672">=</span> /401.html <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    	auth_basic off;
+</span></span><span style="display:flex;"><span>        allow all;
+</span></span><span style="display:flex;"><span>        internal;
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     location / <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>       
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># this is super important, unless you set this, </span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># you&#39;ll get the default nginx error pages across the board</span>
+</span></span><span style="display:flex;"><span>        proxy_intercept_errors on;
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        try_files $uri $uri/ <span style="color:#f92672">=</span>404;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        index   index.html;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># satisfy first the whitelisted IPs</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># then fall back to basic, then fail everything else</span>
+</span></span><span style="display:flex;"><span>        satisfy any;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Your whitelist IPs</span>
+</span></span><span style="display:flex;"><span>        allow 111.222.333.444;
+</span></span><span style="display:flex;"><span>        allow 555.666.777.888;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># basic auth</span>
+</span></span><span style="display:flex;"><span>        auth_basic <span style="color:#e6db74">&#34;Forbidden&#34;</span>;
+</span></span><span style="display:flex;"><span>        auth_basic_user_file /etc/nginx/.htpasswd;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># tell everyone else to leave with your fancy error messages</span>
+</span></span><span style="display:flex;"><span>        deny all;
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>The key in the above configuration is this one line <code>proxy_intercept_errors on</code>. This combined with containing the <code>root</code> inside the location block, will allow NGinX to return your custom error page.</p>
+<p>Anyway, I recently burned some time with this, thought I&rsquo;d share my findings, it was not easy to find a working combination of flags.</p>
 
-     server_name yoursitenamehere.com www.yoursitenamehere.com;
-     
-     root /var/www/yoursitenamehere.com/html;
+      </div></div>
 
-     <span style="color:#75715e"># path to your custom error page &amp; the error you&#39;re handling</span>
-     error_page 401 <span style="color:#f92672">=</span><span style="color:#ae81ff">401</span> /401.html;
-
-     <span style="color:#75715e"># turn off basic auth, allow from all IPs,</span>
-     <span style="color:#75715e"># disallow public access to that page</span>
-     location <span style="color:#f92672">=</span> /401.html <span style="color:#f92672">{</span>
-    	auth_basic off;
-        allow all;
-        internal;
-     <span style="color:#f92672">}</span>
-
-     location / <span style="color:#f92672">{</span>
-       
-
-        <span style="color:#75715e"># this is super important, unless you set this,</span> 
-        <span style="color:#75715e"># you&#39;ll get the default nginx error pages across the board</span>
-        proxy_intercept_errors on;
-        
-        try_files $uri $uri/ <span style="color:#f92672">=</span>404;
-
-        index   index.html;
-
-        <span style="color:#75715e"># satisfy first the whitelisted IPs</span>
-        <span style="color:#75715e"># then fall back to basic, then fail everything else</span>
-        satisfy any;
-
-        <span style="color:#75715e"># Your whitelist IPs</span>
-        allow 111.222.333.444;
-        allow 555.666.777.888;
-
-        <span style="color:#75715e"># basic auth</span>
-        auth_basic <span style="color:#e6db74">&#34;Forbidden&#34;</span>;
-        auth_basic_user_file /etc/nginx/.htpasswd;
-
-        <span style="color:#75715e"># tell everyone else to leave with your fancy error messages</span>
-        deny all;
-	<span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-
-</code></pre></div><p>The key in the above configuration is this one line <code>proxy_intercept_errors on</code>. This combined with containing the <code>root</code> inside the location block, will allow NGinX to return your custom error page.</p>
-<p>Anyway, I recently burned some time with this, thought I'd share my findings, it was not easy to find a working combination of flags.</p>
-
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
   </div>
-  
-  <div class="pagination">
-    <div class="pagination__title">
-      <span
-        class="pagination__title-h">Read other posts</span>
-      <hr />
-    </div>
-    <div class="pagination__buttons">
-      
-      <span class="button previous">
-        <a href="/posts/short-cpu-freezes-on-os-x-el-cap/">
-          <span class="button__icon">←</span>
-          <span class="button__text">Short CPU freezes on OS X El Capitan</span>
-        </a>
-      </span>
-      
-      
-      <span class="button next">
-        <a href="/posts/osmc-pi-review/">
-          <span class="button__text">Cheap media server that plays anything</span>
-          <span class="button__icon">→</span>
-        </a>
-      </span>
-      
-    </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/short-cpu-freezes-on-os-x-el-cap/" class="button inline prev">
+        Short CPU freezes on OS X El Capitan
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/osmc-pi-review/" class="button inline next">
+        Cheap media server that plays anything
+      </a>
+    
   </div>
-  
-
-  
-
 </div>
+
+
+  
+
+  
+    
+
+  
+</article>
 
   </div>
 
@@ -260,16 +300,20 @@ If you do, you need to ensure two things." />
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">
-        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
 

@@ -1,42 +1,47 @@
 baseurl = "https://qbunt.com/"
 languageCode = "en-us"
-paginate = 5
 theme = "terminal"
-[languages.en]
-copyright = "©2024 Jeremy Bunting. Opinions are my own."
-keywords = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-subtitle = "Thoughts and code from tech guy Jeremy Bunting"
-title = "qbunt.com"
-[[languages.en.menu.main]]
-identifier = "rss"
-name = "RSS"
-url = "/index.xml"
-[[languages.en.menu.main]]
-identifier = "github"
-name = "Github"
-url = "https://github.com/qbunt"
-[[languages.en.menu.main]]
-identifier = "mastodon"
-name = "Mastodon"
-url = "https://mastodon.social/@qbunt"
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
-# [[languages.en.menu.main]]
-# identifier = "work"
-# name = "Work"
-# url = "https://work.jeremybunting.com"
-[languages.en.params.logo]
-logoHomeLink = "/"
-logoText = "Buntlog"
+[pagination]
+  pagerSize = 5
+[module]
+  # this is needed when you fetch the theme as a submodule to your repo.
+  replacements = "github.com/panr/hugo-theme-terminal/4 -> themes/terminal"
 [params]
-centerTheme = true
-contentTypeName = "posts"
-fullWidthTheme = false
-showMenuItems = 4
-themeColor = "green"
-readingTime = true
+  centerTheme = true
+  contentTypeName = "posts"
+  fullWidthTheme = false
+  showMenuItems = 4
+  themeColor = "green"
+  readingTime = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "qbunt.com"
+    [languages.en.params]
+      copyright = "©2024 Jeremy Bunting. Opinions are my own."
+      keywords = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      subtitle = "Thoughts and code from tech guy Jeremy Bunting"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "rss"
+        name = "RSS"
+        url = "/index.xml"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/qbunt"
+      [[languages.en.menu.main]]
+        identifier = "mastodon"
+        name = "Mastodon"
+        url = "https://mastodon.social/@qbunt"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+    [languages.en.params.logo]
+      logoHomeLink = "/"
+      logoText = "Buntlog"

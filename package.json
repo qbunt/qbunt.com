@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/qbunt/qbunt.com#readme",
   "dependencies": {
-    "@cloudflare/pages-plugin-sentry": "^1.0.0"
+    "@cloudflare/pages-plugin-sentry": "^1.0.0",
+    "tinacms": "^2.4.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.6.11",
+    "@types/node": "^22.9.3"
   }
 }

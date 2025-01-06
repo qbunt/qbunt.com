@@ -1,36 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>apps on qbunt.com</title>
-    <link>/tags/apps/</link>
-    <description>Recent content in apps on qbunt.com</description>
+    <title>Apps on qbunt.com</title>
+    <link>http://localhost:1313/tags/apps/</link>
+    <description>Recent content in Apps on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
-    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chrome Extensions for winners</title>
-      <link>/posts/chrome-extensions-for-winners/</link>
+      <link>http://localhost:1313/posts/chrome-extensions-for-winners/</link>
       <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
       
-      <guid>/posts/chrome-extensions-for-winners/</guid>
-      <description>In the same vein as the toolbox post I put up in March, I wanted to post a list of my most-used Chrome extensions.
-I don&#39;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&#39;s a list of the best ones.
-Pushbullet Allows for Android push notification mirroring on Chrome.</description>
+      <guid>http://localhost:1313/posts/chrome-extensions-for-winners/</guid>
+      <description>&lt;p&gt;In the same vein as &lt;a href=&#34;http://qbunt.com/the-toolbox/&#34;&gt;the toolbox post&lt;/a&gt; I put up in March, I wanted to post a list of my most-used Chrome extensions.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.&lt;/p&gt;</description>
+      <content>&lt;p&gt;In the same vein as &lt;a href=&#34;http://qbunt.com/the-toolbox/&#34;&gt;the toolbox post&lt;/a&gt; I put up in March, I wanted to post a list of my most-used Chrome extensions.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.&lt;/p&gt;
+&lt;h2 id=&#34;pushbullethttpschromegooglecomwebstoredetailpushbulletchlffgpmiacpedhhbkiomidkjlcfhogdhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/pushbullet/chlffgpmiacpedhhbkiomidkjlcfhogd?hl=en&#34;&gt;Pushbullet&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Allows for Android push notification mirroring on Chrome. Great for those things that don&amp;rsquo;t have a web UI. You can even reply to text messages, it&amp;rsquo;s like your computer just turns into your phone when you&amp;rsquo;re using it. Totally great.&lt;/p&gt;
+&lt;p&gt;Indispensable for caller ID when your phone is on the desk and silent.&lt;/p&gt;
+&lt;h2 id=&#34;full-page-screen-capturehttpschromegooglecomwebstoredetailfull-page-screen-capturefdpohaocaechififmbbbbbknoalclacl&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl&#34;&gt;Full Page Screen Capture&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Instead of using a standalone app, this actually captures the browser page you&amp;rsquo;re looking at, saving it as an image. Fantastic for archiving work.&lt;/p&gt;
+&lt;h2 id=&#34;pagespeed-insightshttpschromegooglecomwebstoredetailpagespeed-insights-by-googplegfbjlmmehdoakndmohflojccoclihlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli?hl=en&#34;&gt;PageSpeed Insights&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Easily optimize your sites with PageSpeed Insights in Chrome. Faster is always better.&lt;/p&gt;
+&lt;h2 id=&#34;clearcachehttpschromegooglecomwebstoredetailclear-cachecppjkneekbjaeellbfkmgnhonkkjfpdnhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&#34;&gt;ClearCache&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One click cache clearing, no more menu digging.&lt;/p&gt;
+&lt;h2 id=&#34;google-voicehttpschromegooglecomwebstoredetailgoogle-voice-by-googlekcnhkahnjcbndmmehfkdnkjomaanaooohlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/google-voice-by-google/kcnhkahnjcbndmmehfkdnkjomaanaooo?hl=en&#34;&gt;Google Voice&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Listen to voicemail and respond to text messages received on your Google Voice number.&lt;/p&gt;
+&lt;h2 id=&#34;postmanhttpschromegooglecomwebstoredetailpostman-rest-clientfdmmgilgnpjigdojojpjoooidkmcomcmhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en&#34;&gt;Postman&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Full REST console in Chrome. Great for testing out brand new API endpoints or just making sure your thing isn&amp;rsquo;t broken.&lt;/p&gt;
+&lt;h2 id=&#34;googl-shortenerhttpschromegooglecomwebstoredetailgoogl-url-shorteneriblijlcdoidgdpfknkckljiocdbnlagkhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/googl-url-shortener/iblijlcdoidgdpfknkckljiocdbnlagk?hl=en&#34;&gt;Goo.gl shortener&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Long URLs are annoying. Put these in emails instead.&lt;/p&gt;
+&lt;h2 id=&#34;jsonviewhttpschromegooglecomwebstoredetailjsonviewchklaanhfefbnpoihckbnefhakgolnmchlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en&#34;&gt;JSONView&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This will organize JSON responses automagically, so you don&amp;rsquo;t have to look at it all compressed&amp;hellip;like an animal.&lt;/p&gt;
+&lt;h2 id=&#34;swayfmhttpschromegooglecomwebstoredetailswayfm-unified-music-mediicckhjgjjompfgoiidainoapgjepncej&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/swayfm-unified-music-medi/icckhjgjjompfgoiidainoapgjepncej&#34;&gt;Sway.fm&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This thing is awesome. If you have a Mac, this will connect your media keys (play, pause, fwd &amp;amp; back) to your internet radio AND YouTube. If you have Pandora playing in some tab somewhere, you can pause it even with Chrome in the background.&lt;/p&gt;
+&lt;h2 id=&#34;uberconferencehttpschromegooglecomwebstoredetailuberconference-extensionnpakjcgebghlhfgcmcoehmehicdhcjbbhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/uberconference-extension/npakjcgebghlhfgcmcoehmehicdhcjbb?hl=en&#34;&gt;UberConference&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Uberconference is a great, free, phone conference bridge. This thing will allow you to schedule conferences, setup new ones and notify everyone via text. Also, no PIN codes on Uberconference, auth is via the phone number.&lt;/p&gt;
+&lt;h2 id=&#34;chrome-remote-desktophttpschromegooglecomwebstoredetailchrome-remote-desktopgbchcmhmhahfdphkhkmpfmihenigjmpp&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp&#34;&gt;Chrome Remote Desktop&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Full remote desktop to any machine you own or have access to in the browser. This makes &lt;em&gt;GoToMyPC&lt;/em&gt; seem like silly joke.&lt;/p&gt;
+</content>
     </item>
     
     <item>
       <title>The Toolbox</title>
-      <link>/posts/the-toolbox/</link>
+      <link>http://localhost:1313/posts/the-toolbox/</link>
       <pubDate>Thu, 06 Mar 2014 20:00:00 +0000</pubDate>
       
-      <guid>/posts/the-toolbox/</guid>
-      <description>This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&#39;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.
-For significantly improving your quality of life, that&#39;s a completely acceptable cost to me, especially because I make my living with this stuff.</description>
+      <guid>http://localhost:1313/posts/the-toolbox/</guid>
+      <description>&lt;p&gt;This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&amp;rsquo;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.&lt;/p&gt;
+&lt;p&gt;For significantly improving your quality of life, that&amp;rsquo;s a completely acceptable cost to me, especially because I make my living with this stuff.&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is a list of the things I use literally every single day, and that I would be lost without. Like a blacksmith has hammers, I&amp;rsquo;ve got these things. A lot of them are free, and some of them are not. In total, this represents less than $200 of software.&lt;/p&gt;
+&lt;p&gt;For significantly improving your quality of life, that&amp;rsquo;s a completely acceptable cost to me, especially because I make my living with this stuff.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll do an Android version of this list at some point. It&amp;rsquo;ll be similar tools, albeit without the code editors.&lt;/p&gt;
+&lt;p&gt;##Webstorm
+Webstorm has solidified it&amp;rsquo;s place in my permanent setup when I saw this video by &lt;a href=&#34;https://egghead.io/&#34;&gt;John Lindquist&lt;/a&gt;. It shows what you can do when you combine live editing in the browser, insane refactoring tools and a far more powerful platform (with real autocomplete) than SublimeText.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/sa4jP9NJCeE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;In my mind there&amp;rsquo;s nothing that does as much as Webstorm, as well as Webstorm does it. Nothing holds a candle to it. Yes it takes a while to start, excellence takes time. Extremely worth checking out.&lt;/p&gt;
+&lt;p&gt;~$50 &lt;a href=&#34;http://www.jetbrains.com/webstorm/&#34;&gt;Webstorm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##Alfred
+&lt;img src=&#34;https://github.com/qbunt/smoked/raw/master/smoked_screenshot.png&#34;&gt;
+&lt;a href=&#34;https://github.com/qbunt/smoked&#34;&gt;my alfred theme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Though it&amp;rsquo;s not directly related to dev (until you add &lt;a href=&#34;http://wemakeawesomesh.it/alfred-dev-doctor/&#34;&gt;this&lt;/a&gt;), it&amp;rsquo;s a killer way to get a ton of stuff done extremely quickly. You can grab stock prices, check the weather, quickly search for gifs, use it as a quick calculator, the list goes on and on.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a huge list of things you can add to Alfred, that&amp;rsquo;s a never ending, &lt;a href=&#34;http://www.alfredforum.com/forum/3-share-your-workflows/&#34;&gt;constantly evolving list&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;~$25 &lt;a href=&#34;http://www.alfredapp.com/powerpack/&#34;&gt;Alfred&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##Dev Doctor
+Works directly with Alfred to get you documentation as soon as you can type it. Totally worth the few second install and the price.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://wemakeawesomesh.it/alfred-dev-doctor/&#34;&gt;Dev Doctor&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;spectacle&#34;&gt;Spectacle&lt;/h2&gt;
+&lt;p&gt;Moves windows around, it&amp;rsquo;s free, it&amp;rsquo;s simple, never had a problem with it. It gets installed immediately with any new OS X install. Lots of key commands.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://spectacleapp.com/&#34;&gt;Spectacle&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
+&lt;p&gt;Not that I like testing for cross-browser issues, it does help to have a couple more OSs on your machine to try stuff out in. Microsoft has helpfully posted a &lt;a href=&#34;http://www.modern.ie/en-us/virtualization-tools#downloads&#34;&gt;bunch of images&lt;/a&gt; of Windows for free just for testing. When you pair VirtualBox with the unbelievably good &lt;a href=&#34;http://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt; and as &lt;a href=&#34;http://www.vagrantbox.es/&#34;&gt;many distros of Linux as you could ever possibly need&lt;/a&gt;, it&amp;rsquo;s a killer combo that you can test &lt;strong&gt;anything&lt;/strong&gt; in. Can&amp;rsquo;t beat free.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;VirtualBox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;homebrew&#34;&gt;Homebrew&lt;/h2&gt;
+&lt;p&gt;When you have to use the command line, and there should be a package manager that installs/uninstalls stuff. Do you really want to install Git, Node, FFMPEG or anything else manually like some sort of rube? Well worth your time installing Homebrew.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then installing ffmpeg goes like this:
+&lt;code&gt;brew install ffmpeg&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wunderlist&#34;&gt;Wunderlist&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;re a human, you have some things that you need to do. They probably belong in some sort of list (outside of your bug tracker). Put those things here. Also, plays nice with Alfred.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;https://www.wunderlist.com/en/&#34;&gt;Wunderlist&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;compasssass&#34;&gt;Compass/Sass&lt;/h2&gt;
+&lt;p&gt;Compass has taken the annoyance of writing regular CSS and made it actually enjoyable. There&amp;rsquo;s a ton of things inside that that make it well worth the relatively gentle learning curve and once you&amp;rsquo;ve got a solid way to do live-updating, there&amp;rsquo;s no lag in between what you&amp;rsquo;re developing and what you&amp;rsquo;re seeing in the browser. Also worth looking at is &lt;a href=&#34;http://bourbon.io/&#34;&gt;Bourbon&lt;/a&gt;, a really great mixin library for Sass. I&amp;rsquo;ve also used LESS, I definitely like Sass a lot more.&lt;/p&gt;
+&lt;p&gt;Not worth writing vanilla css anymore.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://compass-style.org/&#34;&gt;Compass&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;google-calendar&#34;&gt;Google Calendar&lt;/h2&gt;
+&lt;p&gt;You like to keep track of events and things so you don&amp;rsquo;t forget them right? Google Calendar is about as rock solid as I&amp;rsquo;ve ever used or found. Not a lot of alternatives out there&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;https://www.google.com/calendar/&#34;&gt;Google Calendar&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fantastical&#34;&gt;Fantastical&lt;/h2&gt;
+&lt;p&gt;To get things into your calendar (and Google Calendar) in a sane way, Fantastical&amp;rsquo;s got the strongest natural language processing I&amp;rsquo;ve used. It works very reliably to process text into an actual task with a date in a thing with a place attached to it.&lt;/p&gt;
+&lt;p&gt;~$20 &lt;a href=&#34;https://flexibits.com/fantastical&#34;&gt;Fantastical&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##1Password
+You should not keep all the passwords to your things in your head. They get lost in there. 1Password handles them all well and in a way that you don&amp;rsquo;t need to remember all of them. Integrates nicely with Alfred, works on Android, OS X, iOS, Windows and works very well.&lt;/p&gt;
+&lt;p&gt;~$50 (OS X) &lt;a href=&#34;https://agilebits.com/onepassword&#34;&gt;1Password&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##f.lux
+If you do work on a computer, sometimes at night, you owe it to your retinas to treat them kindly. F.lux will locate your computer and change the color temperature to pull most of the blue out of the screen when it&amp;rsquo;s dark outside. The effect of this is two-fold. You are no longer looking into the color equivalent of the sun, and suddenly your eyes don&amp;rsquo;t feel like they&amp;rsquo;ve been in an uncomfortable scene from Clockwork Orange. You&amp;rsquo;ll mostly just notice your computer doesn&amp;rsquo;t hurt your eyes anymore.&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://justgetflux.com/&#34;&gt;F.lux&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##Dropbox
+You have files in one place. You want files in another place. Dropbox moves them around for you.j&lt;/p&gt;
+&lt;p&gt;~$0 &lt;a href=&#34;http://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##Arq
+For irreplaceable things that live on your computer, a backup hard drive is &lt;strong&gt;not enough&lt;/strong&gt;. Arq iteratively backs up to Amazon&amp;rsquo;s infrastructure in the background. It works very well, and if your home is overrun by weasels, you have backups of your important things.&lt;/p&gt;
+&lt;p&gt;~$40 &lt;a href=&#34;http://www.haystacksoftware.com/arq/index.php&#34;&gt;Arq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##DaisyDisk
+When you run out of space in a folder or disk, you generally want to know what is going on in there. DaisyDisk will show you what you&amp;rsquo;re spending your disk space on visually, and clear some of that garbage out. Great stuff.&lt;/p&gt;
+&lt;p&gt;~$10 &lt;a href=&#34;http://www.daisydiskapp.com/&#34;&gt;DaisyDisk&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
   </channel>

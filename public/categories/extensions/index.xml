@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>extensions on qbunt.com</title>
-    <link>/categories/extensions/</link>
-    <description>Recent content in extensions on qbunt.com</description>
+    <title>Extensions on qbunt.com</title>
+    <link>http://localhost:1313/categories/extensions/</link>
+    <description>Recent content in Extensions on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
-    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/extensions/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/extensions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chrome Extensions for winners</title>
-      <link>/posts/chrome-extensions-for-winners/</link>
+      <link>http://localhost:1313/posts/chrome-extensions-for-winners/</link>
       <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
       
-      <guid>/posts/chrome-extensions-for-winners/</guid>
-      <description>In the same vein as the toolbox post I put up in March, I wanted to post a list of my most-used Chrome extensions.
-I don&#39;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&#39;s a list of the best ones.
-Pushbullet Allows for Android push notification mirroring on Chrome.</description>
+      <guid>http://localhost:1313/posts/chrome-extensions-for-winners/</guid>
+      <description>&lt;p&gt;In the same vein as &lt;a href=&#34;http://qbunt.com/the-toolbox/&#34;&gt;the toolbox post&lt;/a&gt; I put up in March, I wanted to post a list of my most-used Chrome extensions.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.&lt;/p&gt;</description>
+      <content>&lt;p&gt;In the same vein as &lt;a href=&#34;http://qbunt.com/the-toolbox/&#34;&gt;the toolbox post&lt;/a&gt; I put up in March, I wanted to post a list of my most-used Chrome extensions.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t use many Chrome extensions, but there are a few that I completely rely on every day. I get asked occasionally what these are and if I could share the links to some of these things, so here&amp;rsquo;s a list of the best ones.&lt;/p&gt;
+&lt;h2 id=&#34;pushbullethttpschromegooglecomwebstoredetailpushbulletchlffgpmiacpedhhbkiomidkjlcfhogdhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/pushbullet/chlffgpmiacpedhhbkiomidkjlcfhogd?hl=en&#34;&gt;Pushbullet&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Allows for Android push notification mirroring on Chrome. Great for those things that don&amp;rsquo;t have a web UI. You can even reply to text messages, it&amp;rsquo;s like your computer just turns into your phone when you&amp;rsquo;re using it. Totally great.&lt;/p&gt;
+&lt;p&gt;Indispensable for caller ID when your phone is on the desk and silent.&lt;/p&gt;
+&lt;h2 id=&#34;full-page-screen-capturehttpschromegooglecomwebstoredetailfull-page-screen-capturefdpohaocaechififmbbbbbknoalclacl&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl&#34;&gt;Full Page Screen Capture&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Instead of using a standalone app, this actually captures the browser page you&amp;rsquo;re looking at, saving it as an image. Fantastic for archiving work.&lt;/p&gt;
+&lt;h2 id=&#34;pagespeed-insightshttpschromegooglecomwebstoredetailpagespeed-insights-by-googplegfbjlmmehdoakndmohflojccoclihlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli?hl=en&#34;&gt;PageSpeed Insights&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Easily optimize your sites with PageSpeed Insights in Chrome. Faster is always better.&lt;/p&gt;
+&lt;h2 id=&#34;clearcachehttpschromegooglecomwebstoredetailclear-cachecppjkneekbjaeellbfkmgnhonkkjfpdnhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&#34;&gt;ClearCache&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One click cache clearing, no more menu digging.&lt;/p&gt;
+&lt;h2 id=&#34;google-voicehttpschromegooglecomwebstoredetailgoogle-voice-by-googlekcnhkahnjcbndmmehfkdnkjomaanaooohlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/google-voice-by-google/kcnhkahnjcbndmmehfkdnkjomaanaooo?hl=en&#34;&gt;Google Voice&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Listen to voicemail and respond to text messages received on your Google Voice number.&lt;/p&gt;
+&lt;h2 id=&#34;postmanhttpschromegooglecomwebstoredetailpostman-rest-clientfdmmgilgnpjigdojojpjoooidkmcomcmhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en&#34;&gt;Postman&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Full REST console in Chrome. Great for testing out brand new API endpoints or just making sure your thing isn&amp;rsquo;t broken.&lt;/p&gt;
+&lt;h2 id=&#34;googl-shortenerhttpschromegooglecomwebstoredetailgoogl-url-shorteneriblijlcdoidgdpfknkckljiocdbnlagkhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/googl-url-shortener/iblijlcdoidgdpfknkckljiocdbnlagk?hl=en&#34;&gt;Goo.gl shortener&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Long URLs are annoying. Put these in emails instead.&lt;/p&gt;
+&lt;h2 id=&#34;jsonviewhttpschromegooglecomwebstoredetailjsonviewchklaanhfefbnpoihckbnefhakgolnmchlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en&#34;&gt;JSONView&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This will organize JSON responses automagically, so you don&amp;rsquo;t have to look at it all compressed&amp;hellip;like an animal.&lt;/p&gt;
+&lt;h2 id=&#34;swayfmhttpschromegooglecomwebstoredetailswayfm-unified-music-mediicckhjgjjompfgoiidainoapgjepncej&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/swayfm-unified-music-medi/icckhjgjjompfgoiidainoapgjepncej&#34;&gt;Sway.fm&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This thing is awesome. If you have a Mac, this will connect your media keys (play, pause, fwd &amp;amp; back) to your internet radio AND YouTube. If you have Pandora playing in some tab somewhere, you can pause it even with Chrome in the background.&lt;/p&gt;
+&lt;h2 id=&#34;uberconferencehttpschromegooglecomwebstoredetailuberconference-extensionnpakjcgebghlhfgcmcoehmehicdhcjbbhlen&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/uberconference-extension/npakjcgebghlhfgcmcoehmehicdhcjbb?hl=en&#34;&gt;UberConference&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Uberconference is a great, free, phone conference bridge. This thing will allow you to schedule conferences, setup new ones and notify everyone via text. Also, no PIN codes on Uberconference, auth is via the phone number.&lt;/p&gt;
+&lt;h2 id=&#34;chrome-remote-desktophttpschromegooglecomwebstoredetailchrome-remote-desktopgbchcmhmhahfdphkhkmpfmihenigjmpp&#34;&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp&#34;&gt;Chrome Remote Desktop&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Full remote desktop to any machine you own or have access to in the browser. This makes &lt;em&gt;GoToMyPC&lt;/em&gt; seem like silly joke.&lt;/p&gt;
+</content>
     </item>
     
   </channel>

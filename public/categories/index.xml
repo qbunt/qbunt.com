@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on qbunt.com</title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on qbunt.com</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>©2020 Jeremy Bunting. Opinions are my own.</copyright>
-    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Aug 2014 16:28:12 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>apps</title>
-      <link>/categories/apps/</link>
+      <title>Apps</title>
+      <link>http://localhost:1313/categories/apps/</link>
       <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
       
-      <guid>/categories/apps/</guid>
+      <guid>http://localhost:1313/categories/apps/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>extensions</title>
-      <link>/categories/extensions/</link>
+      <title>Extensions</title>
+      <link>http://localhost:1313/categories/extensions/</link>
       <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
       
-      <guid>/categories/extensions/</guid>
+      <guid>http://localhost:1313/categories/extensions/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>tips &amp; tricks</title>
-      <link>/categories/tips-tricks/</link>
+      <title>Tips &amp; Tricks</title>
+      <link>http://localhost:1313/categories/tips--tricks/</link>
       <pubDate>Sat, 09 Aug 2014 16:28:12 +0000</pubDate>
       
-      <guid>/categories/tips-tricks/</guid>
+      <guid>http://localhost:1313/categories/tips--tricks/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>creativity</title>
-      <link>/categories/creativity/</link>
+      <title>Creativity</title>
+      <link>http://localhost:1313/categories/creativity/</link>
       <pubDate>Sat, 09 Aug 2014 04:50:16 +0000</pubDate>
       
-      <guid>/categories/creativity/</guid>
+      <guid>http://localhost:1313/categories/creativity/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
-      <title>monty python</title>
-      <link>/categories/monty-python/</link>
+      <title>Monty Python</title>
+      <link>http://localhost:1313/categories/monty-python/</link>
       <pubDate>Sat, 09 Aug 2014 04:50:16 +0000</pubDate>
       
-      <guid>/categories/monty-python/</guid>
+      <guid>http://localhost:1313/categories/monty-python/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

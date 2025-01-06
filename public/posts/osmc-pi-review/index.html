@@ -1,73 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Cheap media server that plays anything :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting</title>
+    <title>Cheap media server that plays anything :: qbunt.com</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="UPDATE 11/5/15
- With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&#39;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
-  Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card."/>
-<meta name="keywords" content=""/>
-<meta name="robots" content="noodp"/>
-<link rel="canonical" href="/posts/osmc-pi-review/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A review of the Raspberry Pi running OSMC" />
+<meta name="keywords" content="" />
 
+  <meta name="robots" content="noodp" />
 
-<link rel="stylesheet" href="/assets/style.css">
-
-  <link rel="stylesheet" href="/assets/green.css">
+<link rel="canonical" href="http://localhost:1313/posts/osmc-pi-review/" />
 
 
 
 
 
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
 
-<link rel="shortcut icon" href="/img/favicon/green.png">
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
 
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Cheap media server that plays anything :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting" />
-<meta name="twitter:description" content="UPDATE 11/5/15
- With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&#39;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
-  Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card." />
-<meta name="twitter:site" content="/" />
-<meta name="twitter:creator" content="Jeremy Bunting" />
-<meta name="twitter:image" content="">
+
 
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Cheap media server that plays anything :: qbunt.com — Thoughts and code from tech guy Jeremy Bunting">
-<meta property="og:description" content="UPDATE 11/5/15
- With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&#39;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.
-  Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card." />
-<meta property="og:url" content="/posts/osmc-pi-review/" />
-<meta property="og:site_name" content="Cheap media server that plays anything" />
-<meta property="og:image" content="">
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
+<meta property="og:title" content="Cheap media server that plays anything">
+<meta property="og:description" content="A review of the Raspberry Pi running OSMC" />
+<meta property="og:url" content="http://localhost:1313/posts/osmc-pi-review/" />
+<meta property="og:site_name" content="qbunt.com" />
 
-<meta property="article:published_time" content="2015-09-12 18:23:57 &#43;0000 UTC" />
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
 
 
-
+  <meta property="article:published_time" content="2015-09-12 18:23:57 &#43;0000 UTC" />
 
 
 
 
 
 
+
+
+
+<a rel="me" href="https://mastodon.social/@qbunt"></a>
+<script defer data-domain="qbunt.com" src="https://d.qbunt.com/js/script.js"></script>
 
 
 </head>
-<body class="">
+<body>
 
 
-<div class="container center headings--one-size">
+<div class="container center">
 
   <header class="header">
   <div class="header__inner">
@@ -79,12 +116,11 @@
 </a>
 
     </div>
-    <div class="menu-trigger">menu</div>
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
     
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
       
         
           <li><a href="/about">About</a></li>
@@ -95,37 +131,43 @@
         
       
         
-          <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
+          <li><a href="https://mastodon.social/@qbunt">Mastodon</a></li>
         
       
         
-          <li><a href="https://work.jeremybunting.com">Work</a></li>
+          <li><a href="/index.xml">RSS</a></li>
         
       
       
-    
+    </ul>
+  </li>
+</ul>
 
     
-  </ul>
-
-  <ul class="menu__inner menu__inner--mobile">
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
     
       
-        <li><a href="/about">About</a></li>
+        
+          <li><a href="/about" >About</a></li>
+        
       
-    
+        
+          <li><a href="https://github.com/qbunt" >Github</a></li>
+        
       
-        <li><a href="https://github.com/qbunt">Github</a></li>
+        
+          <li><a href="https://mastodon.social/@qbunt" >Mastodon</a></li>
+        
       
-    
+        
+          <li><a href="/index.xml" >RSS</a></li>
+        
       
-        <li><a href="https://www.linkedin.com/in/jeremybunting/">LinkedIn</a></li>
       
-    
-      
-        <li><a href="https://work.jeremybunting.com">Work</a></li>
-      
-    
     
   </ul>
 </nav>
@@ -136,128 +178,122 @@
 
   <div class="content">
     
-<div class="post">
+<article class="post">
   <h1 class="post-title">
-    <a href="/posts/osmc-pi-review/">Cheap media server that plays anything</a></h1>
-  <div class="post-meta">
-      
-    <span class="post-date">
-      2015-09-12
-    </span>
-    
-    
-    <span class="post-author">::
-      Jeremy Bunting
-    </span>
-    
-  </div>
+    <a href="http://localhost:1313/posts/osmc-pi-review/">Cheap media server that plays anything</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2015-09-12</time><span class="post-author">Jeremy Bunting</span><span class="post-reading-time">6 min read (1114 words)</span></div>
+
+  
+  
+
 
   
 
-  
-
-  <div class="post-content">
-    <p><em>UPDATE 11/5/15</em></p>
+  <div class="post-content"><div>
+        <p><em>UPDATE 11/5/15</em></p>
 <blockquote>
-<p>With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I'm changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.</p>
+<p>With the Pi 2, amperage requirements are significantly higher, presumably due to the doubling of cores in the machine, more IO, etc. I&rsquo;m changing my recommendation to a different power supply that provides clean 2.5A power for the Pi 2.</p>
 </blockquote>
 <blockquote>
 <p>Also, please note that the Pi 2 requires a microSD card instead of the standard SD card format from the original Pi, recommending a microSD card.</p>
 </blockquote>
-<p>For years now I've been trying out different ways to play my digital video collection with something other than an AppleTV, Chromecast, Amazon Stick, Roku or anything else. I wanted to share my findings after relentlessly trying to find something that doesn't suck. I <em>finally</em> found something.</p>
+<p>For years now I&rsquo;ve been trying out different ways to play my digital video collection with something other than an AppleTV, Chromecast, Amazon Stick, Roku or anything else. I wanted to share my findings after relentlessly trying to find something that doesn&rsquo;t suck. I <em>finally</em> found something.</p>
 <p>The ideal for this magical solution would:</p>
 <ul>
 <li>Play the entire collection (480P, 720P, MKV, AVI, MP4 etc)</li>
-<li>Not cost a lot. You're watching TV after all.</li>
+<li>Not cost a lot. You&rsquo;re watching TV after all.</li>
 <li>Make little/no noise</li>
 <li>Not take up a lot of space</li>
-<li>Not be fiddly, ideally, this wouldn't require a server</li>
+<li>Not be fiddly, ideally, this wouldn&rsquo;t require a server</li>
 <li>Not crash often</li>
 <li>Be controllable with a phone (Android &amp; iOS)</li>
 </ul>
 <p>These are some things I tried.</p>
-<h3 id="take-1---the-macbook">Take 1 - The Macbook</h3>
+<h3 id="take-1---the-macbook">Take 1 - The Macbook<a href="#take-1---the-macbook" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 
-  <img src="https://i.kinja-img.com/gawker-media/image/upload/18kzmia28t4asjpg.jpg"  alt="Picture of macbooks"  class="center"  style="border-radius: 8px;"  />
+<img src="https://i.kinja-img.com/gawker-media/image/upload/18kzmia28t4asjpg.jpg"  alt="Picture of macbooks"  class="center"  style="border-radius: 8px;"    />
 
 
-<p>I loved this thing, but eventually, I needed more juice than this little guy could deliver day-to-day. I quickly relegated this to media center duty using XBMC (now <a href="http://kodi.tv/">Kodi</a>). Plex hadn't really matured at this point, but was showing some promise. XBMC/Kodi on the Macbook worked really well, while it worked. Even had an IR receiver in the front!</p>
-<p>After years of this labor, the fan in this hard-working machine died a horrible black death. Laptops are terrible for playing video like this. You have to have a mouse and monitor attached, there's little cooling, you'll kill the fan, and then you just have a fried laptop. I'm sure the <a href="http://www.intel.com/content/www/us/en/chipsets/gma-950-graphics-sales-brief.html">Intel GMA950</a> integrated GPU didn't help. Welp, worked for a while.</p>
+<p>I loved this thing, but eventually, I needed more juice than this little guy could deliver day-to-day. I quickly relegated this to media center duty using XBMC (now <a href="http://kodi.tv/">Kodi</a>). Plex hadn&rsquo;t really matured at this point, but was showing some promise. XBMC/Kodi on the Macbook worked really well, while it worked. Even had an IR receiver in the front!</p>
+<p>After years of this labor, the fan in this hard-working machine died a horrible black death. Laptops are terrible for playing video like this. You have to have a mouse and monitor attached, there&rsquo;s little cooling, you&rsquo;ll kill the fan, and then you just have a fried laptop. I&rsquo;m sure the <a href="http://www.intel.com/content/www/us/en/chipsets/gma-950-graphics-sales-brief.html">Intel GMA950</a> integrated GPU didn&rsquo;t help. Welp, worked for a while.</p>
 <p>Laptops should be laptops. This was a terrible idea.</p>
-<h3 id="take-2---the-appletv">Take 2 - The AppleTV</h3>
+<h3 id="take-2---the-appletv">Take 2 - The AppleTV<a href="#take-2---the-appletv" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 
-  <img src="https://d3nevzfk7ii3be.cloudfront.net/igi/ge1LZXKrXOHCboiX.medium"  alt="Photo of an Apple TV"  class="center"  style="border-radius: 8px;"  />
+<img src="https://d3nevzfk7ii3be.cloudfront.net/igi/ge1LZXKrXOHCboiX.medium"  alt="Photo of an Apple TV"  class="center"  style="border-radius: 8px;"    />
 
 
 <p>I owned this AppleTV (2nd gen) for years. We used it for Netflix, Airplay and Pandora fairly frequently. It was okay for supported stuff but not great for playing my own video smoothly. That remote got lost <em>constantly</em>.</p>
 <p>I played my own video on <a href="https://plex.tv/">Plex</a> for a while with <a href="https://github.com/iBaa/PlexConnect/wiki">PlexConnect</a>. This, however, also shackled my laptop back to media center duty, as <a href="https://plex.tv/">Plex</a> required a server to transcode things into a codec that the AppleTV understands. Not ideal.</p>
-<p>I'd heard about people <a href="http://seas0npass.org/">jailbreaking AppleTV with Seas0npass</a> as well, so I gave that a go, again with <a href="http://kodi.tv/">Kodi</a>. This was the most crashy thing on the planet. Any remotely high-res files crashed the jailbreak immediately. After some logging, it was just completely out of RAM. That AppleTV had 256MB of RAM, so running a stripped down iOS + Kodi was just way too much.</p>
-<p>Eventually, we mostly stopped using the AppleTV and sold it, for <a href="http://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p2050601.m570.l1313.TR12.TRC2.A0.H0.Xapple+tv+2.TRS0&amp;_nkw=apple+tv+2&amp;_sacat=0">a crazy profit on eBay</a>, it was the last version you could jailbreak after all. With the reports people have of their experience, I don't miss it much.</p>
+<p>I&rsquo;d heard about people <a href="http://seas0npass.org/">jailbreaking AppleTV with Seas0npass</a> as well, so I gave that a go, again with <a href="http://kodi.tv/">Kodi</a>. This was the most crashy thing on the planet. Any remotely high-res files crashed the jailbreak immediately. After some logging, it was just completely out of RAM. That AppleTV had 256MB of RAM, so running a stripped down iOS + Kodi was just way too much.</p>
+<p>Eventually, we mostly stopped using the AppleTV and sold it, for <a href="http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2050601.m570.l1313.TR12.TRC2.A0.H0.Xapple+tv+2.TRS0&_nkw=apple+tv+2&_sacat=0">a crazy profit on eBay</a>, it was the last version you could jailbreak after all. With the reports people have of their experience, I don&rsquo;t miss it much.</p>
 <p>Maybe I needed a purpose built machine?</p>
-<h3 id="take-22">Take 2.2</h3>
-<p>I considered and priced out a tiny <a href="http://www.intel.com/content/www/us/en/nuc/overview.html">Intel NUC</a> box. I couldn't stomach the $500 to watch TV &amp; movies.</p>
+<h3 id="take-22">Take 2.2<a href="#take-22" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>I considered and priced out a tiny <a href="http://www.intel.com/content/www/us/en/nuc/overview.html">Intel NUC</a> box. I couldn&rsquo;t stomach the $500 to watch TV &amp; movies.</p>
 <p>Onto the cheaper option&hellip;</p>
-<h3 id="take-3---the-raspberry-pi">Take 3 - The Raspberry Pi</h3>
+<h3 id="take-3---the-raspberry-pi">Take 3 - The Raspberry Pi<a href="#take-3---the-raspberry-pi" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 
-  <img src="https://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg"  alt="Photo of a Raspberry Pi single board computer"  class="center"  style="border-radius: 8px;"  />
+<img src="https://raspi.tv/wp-content/uploads/2015/03/Official-Raspberry-Pi-Case_1500.jpg"  alt="Photo of a Raspberry Pi single board computer"  class="center"  style="border-radius: 8px;"    />
 
 
-<p>After receiving a <a href="https://www.raspberrypi.org/">Raspberry Pi</a> from my brother as a gift, it needed a full time gig. The Pi's SD card drive was well suited for messing around, and I had a couple of spare SD cards around as well, so I stretched it's legs. Kodi was pretty well supported on these things, it would cost nothing. Why not?</p>
-<p>First, I tried <a href="http://www.xbian.org/">Xbian</a>. Xbian's a Debian Linux distribution with a Kodi install baked in. I was shocked that <em>any</em> video would play on a machine that size, but <em>absolutely everything</em> started playing, and very smoothly. Super impressive. The Pi is a great little machine for media center duty.</p>
+<p>After receiving a <a href="https://www.raspberrypi.org/">Raspberry Pi</a> from my brother as a gift, it needed a full time gig. The Pi&rsquo;s SD card drive was well suited for messing around, and I had a couple of spare SD cards around as well, so I stretched it&rsquo;s legs. Kodi was pretty well supported on these things, it would cost nothing. Why not?</p>
+<p>First, I tried <a href="http://www.xbian.org/">Xbian</a>. Xbian&rsquo;s a Debian Linux distribution with a Kodi install baked in. I was shocked that <em>any</em> video would play on a machine that size, but <em>absolutely everything</em> started playing, and very smoothly. Super impressive. The Pi is a great little machine for media center duty.</p>
 <p>This was better than the Macbook <em>or</em> the AppleTV for local media playback and it was inexpensive.</p>
-<p>Still, despite what it says on <a href="http://www.xbian.org/">their site</a>, I found Xbian to not be as well maintained as I'd hoped. It worked pretty well, but it wasn't without it's flaws. It crashed the Pi once in a while, didn't get updates, and was more fiddly than I'd hoped.</p>
-<p>Then, I tried <a href="https://osmc.tv/">OSMC</a>. This is still Kodi running on a stripped down version of Debian Jessie. They've done a custom skin specifically for the Raspberry Pi, and it's been tuned really well for the platform. Much lighter than the stock Kodi skin.</p>
-<p>Install process is super easy, you download an app, stick in a card, wait a while, and it's ready to boot. This was a step above, I've got nothing but good things to say. It gets updated, it's fast, smooth, silent, and it doesn't require a transcoding server. Completely ideal. There's even a tiny app store.</p>
+<p>Still, despite what it says on <a href="http://www.xbian.org/">their site</a>, I found Xbian to not be as well maintained as I&rsquo;d hoped. It worked pretty well, but it wasn&rsquo;t without it&rsquo;s flaws. It crashed the Pi once in a while, didn&rsquo;t get updates, and was more fiddly than I&rsquo;d hoped.</p>
+<p>Then, I tried <a href="https://osmc.tv/">OSMC</a>. This is still Kodi running on a stripped down version of Debian Jessie. They&rsquo;ve done a custom skin specifically for the Raspberry Pi, and it&rsquo;s been tuned really well for the platform. Much lighter than the stock Kodi skin.</p>
+<p>Install process is super easy, you download an app, stick in a card, wait a while, and it&rsquo;s ready to boot. This was a step above, I&rsquo;ve got nothing but good things to say. It gets updated, it&rsquo;s fast, smooth, silent, and it doesn&rsquo;t require a transcoding server. Completely ideal. There&rsquo;s even a tiny app store.</p>
 <p>This was the holy grail. It does everything well.</p>
-<h5 id="how">How?</h5>
-<p>How can you do this? You'll need a few things.</p>
-<p>Power Supplies <a href="http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00GF9T3I0/ref=sr_1_2?ie=UTF8&amp;qid=1446761332&amp;sr=8-2&amp;keywords=raspberry+pi+power+supply">Pi 1 ~ $8</a>, <a href="http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4/ref=sr_1_1?ie=UTF8&amp;qid=1446761121&amp;sr=8-1&amp;keywords=raspberry+pi+2+power+supply">Pi 2 ~ $10</a> CanaKit makes  good ones. Definitely purchase a purpose built power supply, these things like clean power at the correct amperage.</p>
-<p>(Non-Pi 2) <a href="http://www.amazon.com/SanDisk-Memory-SDSDUN-032G-G46-Newest-Version/dp/B00M55BMBE/ref=sr_1_12?ie=UTF8&amp;qid=1442042051&amp;sr=8-12&amp;keywords=SD+card">SD Card ~ $8</a> More than 4GB, and preferably class 10. Standard SD format for Pi Model A - B+, MicroSD for Pi 2.
-(Pi 2) <a href="http://www.amazon.com/dp/B00IVPU7KE/ref=twister_B00IYOCEG2?_encoding=UTF8&amp;psc=1">microSD card recommended here.</a></p>
+<h5 id="how">How?<a href="#how" class="hanchor" ariaLabel="Anchor">#</a> </h5>
+<p>How can you do this? You&rsquo;ll need a few things.</p>
+<p>Power Supplies <a href="http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00GF9T3I0/ref=sr_1_2?ie=UTF8&qid=1446761332&sr=8-2&keywords=raspberry+pi+power+supply">Pi 1 ~ $8</a>, <a href="http://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4/ref=sr_1_1?ie=UTF8&qid=1446761121&sr=8-1&keywords=raspberry+pi+2+power+supply">Pi 2 ~ $10</a> CanaKit makes  good ones. Definitely purchase a purpose built power supply, these things like clean power at the correct amperage.</p>
+<p>(Non-Pi 2) <a href="http://www.amazon.com/SanDisk-Memory-SDSDUN-032G-G46-Newest-Version/dp/B00M55BMBE/ref=sr_1_12?ie=UTF8&qid=1442042051&sr=8-12&keywords=SD+card">SD Card ~ $8</a> More than 4GB, and preferably class 10. Standard SD format for Pi Model A - B+, MicroSD for Pi 2.
+(Pi 2) <a href="http://www.amazon.com/dp/B00IVPU7KE/ref=twister_B00IYOCEG2?_encoding=UTF8&psc=1">microSD card recommended here.</a></p>
 <p><a href="http://www.adafruit.com/products/814">Optional USB WiFi adapter ~ $11</a> Not needed if you just use ethernet (probably faster anyway).</p>
 <p><a href="http://www.amazon.com/Raspberry-Pi-Model-Desktop-Linux/dp/B00T2U7R7I">Raspberry Pi ~ $40</a> Mine is older, this one is quad core!!</p>
-<p><a href="http://www.raspberrypi.com/mpeg-2-license-key/">Codec Keys ~ $4</a> This sounds really complicated, but it's just a short text string. You'll want this for hardware decoding.</p>
-<p><a href="http://www.amazon.com/Official-Raspberry-Pi-Foundation-Model/dp/B00ZW4RKFM/ref=sr_1_3?s=pc&amp;ie=UTF8&amp;qid=1442042426&amp;sr=1-3&amp;keywords=raspberry+pi+case">Case ~ $12</a> This new one is from the Pi foundation, seems well done. Interesting reading on the design <a href="https://www.raspberrypi.org/blog/raspberry-pi-official-case/">here</a>.</p>
-<p><a href="http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Supports/dp/B00870ZHCQ/ref=sr_1_2?ie=UTF8&amp;qid=1442043195&amp;sr=8-2&amp;keywords=hdmi">HDMI cable ~ $5</a> - if you don't have one already.</p>
+<p><a href="http://www.raspberrypi.com/mpeg-2-license-key/">Codec Keys ~ $4</a> This sounds really complicated, but it&rsquo;s just a short text string. You&rsquo;ll want this for hardware decoding.</p>
+<p><a href="http://www.amazon.com/Official-Raspberry-Pi-Foundation-Model/dp/B00ZW4RKFM/ref=sr_1_3?s=pc&ie=UTF8&qid=1442042426&sr=1-3&keywords=raspberry+pi+case">Case ~ $12</a> This new one is from the Pi foundation, seems well done. Interesting reading on the design <a href="https://www.raspberrypi.org/blog/raspberry-pi-official-case/">here</a>.</p>
+<p><a href="http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Supports/dp/B00870ZHCQ/ref=sr_1_2?ie=UTF8&qid=1442043195&sr=8-2&keywords=hdmi">HDMI cable ~ $5</a> - if you don&rsquo;t have one already.</p>
 <p>Then a remote of some kind. I use my phone.
-<strong>Android</strong>: <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree&amp;hl=en">Yatse</a> is super solid, nice looking and reliable.</p>
+<strong>Android</strong>: <a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree&hl=en">Yatse</a> is super solid, nice looking and reliable.</p>
 <p><strong>iOS</strong>: <a href="https://itunes.apple.com/us/app/official-kodi-remote/id520480364?mt=8">Kodi Remote (official)</a> is a solid option, looks great on iPad. Or <a href="https://itunes.apple.com/us/app/sybu-for-kodi-and-xbmc/id567524653?mt=8">Sybu</a> is pretty good too.</p>
 <p><strong>Any other IR remote</strong>: The USB <a href="https://flirc.tv/">Flirc adapter</a> will receive IR and send keypresses to the Pi. Even that weird old stereo remote in your junk drawer.</p>
-<p>Total cost for everything above, $93, though not everything is required. You probably have some/all of this kicking around, if not, you'd be hard pressed to find a better and more flexible option. It will play any format you toss it's way, it's silent, easy to use and tiny.</p>
-<p>If you've got a large media library and keep coming up with crazy tech chains to play it all, this is a <em>fantastic</em> way to reduce the computers involved.</p>
+<p>Total cost for everything above, $93, though not everything is required. You probably have some/all of this kicking around, if not, you&rsquo;d be hard pressed to find a better and more flexible option. It will play any format you toss it&rsquo;s way, it&rsquo;s silent, easy to use and tiny.</p>
+<p>If you&rsquo;ve got a large media library and keep coming up with crazy tech chains to play it all, this is a <em>fantastic</em> way to reduce the computers involved.</p>
 
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
   </div>
-  
-  <div class="pagination">
-    <div class="pagination__title">
-      <span
-        class="pagination__title-h">Read other posts</span>
-      <hr />
-    </div>
-    <div class="pagination__buttons">
-      
-      <span class="button previous">
-        <a href="/posts/nginx-configuration-with-basic-auth/">
-          <span class="button__icon">←</span>
-          <span class="button__text">NGinX Configuration with basic auth &amp; custom error messages</span>
-        </a>
-      </span>
-      
-      
-      <span class="button next">
-        <a href="/posts/the-vintage-parts-of-the-mta/">
-          <span class="button__text">The Vintage parts of the MTA</span>
-          <span class="button__icon">→</span>
-        </a>
-      </span>
-      
-    </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/nginx-configuration-with-basic-auth/" class="button inline prev">
+        NGinX Configuration with basic auth &amp; custom error messages
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/the-vintage-parts-of-the-mta/" class="button inline next">
+        The Vintage parts of the MTA
+      </a>
+    
   </div>
-  
-
-  
-
 </div>
+
+
+  
+
+  
+    
+
+  
+</article>
 
   </div>
 
@@ -265,16 +301,20 @@
     <footer class="footer">
   <div class="footer__inner">
     
-      <div class="copyright copyright--user">
-        <span>©2020 Jeremy Bunting. Opinions are my own.</span>
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
 

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Deploying to Heroku in a monorepo with Github Actions :: qbunt.com</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Man I really need to write on this blog more, it&rsquo;s been far too long.
+Heroku has made some questionable business choices recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and git push your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early. A bunch have even gotten there, and acknowledge that it&rsquo;s no longer 2010.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/deploying-a-monorepo-to-heroku-sanely/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Deploying to Heroku in a monorepo with Github Actions">
+<meta property="og:description" content="Man I really need to write on this blog more, it&rsquo;s been far too long.
+Heroku has made some questionable business choices recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and git push your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early. A bunch have even gotten there, and acknowledge that it&rsquo;s no longer 2010.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/deploying-a-monorepo-to-heroku-sanely/" />
+<meta property="og:site_name" content="qbunt.com" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-10-02 20:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<a rel="me" href="https://mastodon.social/@qbunt"></a>
+<script defer data-domain="qbunt.com" src="https://d.qbunt.com/js/script.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Buntlog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/qbunt">Github</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.social/@qbunt">Mastodon</a></li>
+        
+      
+        
+          <li><a href="/index.xml">RSS</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/qbunt" >Github</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.social/@qbunt" >Mastodon</a></li>
+        
+      
+        
+          <li><a href="/index.xml" >RSS</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/deploying-a-monorepo-to-heroku-sanely/">Deploying to Heroku in a monorepo with Github Actions</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2022-10-02</time><span class="post-reading-time">4 min read (724 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Man I really need to write on this blog more, it&rsquo;s been far too long.</p>
+<p>Heroku has made some <a href="https://blog.heroku.com/next-chapter">questionable business choices</a> recently, but the one thing they got dead-right straight out of the gate was ease of setup. With very little work, you could go from a working thing locally, add a couple files, and <code>git push</code> your way to a deployed environment. That simple interaction made so much complexity go away, I think many hosting services are still after the bar that Heroku set so early. A bunch have even gotten there, and acknowledge that it&rsquo;s no longer 2010.</p>
+<p>In that time, things have gotten a lot more complex.</p>
+<p>Github Actions has become ubiquitous for CI/CD, static hosting has gotten very simple, and web tooling has evolved very, <strong>very</strong> quickly. One of the largest changes I&rsquo;ve seen in this space is moving from single-project repos, to monorepos. Monorepos can make a ton of sense, especially when you have several services all interconnected into the same project. When it comes to deploying to our old friend Heroku though, a monorepo adds a new layer that Heroku has <strong>certainly</strong> not kept up with.</p>
+<p>Deploying to Heroku with a single-project repo:<br>
+<code>git push heroku main</code></p>
+<p>Deploying to Heroku <strong>with a monorepo</strong>:<br>
+<code>git subtree push --prefix apiOne heroku-apiOne master</code></p>
+<blockquote>
+<p>Okay&hellip;what is the big deal</p>
+</blockquote>
+<p>You&rsquo;re now dealing with multiple Git origins, on potentially multiple stages, on multiple apps. It very quickly becomes unmanageable for a small team.</p>
+<p>When you aren&rsquo;t using the Github/Heroku integration (say, for instance, because there was a <a href="/">massive data breach</a>) but you still need to ship code, that gets a lot more complicated.</p>
+<p>The options then become:</p>
+<ul>
+<li>Use the multi-procfile buildpack and get your <code>git push git@heroku.com:&lt;app&gt; main</code> style deployments back (peppering your codebase with Procfiles)</li>
+<li>Deploy the apps locally with <code>git subtree</code> and witness the endless errors with that 🤮</li>
+<li>Wait for the data breach mitigations to complete and reconnect Github and do ALL the CI/CD inside Heroku</li>
+</ul>
+<p>The way Heroku <em>wants</em> everyone to use their service is to connect their Github account, and use hooks to determine when they should do a build &amp; deploy step. There are a couple of issues with this (especially with the data breach behind us)</p>
+<ul>
+<li>I don&rsquo;t know about you, but I&rsquo;m not <strong>super</strong> ready to connect our private Github org back to the same place that just had a data breach</li>
+<li>Really hard to see if there&rsquo;s something wrong directly from your repo</li>
+<li>You now have to have both Heroku &amp; Github Actions open all the time to see if something fell over with the deployment or the build</li>
+</ul>
+<p>Thankfully, you can bypass all of this <a href="/">with a plugin</a> to the Heroku CLI. Instead of pulling from Github, you can <em>push out</em> to Heroku. Benefit of this, is that now multiple services allow for this deployment style, so you can standardize on GH Actions instead of bending around each service&rsquo;s deployment pipeline (looking at you Cloudflare Pages)</p>
+<p>Instead of connecting Github via their OAuth integration and potentially exposing your entire org, you can:</p>
+<ol>
+<li>Create a Heroku API key</li>
+<li>Run the CI/CD in Github actions (where it&rsquo;s convenient, can be standardized)</li>
+<li>Run a step in the action to tarball <strong>just a single app of your monorepo</strong>, and deploy the tarball directly to Heroku</li>
+<li>Avoid any Heroku-specific deployment setups AND avoid the git-related headaches related to subtreeing</li>
+</ol>
+<p>The setup is really pretty straightforward if you&rsquo;re familiar with Github Actions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>          - <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">akhileshns/heroku-deploy@v3.12.12</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">heroku_api_key</span>: <span style="color:#ae81ff">${{secrets.API_HEROKU_API_KEY}}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">heroku_app_name</span>: <span style="color:#ae81ff">${{secrets.API_HEROKU_APP_NAME}}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">heroku_email</span>: <span style="color:#ae81ff">${{secrets.API_HEROKU_EMAIL}}</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">buildpack</span>: <span style="color:#ae81ff">https://github.com/heroku/heroku-buildpack-nginx.git</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">justlogin</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">install build plugin</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">run</span>: <span style="color:#ae81ff">heroku plugins:install heroku-builds</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">deploy tarball</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">run</span>: <span style="color:#ae81ff">cd client/build &amp;&amp; heroku builds:create -a name-of-your-app</span>
+</span></span></code></pre></div><p>You can repeat that last <code>deploy tarball</code> step as many times as you need, but what&rsquo;s <strong>fantastic</strong> about this, is that all you need is to be inside the folder, and you can tarball &amp; deploy in a single step.</p>
+<h2 id="what-are-the-downsides">What are the downsides?<a href="#what-are-the-downsides" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>You&rsquo;re really only missing out on the fancy multi-stage deployments that Heroku can be capable of,  but again, with the multi-buildpack setup, I don&rsquo;t know how well that would work. Heroku is missing <strong>a ton</strong> to support monorepo projects in general, and it&rsquo;s kind of obnoxious that a service this expensive is this limited, BUT this at least lets you keep moving without rewriting your entire app.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/rss-is-for-winners/" class="button inline prev">
+        RSS is for winners 🏆
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/tracking-page-exits-with-mixpanel-js/" class="button inline next">
+        Tracking page exits with Mixpanel-js
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

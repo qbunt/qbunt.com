@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Tracking page exits with Mixpanel-js :: qbunt.com</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Oh mixpanel.
+After looking for far too long for a way in the Mixpanel docs to find a way to track session-end events with the Mixpanel JS library, I tried all the usual tricks to get the tracking event to fire correctly, beforeunload, unload and similar. Nothing was firing correctly. Having heard fairly recently about the beacon API, I thought &ldquo;Yeah, there&rsquo;s no way there&rsquo;s support for that in recent stuff yet&rdquo;.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/tracking-page-exits-with-mixpanel-js/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.90c955c31dd7c0e05aae3d4f583d4d8a2af799d69c961337eaf2a825063a55dd.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.1d8be2dd1b5de9fdaed058c8c59fcf4485f36619574abfb47ed0cfda4812c16d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.736caf886baa67df630c4cde30fbdc5115122eb74c6246f15a31401344bfa2f0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Tracking page exits with Mixpanel-js">
+<meta property="og:description" content="Oh mixpanel.
+After looking for far too long for a way in the Mixpanel docs to find a way to track session-end events with the Mixpanel JS library, I tried all the usual tricks to get the tracking event to fire correctly, beforeunload, unload and similar. Nothing was firing correctly. Having heard fairly recently about the beacon API, I thought &ldquo;Yeah, there&rsquo;s no way there&rsquo;s support for that in recent stuff yet&rdquo;.
+" />
+<meta property="og:url" content="http://localhost:1313/posts/tracking-page-exits-with-mixpanel-js/" />
+<meta property="og:site_name" content="qbunt.com" />
+
+  <meta property="og:image" content="http://localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2020-02-05 05:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<a rel="me" href="https://mastodon.social/@qbunt"></a>
+<script defer data-domain="qbunt.com" src="https://d.qbunt.com/js/script.js"></script>
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Buntlog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/qbunt">Github</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.social/@qbunt">Mastodon</a></li>
+        
+      
+        
+          <li><a href="/index.xml">RSS</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/qbunt" >Github</a></li>
+        
+      
+        
+          <li><a href="https://mastodon.social/@qbunt" >Mastodon</a></li>
+        
+      
+        
+          <li><a href="/index.xml" >RSS</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/tracking-page-exits-with-mixpanel-js/">Tracking page exits with Mixpanel-js</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2020-02-05</time><span class="post-reading-time">2 min read (307 words)</span></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Oh mixpanel.</p>
+<p>After looking for far too long for a way in the <a href="https://developer.mixpanel.com/docs/javascript-full-api-reference#section-mixpanel-track">Mixpanel docs</a> to find a way to track <code>session-end</code> events with the <a href="https://github.com/mixpanel/mixpanel-js">Mixpanel JS library</a>, I tried all the usual tricks to get the tracking event to fire correctly, <code>beforeunload</code>, <code>unload</code> and similar. Nothing was firing correctly. Having heard fairly recently about <a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">the beacon API</a>, I thought &ldquo;Yeah, there&rsquo;s no way there&rsquo;s support for that in recent stuff yet&rdquo;.</p>
+<p><a href="https://caniuse.com/#feat=beacon">I was thankfully incorrect;</a></p>
+<p>Unfortunately, this feature is documented in a series of pull requests, github issues and similar, so tracking down how you can use it was annoying, so I thought I&rsquo;d document it here instead.</p>
+<p><a href="https://github.com/mixpanel/mixpanel-js/pull/240">This</a> has more information than I could find on any of the Mixpanel official docs. I realize it&rsquo;s a new PR, but the JS lib docs also mention Bower, probably not the most up to date.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// for an individual track() call
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">track</span>(<span style="color:#e6db74">&#39;my event&#39;</span>, {<span style="color:#a6e22e">my</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;props&#39;</span>}, {<span style="color:#a6e22e">transport</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;sendBeacon&#39;</span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// turn on for every Mixpanel call when page is unloading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// (you would use this to use sendBeacon for everything, including
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// mixpanel.people calls)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>window.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">`beforeunload`</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">set_config</span>({<span style="color:#a6e22e">api_transport</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;sendBeacon&#39;</span>});
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">track</span>(<span style="color:#e6db74">&#39;my event&#39;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">people</span>.<span style="color:#a6e22e">set</span>({<span style="color:#a6e22e">foo</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;bar&#39;</span>});
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// initialize for all tracking; not recommended as it will prevent any
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// request-retry facilities
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">init</span>(<span style="color:#e6db74">&#39;my token&#39;</span>, {<span style="color:#a6e22e">api_transport</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;sendBeacon&#39;</span>});
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mixpanel</span>.<span style="color:#a6e22e">track</span>(<span style="color:#e6db74">&#39;my event&#39;</span>);
+</span></span></code></pre></div><p>After pulling my own hair out trying to track page exit or <code>session_end</code> events, this is the right way to do it (as of today, released 9 days ago). Thankfully, this actually exists and appears to be working properly, not having this feature was going to require intricate timer events and silly stuff.</p>
+<p>If you have a choice though and you just need a couple stats, <strong>stop with this Mixpanel nonsense</strong> and <a href="https://usefathom.com/">get some respectful tracking with Fathom</a> instead. You can capture session duration without having to code it by hand.</p>
+<p>Like a neanderthal.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="http://localhost:1313/posts/deploying-a-monorepo-to-heroku-sanely/" class="button inline prev">
+        Deploying to Heroku in a monorepo with Github Actions
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="http://localhost:1313/posts/added-a-uses-post-for-submission-on-uses-tech-https-uses-tech/" class="button inline next">
+        Added a `uses` post for submission on [uses.tech](https://uses.tech)
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
