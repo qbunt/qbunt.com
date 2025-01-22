@@ -58,7 +58,7 @@ Eventually, I got my arm back, slowly. I figured out how to get the club to pay 
 Despite this overwhelmingly negative year, there were some wins that lifted the struggles of the year.
 
 - Recovering the shoulder, getting through PT and getting my arm back online, insurance debts settled
-- Rebuilding [vynyl.com](vynyl.com) with a new architecture, new capabilities, on new infrastructure, on SvelteKit, Prismic & Cloudflare
+- Rebuilding [vynyl.com](https://vynyl.com) with a new architecture, new capabilities, on new infrastructure, on SvelteKit, Prismic & Cloudflare
 - Finishing the basement rebuild
 - Defining new targets for 2025
 - Major project I led & architected will be distributed to all of CA
