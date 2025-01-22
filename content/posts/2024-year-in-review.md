@@ -31,7 +31,7 @@ I was *so* ready to return to work and feel like I knew what I was doing again. 
 
 ## June
 
-One sunny Sunday afternoon at the end of June, armed with pool noodles and a shot at some mediocre ice cream, my family of goobers headed to the pool club. A nice reprieve from some California family visit, a chance to reconnect with friends at the pool with the kids. After some chatting, I stepped out of the pool and into the pooldeck shower ready to rinse the definitely very chloriney water off. I stepped into the shower, my foot stepping into the shower, immediate shot out to the left on the most slick surface known to man, and I landed with my shoulder first on painted concrete.
+One sunny Sunday afternoon at the end of June, armed with pool noodles and a shot at some mediocre ice cream, my family of goobers headed to the pool club. A nice reprieve from some California family visit, a chance to reconnect with friends at the pool with the kids. After some chatting, I stepped out of the pool and into the pooldeck shower ready to rinse the definitely very chloriney water off. I stepped into the shower, my foot stepping into the shower, immediately shot out to the left on slickest surface known to mankind, and I landed with my shoulder first on painted concrete.
 
 {{< figure src="/img/2025/scene.jpg" alt="The scene of the accident" caption="The scene of the accident" position="center" >}}
 
@@ -49,9 +49,20 @@ If you've made it this far, you'd be right in recognizing the theme for this yea
 
 Adaptation is **the** ballgame. No right arm? Guess you're using a trackpad with your left hand now dood. Can't shift the car with your right hand? I guess you're left handed shifting now dipshit. Can't mow the lawn because excruciating pain? Pay the neighbor kid to do it. Don't know how to tile a bathroom? YouTube and the blind confidence of a two-bit contractor can get it done. Gotta adapt. That quickly became the entire theme and eclipsed all, and pushed my thinking into a new perspective. Finishing anything required constant adaptation, finishing, was the final adaptation.
 
-Eventually, I got my arm back, slowly. I had to figure out how to get the club to pay for the medical bills, talk to lawyers, figure out the expenses and how to get the adjuster to work with me. Then, the focus shifted back to work, building up on projects I've started, finally putting the finishing touches on huge efforts to get them live. *Finishing* but also planning the next project, figuring how where the holes *could* be and getting around them.
+Eventually, I got my arm back, slowly. I figured out how to get the club to pay for the medical bills, talk to lawyers, figure out the expenses and how to get insurance to work with me. Then, the focus shifted back to work, building up on projects I've started, finally putting the finishing touches on huge efforts to get them live. *Finishing* but also planning the next project, figuring how where the holes *could* be and getting around them.
 
 {{< figure src="/img/2025/adaptation.jpg" alt="Adaptation to a new set of abilities" caption="Improvise, adapt, overcome" position="center" >}}
+
+## Wins
+
+Despite this overwhelmingly negative year, there were some wins that lifted the struggles of the year.
+
+- Recovering the shoulder, getting through PT and getting my arm back online, insurance debts settled
+- Rebuilding [vynyl.com](vynyl.com) with a new architecture, new capabilities, on new infrastructure, on SvelteKit, Prismic & Cloudflare
+- Finishing the basement rebuild
+- Defining new targets for 2025
+- Major project I led & architected will be distributed to all of CA
+- Proving to my kids that you can recover after hardship
 
 ## 2025
 
@@ -66,5 +77,6 @@ Largely:
 - Improve my physical well bring, build workout routine, improve diet and sleep
 - Plot a new professional course, build strength
 - Apply to speak at a conference, I have a lot to say, I miss being at conferences
+- Improve my sleep hygiene, it's crucial
 
 Have a great 2025, adapt, and crush it. Be kind, crush the haters. Thanks for reading :D
