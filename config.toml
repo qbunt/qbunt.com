@@ -19,7 +19,7 @@ theme = "terminal"
     languageName = "English"
     title = "qbunt.com"
     [languages.en.params]
-      copyright = "©2025 Jeremy Bunting. Opinions are my own."
+      copyright = "©2026 Jeremy Bunting. Opinions are my own."
       keywords = ""
       menuMore = "Show more"
       readMore = "Read more"
